@@ -1,63 +1,94 @@
-import requests
-import json
+# File: generate_epg.py
+
+import xml.etree.ElementTree as ET
+from xml.dom import minidom
 from datetime import datetime
 import pytz
-import os
 
-# API URL (hidden in GitHub Secrets)
-url = os.getenv("API_URL")
+# --- ส่วนที่สำคัญที่สุด ---
+# นำเข้า "นักสืบ" ที่เราสร้างไว้จากไฟล์ scrapers.py
+from scrapers import scrape_one31_schedule, scrape_mono29_schedule, scrape_thairath_schedule, scrape_ch3_schedule #scrape_ch7_schedule
 
-if not url:
-    print("❌ API_URL not set. Please add it as GitHub Secret.")
-    exit()
+def create_epg():
+    """
+    ฟังก์ชันหลักสำหรับสร้างไฟล์ guide.xml
+    """
+    # 1. กำหนดข้อมูลช่อง และจับคู่กับ "นักสืบ" (ฟังก์ชัน) ที่จะไปหาข้อมูล
+    #    *** ถ้าต้องการเพิ่มช่องในอนาคต ก็แค่มาเพิ่มใน list นี้ ***
+    channels_to_scrape = [
+        {"id": "ONE", "name": "ONE 31 HD", "logo": "...", "scraper": scrape_one31_schedule},
+        {"id": "MONO29", "name": "MONO 29", "logo": "...", "scraper": scrape_mono29_schedule},
+        {"id": "Thairath", "name": "Thairath TV", "logo": "...", "scraper": scrape_thairath_schedule},
+        {"id": "3HD", "name": "3 HD", "logo": "...", "scraper": scrape_ch3_schedule},
+       # {"id": "Amarin", "name": "Amarin TV HD", "logo": "...", "scraper": scrape_amarin_schedule},        
+        #{"id": "7HD", "name": "7 HD", "logo": "...", "scraper": scrape_ch7_schedule},
+    ]
 
-try:
-    response = requests.get(url, verify=False, timeout=10)
-    response.raise_for_status()
-    data = response.json()
-except requests.exceptions.RequestException as e:
-    print(f"Request error: {e}")
-    exit()
-except json.JSONDecodeError:
-    print("Failed to decode JSON response.")
-    exit()
+    program_data = {}
 
-if not data or data.get("res_code") != "0000":
-    print("Failed to fetch or parse data.")
-    exit()
+    # 2. วนลูปสั่งให้นักสืบแต่ละคนไปทำงาน
+    for channel in channels_to_scrape:
+        channel_id = channel["id"]
+        scraper_function = channel["scraper"]
+        
+        # เรียกใช้ฟังก์ชันดึงข้อมูลของช่องนั้นๆ
+        scraped_programs = scraper_function()
+        
+        if not scraped_programs:
+            continue # ถ้าดึงข้อมูลไม่ได้ ก็ข้ามไปช่องถัดไป
 
-tz = pytz.timezone("Asia/Bangkok")
-now = datetime.now(tz).strftime("%Y-%m-%d %H:%M:%S") + " UTC+07 ICT"
+        # คำนวณเวลาสิ้นสุด
+        for i in range(len(scraped_programs)):
+            if i < len(scraped_programs) - 1:
+                scraped_programs[i]['end_time'] = scraped_programs[i+1]['start_time']
+            else:
+                scraped_programs[i]['end_time'] = "24:00"
+        
+        program_data[channel_id] = scraped_programs
 
-output_file = "FREETV.m3u"
+    # 3. เริ่มสร้างไฟล์ XML จากข้อมูลทั้งหมดที่รวบรวมได้
+    print("\n📝 กำลังสร้างไฟล์ guide.xml...")
+    tz = pytz.timezone("Asia/Bangkok")
+    today = datetime.now(tz)
+    
+    tv_root = ET.Element("tv")
 
-with open(output_file, "w", encoding="utf-8") as f:
-    # Header
-    f.write(f"""#EXTM3U url-tvg="https://akkradet.github.io/IPTV-THAI/guide.xml" refresh="3600"
+    for chan in channels_to_scrape:
+        channel_elem = ET.SubElement(tv_root, "channel", {"id": chan["id"]})
+        ET.SubElement(channel_elem, "display-name", {"lang": "th"}).text = chan["name"]
+        ET.SubElement(channel_elem, "icon", {"src": chan["logo"]})
 
-# =======================================================
-# Last Update: {now}
-# =======================================================
+    for channel_id, programs in program_data.items():
+        for prog in programs:
+            try:
+                start_h, start_m = map(int, prog['start_time'].split(':'))
+                end_h, end_m = (23, 59) if prog['end_time'] == "24:00" else map(int, prog['end_time'].split(':'))
 
-""")
+                start_time_obj = today.replace(hour=start_h, minute=start_m, second=0, microsecond=0)
+                end_time_obj = today.replace(hour=end_h, minute=end_m, second=0, microsecond=0)
+                
+                time_format = "%Y%m%d%H%M%S %z"
 
-    # Channel list
-    for channel in data["res_data"]:
-        f.write(
-            f'#EXTINF:-1 tvg-chno="{channel["ch_no"]}" ch-number="{channel["ch_no"]}" '
-            f'tvg-id="{channel["ch_name"]}.th" tvg-name="{channel["ch_name"]}" '
-            f'tvg-logo="{channel["img_y"]}" group-title="Digital TV", {channel["ch_name"]}\n'
-        )
-        f.write("#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; K) "
-                "AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 "
-                "Chrome/127.0.6533.103 Mobile Safari/537.36\n")
-        f.write(channel["link"] + "\n\n")
+                programme_elem = ET.SubElement(tv_root, "programme", {
+                    "start": start_time_obj.strftime(time_format),
+                    "stop": end_time_obj.strftime(time_format),
+                    "channel": channel_id
+                })
+                
+                ET.SubElement(programme_elem, "title", {"lang": "th"}).text = prog["title"]
+                ET.SubElement(programme_elem, "desc", {"lang": "th"}).text = prog.get("description", "-")
+            except (ValueError, AttributeError):
+                continue
 
-    # Custom IPTV-THAI channel
-    f.write("""#EXTINF:-1 tvg-chno="999" ch-number="999" tvg-id="IPTV-THAI.th" tvg-name="IPTV-THAI" tvg-logo="https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/logo/iptvth.png" group-title="Digital TV", IPTV-THAI
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36
-https://raw.githubusercontent.com/akkradet/IPTV-THAI/master/intro.mp4
+    xml_str = ET.tostring(tv_root, 'utf-8')
+    pretty_xml_str = minidom.parseString(xml_str).toprettyxml(indent="  ", encoding="utf-8")
 
-""")
+    with open("guide.xml", "wb") as f:
+        f.write(pretty_xml_str)
+        
+    print("✅✅✅ ไฟล์ guide.xml ถูกสร้างขึ้นเรียบร้อยแล้ว! (มีข้อมูลของ ONE31 และ MONO29)")
 
-print(f"✅ {output_file} generated successfully!")
+
+# --- จุดเริ่มต้นของโปรแกรม ---
+if __name__ == "__main__":
+    create_epg()
