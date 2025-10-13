@@ -79,56 +79,68 @@ def scrape_one31_schedule():
 
 
 def scrape_mono29_schedule():
-    """ดึงข้อมูลผังรายการจาก MONO29 (เวอร์ชันแก้ไข ป้องกันข้อมูลซ้ำซ้อน)"""
-    URL = "https://mono29.com/schedule"
-    print("🕵️  กำลังเริ่มดึงข้อมูลช่อง MONO29...")
-    driver = setup_driver()
+    """
+    ดึงข้อมูลผังรายการของช่อง mono29 จาก TrueID (เวอร์ชันหลบการตรวจจับ)
+    """
+    # --- จุดที่แก้ไข 1: เปลี่ยน URL เป็นของช่อง mono29 ---
+    URL = "https://tv.trueid.net/th-th/live/mono29"
+    # --- จุดที่แก้ไข 2: เปลี่ยนข้อความ Log ต่างๆ ---
+    print("🕵️  กำลังเริ่มดึงข้อมูลช่อง mono29 (จาก TrueID - undetected)...")
+    driver = setup_undetected_driver()
     scraped_programs = []
 
     try:
         driver.get(URL)
+        wait = WebDriverWait(driver, 20)
+
         try:
-            cookie_button = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CLASS_NAME, "pdpa_cookies_btn_accept")))
-            print("👍 MONO29: เจอปุ่มคุกกี้แล้ว กำลังจะกด...")
+            print("...[mono29] กำลังค้นหาปุ่มคุกกี้...")
+            cookie_button = wait.until(EC.element_to_be_clickable((By.XPATH, "//button[text()='ยอมรับ']")))
             cookie_button.click()
+            print("👍 [mono29] กดปุ่มยอมรับคุกกี้แล้ว")
             time.sleep(2)
-        except TimeoutException:
-            pass 
+        except Exception:
+            print("🤔 [mono29] ไม่พบปุ่มคุกกี้ หรืออาจเคยกดไปแล้ว")
+        
+        print("...[mono29] กำลังรอให้ผังรายการของ TrueID โหลด...")
+        program_container_selector = "div[data-testid='all-items-programTv']"
+        wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, program_container_selector)))
+        
+        time.sleep(3) 
 
-        WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CLASS_NAME, 'container-schedule')))
         html = driver.page_source
-
         soup = BeautifulSoup(html, 'html.parser')
-        
-        # --- จุดที่แก้ไขสำคัญ ---
-        # 1. ค้นหากล่องใหญ่ 'container-schedule' ก่อน
-        main_container = soup.find('div', class_='container-schedule')
-        
-        # 2. จากนั้น ค่อยค้นหากล่องของ 'วันนี้' ที่อยู่ข้างใน ซึ่งมี ID ว่า 'loadContents-1'
-        today_schedule_container = main_container.find('div', id='loadContents-2')
 
-        if today_schedule_container:
-            program_items = today_schedule_container.find_all('div', class_='programInDisplay')
-            for item in program_items:
-                try:
-                    time_tag = item.find('div', class_='box-time')
-                    img_tag = item.find('img')
-                    
-                    time_str = time_tag.text.strip().replace(' น.', '')
-                    title = img_tag['alt'].strip()
+        program_container = soup.select_one(program_container_selector)
+        
+        if not program_container:
+            print("❌ mono29 (TrueID): ไม่พบกรอบข้อมูลผังรายการ (data-testid)")
+            return []
 
-                    if time_str and title:
-                        scraped_programs.append({"start_time": time_str, "title": title})
-                except (AttributeError, KeyError):
-                    continue
-            print("✅ ดึงข้อมูล MONO29 สำเร็จ (เฉพาะวันนี้)")
-        else:
-            print("❌ MONO29: ไม่พบ container ของผังรายการวันนี้ (id='loadContents-1')")
+        program_items = program_container.select("div[class*='style__ProgramItems-sc-']")
+
+        for item in program_items:
+            try:
+                time_tag = item.select_one("span[class*='style__ProgramShowTime-sc-']")
+                title_tag = item.select_one("span[class*='style__ProgramName-sc-']")
+                
+                if time_tag and title_tag:
+                    time_str = time_tag.text.strip()
+                    if ':' in time_str:
+                        scraped_programs.append({
+                            "start_time": time_str, 
+                            "title": title_tag.text.strip()
+                        })
+            except AttributeError:
+                continue
+                
+        print("✅ ดึงข้อมูล mono29 (จาก TrueID) สำเร็จ!")
 
     except Exception as e:
-        print(f"❌ เกิดข้อผิดพลาดขณะดึงข้อมูล MONO29: {e}")
+        print(f"❌ เกิดข้อผิดพลาดขณะดึงข้อมูล mono29 (จาก TrueID): {e}")
     finally:
         driver.quit()
+        
     return scraped_programs
 
 
@@ -183,57 +195,68 @@ def scrape_thairath_schedule():
 # In scrapers.py file, add this new function at the end
 
 def scrape_ch3_schedule():
-    """ดึงข้อมูลผังรายการจาก CH3 Plus"""
-    URL = "https://ch3plus.com/schedule"
-    print("🕵️  กำลังเริ่มดึงข้อมูลช่อง 3HD...")
-    driver = setup_driver()
+    """
+    ดึงข้อมูลผังรายการของช่อง 3HD จาก TrueID (เวอร์ชันหลบการตรวจจับ)
+    """
+    # --- จุดที่แก้ไข 1: เปลี่ยน URL เป็นของช่อง 3HD ---
+    URL = "https://tv.trueid.net/th-th/live/ch3-hd"
+    # --- จุดที่แก้ไข 2: เปลี่ยนข้อความ Log ต่างๆ ---
+    print("🕵️  กำลังเริ่มดึงข้อมูลช่อง 3HD (จาก TrueID - undetected)...")
+    driver = setup_undetected_driver()
     scraped_programs = []
 
     try:
         driver.get(URL)
+        wait = WebDriverWait(driver, 20)
+
         try:
-            # รอและกดปุ่มคุกกี้ "ยอมรับทั้งหมด"
-            cookie_button = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, "//button[text()='ยอมรับทั้งหมด']")))
-            print("👍 CH3: เจอปุ่มคุกกี้แล้ว กำลังจะกด...")
+            print("...[3HD] กำลังค้นหาปุ่มคุกกี้...")
+            cookie_button = wait.until(EC.element_to_be_clickable((By.XPATH, "//button[text()='ยอมรับ']")))
             cookie_button.click()
+            print("👍 [3HD] กดปุ่มยอมรับคุกกี้แล้ว")
             time.sleep(2)
-        except TimeoutException:
-            pass # ไม่เจอปุ่มคุกกี้ก็ไม่เป็นไร
-
-        # รอให้ตารางผังรายการโหลดเสร็จ
-        WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.CLASS_NAME, 'schedule-detail')))
-        html = driver.page_source
-
-        soup = BeautifulSoup(html, 'html.parser')
+        except Exception:
+            print("🤔 [3HD] ไม่พบปุ่มคุกกี้ หรืออาจเคยกดไปแล้ว")
         
-        # ค้นหาตารางผังรายการ
-        schedule_table = soup.find('table', class_='schedule-detail')
-        if schedule_table:
-            # ค้นหารายการทั้งหมดที่อยู่ใน <tr>
-            program_items = schedule_table.find('tbody').find_all('tr')
-            for item in program_items:
-                try:
-                    columns = item.find_all('td')
-                    if len(columns) == 2:
-                        # เวลาอยู่ในคอลัมน์แรก, ชื่อรายการอยู่ในคอลัมน์ที่สอง
-                        time_str = columns[0].text.split('-')[0].strip() # เอาเฉพาะเวลาเริ่ม
-                        title = columns[1].text.strip()
-                        
-                        # ตัด element ที่ไม่ต้องการทิ้ง (เช่น รูปไอคอน)
-                        if "ดูได้เฉพาะในประเทศไทย" in title:
-                            title = title.replace("ดูได้เฉพาะในประเทศไทย", "").strip()
-                        if "ดูได้เฉพาะหน้าจอทีวี" in title:
-                            title = title.replace("ดูได้เฉพาะหน้าจอทีวี", "").strip()
+        print("...[3HD] กำลังรอให้ผังรายการของ TrueID โหลด...")
+        program_container_selector = "div[data-testid='all-items-programTv']"
+        wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, program_container_selector)))
+        
+        time.sleep(3) 
 
-                        if time_str and title:
-                            scraped_programs.append({"start_time": time_str, "title": title})
-                except (AttributeError, IndexError):
-                    continue
-            print("✅ ดึงข้อมูล 3HD สำเร็จ")
+        html = driver.page_source
+        soup = BeautifulSoup(html, 'html.parser')
+
+        program_container = soup.select_one(program_container_selector)
+        
+        if not program_container:
+            print("❌ 3HD (TrueID): ไม่พบกรอบข้อมูลผังรายการ (data-testid)")
+            return []
+
+        program_items = program_container.select("div[class*='style__ProgramItems-sc-']")
+
+        for item in program_items:
+            try:
+                time_tag = item.select_one("span[class*='style__ProgramShowTime-sc-']")
+                title_tag = item.select_one("span[class*='style__ProgramName-sc-']")
+                
+                if time_tag and title_tag:
+                    time_str = time_tag.text.strip()
+                    if ':' in time_str:
+                        scraped_programs.append({
+                            "start_time": time_str, 
+                            "title": title_tag.text.strip()
+                        })
+            except AttributeError:
+                continue
+                
+        print("✅ ดึงข้อมูล 3HD (จาก TrueID) สำเร็จ!")
+
     except Exception as e:
-        print(f"❌ เกิดข้อผิดพลาดขณะดึงข้อมูล 3HD: {e}")
+        print(f"❌ เกิดข้อผิดพลาดขณะดึงข้อมูล 3HD (จาก TrueID): {e}")
     finally:
         driver.quit()
+        
     return scraped_programs
 
 # --- แทนที่ฟังก์ชัน scrape_amarin_schedule() เดิมด้วยโค้ดนี้ ---

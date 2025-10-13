@@ -6,7 +6,7 @@ on:
   schedule:
     # ตั้งเวลาให้ทำงานทุกวัน เวลา 19:00 UTC ซึ่งเท่ากับ ตี 2 ของประเทศไทย (02:00 ICT)
     # คุณสามารถเปลี่ยนเวลาได้ตามต้องการโดยใช้รูปแบบ Cron
-    - cron: '50 9 * * *'
+    - cron: '0 19 * * *'
   workflow_dispatch:
     # เพิ่มปุ่มให้สามารถกดรันเองได้จากหน้า Actions บนเว็บ GitHub
 
@@ -48,7 +48,7 @@ jobs:
           git add guide.xml
           # ตรวจสอบว่ามีอะไรเปลี่ยนแปลงหรือไม่ ก่อนที่จะ commit
           if ! git diff --staged --quiet; then
-            git commit -m "Automated EPG guide update"
+            git commit -m "อัพเดทผังรายการประจำวันที่ $(date +'%Y-%m-%d')"
             git push
           else
             echo "No changes to commit."

@@ -21,21 +21,21 @@ def create_epg():
         {"id": "Thairath", "name": "Thairath TV", "logo": "...", "scraper": scrape_thairath_schedule},
         {"id": "MONO29", "name": "MONO29 HD", "logo": "...", "scraper": scrape_mono29_schedule},
         {"id": "3HD", "name": "3 HD", "logo": "...", "scraper": scrape_ch3_schedule},
-        #{"id": "Amarin", "name": "Amarin TV HD", "logo": "...", "scraper": scrape_amarin_schedule},
+        {"id": "Amarin", "name": "Amarin TV HD", "logo": "...", "scraper": scrape_amarin_schedule},
         {"id": "7HD", "name": "7 HD", "logo": "...", "scraper": scrape_ch7_schedule},
-        #{"id": "Workpoint", "name": "Workpoint HD", "logo": "...", "scraper": scrape_Workpoint_schedule},
-       # {"id": "PPTV", "name": "PPTV HD", "logo": "...", "scraper": scrape_PPTV_schedule},
-       # {"id": "True24", "name": "True24 SD", "logo": "...", "scraper": scrape_True24_schedule},
-       # {"id": "GMM25", "name": "GMM 25", "logo": "...", "scraper": scrape_GMM25_schedule},
-       # {"id": "TOPNew", "name": "TOP New SD", "logo": "...", "scraper": scrape_TOPNew_schedule},
-       # {"id": "TPBS", "name": "TPBS HD", "logo": "...", "scraper": scrape_TPBS_schedule},
-       # {"id": "8SD", "name": "ช่อง 8 SD", "logo": "...", "scraper": scrape_8SD_schedule},
-       # {"id": "Nation", "name": "Nation HD", "logo": "...", "scraper": scrape_Nation_schedule},
-       # {"id": "Boomerang", "name": "Boomerang", "logo": "...", "scraper": scrape_Boomerang_schedule},
-       # {"id": "MCOT", "name": "MCOT HD", "logo": "...", "scraper": scrape_MCOT_schedule},
-       # {"id": "TNN", "name": "TNN SD", "logo": "...", "scraper": scrape_TNN_schedule},
-       # {"id": "5HD", "name": "5HD", "logo": "...", "scraper": scrape_5HD_schedule},
-       # {"id": "JKN18", "name": "JKN18", "logo": "...", "scraper": scrape_JKN18_schedule},
+        {"id": "Workpoint", "name": "Workpoint HD", "logo": "...", "scraper": scrape_Workpoint_schedule},
+        {"id": "PPTV", "name": "PPTV HD", "logo": "...", "scraper": scrape_PPTV_schedule},
+        {"id": "True24", "name": "True24 SD", "logo": "...", "scraper": scrape_True24_schedule},
+        {"id": "GMM25", "name": "GMM 25", "logo": "...", "scraper": scrape_GMM25_schedule},
+        {"id": "TOPNew", "name": "TOP New SD", "logo": "...", "scraper": scrape_TOPNew_schedule},
+        {"id": "TPBS", "name": "TPBS HD", "logo": "...", "scraper": scrape_TPBS_schedule},
+        {"id": "8SD", "name": "ช่อง 8 SD", "logo": "...", "scraper": scrape_8SD_schedule},
+        {"id": "Nation", "name": "Nation HD", "logo": "...", "scraper": scrape_Nation_schedule},
+        {"id": "Boomerang", "name": "Boomerang", "logo": "...", "scraper": scrape_Boomerang_schedule},
+        {"id": "MCOT", "name": "MCOT HD", "logo": "...", "scraper": scrape_MCOT_schedule},
+        {"id": "TNN", "name": "TNN SD", "logo": "...", "scraper": scrape_TNN_schedule},
+        {"id": "5HD", "name": "5HD", "logo": "...", "scraper": scrape_5HD_schedule},
+        {"id": "JKN18", "name": "JKN18", "logo": "...", "scraper": scrape_JKN18_schedule},
     ]
 
     program_data = {}
@@ -100,7 +100,7 @@ def create_epg():
     with open("guide.xml", "wb") as f:
         f.write(pretty_xml_str)
         
-    print("✅✅✅ ไฟล์ guide.xml ถูกสร้างขึ้นเรียบร้อยแล้ว! (มีข้อมูลของ ONE31 และ MONO29)")
+    print("✅✅✅ ไฟล์ guide.xml ถูกสร้างขึ้นเรียบร้อยแล้ว! ")
 
 
 # --- จุดเริ่มต้นของโปรแกรม ---
