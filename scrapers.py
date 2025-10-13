@@ -15,12 +15,13 @@ import time
 
 def setup_driver():
     """ฟังก์ชันสำหรับตั้งค่า Selenium Driver ให้ทำงานเบื้องหลัง"""
-    service = Service(executable_path='chromedriver.exe')
+    # ลบบรรทัด Service ออกไปทั้งหมด
     options = webdriver.ChromeOptions()
     options.add_argument('--headless')
     options.add_argument('--disable-gpu')
     options.add_argument('--log-level=3') # ซ่อน log ที่ไม่จำเป็น
-    driver = webdriver.Chrome(service=service, options=options)
+    # ส่งแค่ options เข้าไปพอ แล้ว Selenium จะจัดการที่เหลือให้เอง
+    driver = webdriver.Chrome(options=options)
     return driver
 
 # --- วางฟังก์ชันใหม่นี้ไว้ใต้ setup_driver() เดิม ---
