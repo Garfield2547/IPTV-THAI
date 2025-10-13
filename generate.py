@@ -7,7 +7,7 @@ import pytz
 
 # --- ส่วนที่สำคัญที่สุด ---
 # นำเข้า "นักสืบ" ที่เราสร้างไว้จากไฟล์ scrapers.py
-from scrapers import scrape_one31_schedule, scrape_mono29_schedule, scrape_thairath_schedule, scrape_ch3_schedule, scrape_amarin_schedule, scrape_ch7_schedule, scrape_Workpoint_schedule, scrape_PPTV_schedule, scrape_True24_schedule, scrape_GMM25_schedule, scrape_TOPNew_schedule, scrape_TPBS_schedule, scrape_8SD_schedule, scrape_Nation_schedule, scrape_Boomerang_schedule, scrape_MCOT_schedule, scrape_TNN_schedule,scrape_5HD_schedule,scrape_JKN18_schedule
+from scrapers import scrape_one31_schedule, scrape_mono29_schedule, scrape_thairath_schedule, scrape_ch3_schedule, scrape_amarin_schedule, scrape_ch7_schedule, scrape_Workpoint_schedule, scrape_PPTV_schedule, scrape_True24_schedule, scrape_GMM25_schedule, scrape_TOPNew_schedule, scrape_TPBS_schedule, scrape_8SD_schedule, scrape_Nation_schedule, scrape_Boomerang_schedule, scrape_MCOT_schedule, scrape_TNN_schedule, scrape_5HD_schedule, scrape_JKN18_schedule, scrape_NBT_schedule
 
 
 def create_epg():
@@ -36,6 +36,7 @@ def create_epg():
         {"id": "TNN", "name": "TNN SD", "logo": "...", "scraper": scrape_TNN_schedule},
         {"id": "5HD", "name": "5HD", "logo": "...", "scraper": scrape_5HD_schedule},
         {"id": "JKN18", "name": "JKN18", "logo": "...", "scraper": scrape_JKN18_schedule},
+        {"id": "NBT", "name": "NBT", "logo": "...", "scraper": scrape_NBT_schedule},
     ]
 
     program_data = {}
