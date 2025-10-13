@@ -9,6 +9,11 @@ on:
     - cron: '30 8 * * *'
   workflow_dispatch:
     # เพิ่มปุ่มให้สามารถกดรันเองได้จากหน้า Actions บนเว็บ GitHub
+    
+# --- เพิ่มส่วนนี้เข้ามา ---
+permissions:
+  contents: write
+# --- จบส่วนที่เพิ่ม ---
 
 jobs:
   build:
