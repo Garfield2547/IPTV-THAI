@@ -40,7 +40,7 @@
     <display-name lang="th">GMM 25</display-name>
     <icon src="..."/>
   </channel>
-  <channel id="TOP New">
+  <channel id="TOP_New">
     <display-name lang="th">TOP New SD</display-name>
     <icon src="..."/>
   </channel>
@@ -904,67 +904,67 @@
     <title lang="th">O Shopping</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251013145000 +0700" stop="20251013155000 +0700" channel="TOP New">
+  <programme start="20251013145000 +0700" stop="20251013155000 +0700" channel="TOP_New">
     <title lang="th">Top Talk เรื่องนี้ต้องเคลียร์</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251013155000 +0700" stop="20251013160000 +0700" channel="TOP New">
+  <programme start="20251013155000 +0700" stop="20251013160000 +0700" channel="TOP_New">
     <title lang="th">TV Direct</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251013160000 +0700" stop="20251013163000 +0700" channel="TOP New">
+  <programme start="20251013160000 +0700" stop="20251013163000 +0700" channel="TOP_New">
     <title lang="th">Rerun รู้ทันคดีโกง</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251013163000 +0700" stop="20251013170000 +0700" channel="TOP New">
+  <programme start="20251013163000 +0700" stop="20251013170000 +0700" channel="TOP_New">
     <title lang="th">Rerun ถอดรหัสการเมือง</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251013170000 +0700" stop="20251013172000 +0700" channel="TOP New">
+  <programme start="20251013170000 +0700" stop="20251013172000 +0700" channel="TOP_New">
     <title lang="th">TOP HEALTH STORY สุขภาพแบบท็อปๆ</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251013172000 +0700" stop="20251013180000 +0700" channel="TOP New">
+  <programme start="20251013172000 +0700" stop="20251013180000 +0700" channel="TOP_New">
     <title lang="th">ข่าวเป็นข่าว</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251013180000 +0700" stop="20251013180200 +0700" channel="TOP New">
+  <programme start="20251013180000 +0700" stop="20251013180200 +0700" channel="TOP_New">
     <title lang="th">เคารพธงชาติ</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251013180200 +0700" stop="20251013191500 +0700" channel="TOP New">
+  <programme start="20251013180200 +0700" stop="20251013191500 +0700" channel="TOP_New">
     <title lang="th">ข่าวเป็นข่าว</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251013191500 +0700" stop="20251013192500 +0700" channel="TOP New">
+  <programme start="20251013191500 +0700" stop="20251013192500 +0700" channel="TOP_New">
     <title lang="th">เรื่องดีมีสุข</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251013192500 +0700" stop="20251013200000 +0700" channel="TOP New">
+  <programme start="20251013192500 +0700" stop="20251013200000 +0700" channel="TOP_New">
     <title lang="th">เล่าข่าวข้น</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251013200000 +0700" stop="20251013201500 +0700" channel="TOP New">
+  <programme start="20251013200000 +0700" stop="20251013201500 +0700" channel="TOP_New">
     <title lang="th">ข่าวในพระราชสำนัก</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251013201500 +0700" stop="20251013212000 +0700" channel="TOP New">
+  <programme start="20251013201500 +0700" stop="20251013212000 +0700" channel="TOP_New">
     <title lang="th">เล่าข่าวข้น</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251013212000 +0700" stop="20251013213000 +0700" channel="TOP New">
+  <programme start="20251013212000 +0700" stop="20251013213000 +0700" channel="TOP_New">
     <title lang="th">เรื่องดีมีสุข</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251013213000 +0700" stop="20251013215000 +0700" channel="TOP New">
+  <programme start="20251013213000 +0700" stop="20251013215000 +0700" channel="TOP_New">
     <title lang="th">เจาะประเด็นโลก</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251013215000 +0700" stop="20251013221000 +0700" channel="TOP New">
+  <programme start="20251013215000 +0700" stop="20251013221000 +0700" channel="TOP_New">
     <title lang="th">Rerun TOP HEALTH STORY สุขภาพแบบท็อปๆ</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251013221000 +0700" stop="20251013235900 +0700" channel="TOP New">
+  <programme start="20251013221000 +0700" stop="20251013235900 +0700" channel="TOP_New">
     <title lang="th">Rerun ข่าวเป็นข่าว</title>
     <desc lang="th">-</desc>
   </programme>
