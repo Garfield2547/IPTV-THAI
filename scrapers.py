@@ -32,7 +32,8 @@ def setup_undetected_driver():
     options.add_argument('--headless')
     options.add_argument('--disable-gpu')
     options.add_argument('--log-level=3')
-    driver = uc.Chrome(options=options, use_subprocess=True)
+    # เพิ่ม version_main=140 เข้าไปเพื่อบังคับเวอร์ชันของ Driver
+    driver = uc.Chrome(options=options, use_subprocess=True, version_main=140)
     return driver
 
 def scrape_one31_schedule():
