@@ -824,6 +824,10 @@
     <title lang="th">เทปบันทึกภาพกอล์ฟ LPGA Tour ปี 2568</title>
     <desc lang="th">-</desc>
   </programme>
+  <programme start="20251013123000 +0700" stop="20251013143000 +0700" channel="True24">
+    <title lang="th">ภาพยนตร์ มัจจุราชไร้เงา 2</title>
+    <desc lang="th">-</desc>
+  </programme>
   <programme start="20251013143000 +0700" stop="20251013150000 +0700" channel="True24">
     <title lang="th">ทรูช้อปปิ้ง</title>
     <desc lang="th">-</desc>
@@ -1038,6 +1042,10 @@
   </programme>
   <programme start="20251013233000 +0700" stop="20251013235900 +0700" channel="TPBS">
     <title lang="th">ทุกทิศทั่วไทย</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251013125500 +0700" stop="20251013140500 +0700" channel="8SD">
+    <title lang="th">ซีรีส์จีน ดรุณพเนจรท่องยุทธภพ</title>
     <desc lang="th">-</desc>
   </programme>
   <programme start="20251013140500 +0700" stop="20251013150500 +0700" channel="8SD">
