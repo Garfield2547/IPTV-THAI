@@ -26,7 +26,7 @@ def create_epg():
         {"id": "PPTV", "name": "PPTV HD", "logo": "...", "scraper": scrape_PPTV_schedule},
         {"id": "True24", "name": "True24 SD", "logo": "...", "scraper": scrape_True24_schedule},
         {"id": "GMM25", "name": "GMM 25", "logo": "...", "scraper": scrape_GMM25_schedule},
-        {"id": "TOP_New", "name": "TOP New SD", "logo": "...", "scraper": scrape_TOPNew_schedule},
+        {"id": "TOPNew", "name": "TOP New SD", "logo": "...", "scraper": scrape_TOPNew_schedule},
         {"id": "TPBS", "name": "TPBS HD", "logo": "...", "scraper": scrape_TPBS_schedule},
         {"id": "8SD", "name": "ช่อง 8 SD", "logo": "...", "scraper": scrape_8SD_schedule},
         {"id": "Nation", "name": "Nation HD", "logo": "...", "scraper": scrape_Nation_schedule},
