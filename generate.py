@@ -7,7 +7,7 @@ import pytz
 
 # --- ส่วนที่สำคัญที่สุด ---
 # นำเข้า "นักสืบ" ที่เราสร้างไว้จากไฟล์ scrapers.py
-from scrapers import scrape_one31_schedule, scrape_mono29_schedule, scrape_thairath_schedule, scrape_ch3_schedule #scrape_ch7_schedule
+from scrapers import scrape_one31_schedule, scrape_mono29_schedule, scrape_thairath_schedule, scrape_ch3_schedule, scrape_amarin_schedule, scrape_ch7_schedule, scrape_Workpoint_schedule, scrape_PPTV_schedule, scrape_True24_schedule, scrape_GMM25_schedule, scrape_TOPNew_schedule, scrape_TPBS_schedule, scrape_8SD_schedule, scrape_Nation_schedule, scrape_Boomerang_schedule, scrape_MCOT_schedule
 
 def create_epg():
     """
@@ -20,8 +20,18 @@ def create_epg():
         {"id": "MONO29", "name": "MONO 29", "logo": "...", "scraper": scrape_mono29_schedule},
         {"id": "Thairath", "name": "Thairath TV", "logo": "...", "scraper": scrape_thairath_schedule},
         {"id": "3HD", "name": "3 HD", "logo": "...", "scraper": scrape_ch3_schedule},
-       # {"id": "Amarin", "name": "Amarin TV HD", "logo": "...", "scraper": scrape_amarin_schedule},        
-        #{"id": "7HD", "name": "7 HD", "logo": "...", "scraper": scrape_ch7_schedule},
+        {"id": "Amarin", "name": "Amarin TV HD", "logo": "...", "scraper": scrape_amarin_schedule},
+        {"id": "7HD", "name": "7 HD", "logo": "...", "scraper": scrape_ch7_schedule},
+        {"id": "Workpoint", "name": "Workpoint HD", "logo": "...", "scraper": scrape_Workpoint_schedule},
+        {"id": "PPTV", "name": "PPTV HD", "logo": "...", "scraper": scrape_PPTV_schedule},
+        {"id": "True24", "name": "True24 SD", "logo": "...", "scraper": scrape_True24_schedule},
+        {"id": "GMM25", "name": "GMM 25", "logo": "...", "scraper": scrape_GMM25_schedule},
+        {"id": "TOP New", "name": "TOP New SD", "logo": "...", "scraper": scrape_TOPNew_schedule},
+        {"id": "TPBS", "name": "TPBS HD", "logo": "...", "scraper": scrape_TPBS_schedule},
+        {"id": "8SD", "name": "ช่อง 8 SD", "logo": "...", "scraper": scrape_8SD_schedule},
+        {"id": "Nation", "name": "Nation HD", "logo": "...", "scraper": scrape_Nation_schedule},
+        {"id": "Boomerang", "name": "Boomerang", "logo": "...", "scraper": scrape_Boomerang_schedule},
+        {"id": "MCOT", "name": "MCOT HD", "logo": "...", "scraper": scrape_MCOT_schedule},
     ]
 
     program_data = {}

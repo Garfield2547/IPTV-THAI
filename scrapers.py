@@ -1,5 +1,7 @@
 # File: scrapers.py
-
+# --- เพิ่ม import นี้เข้ามา ---
+import undetected_chromedriver as uc
+# -------------------------
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
@@ -10,6 +12,7 @@ from bs4 import BeautifulSoup
 import re
 import time
 
+
 def setup_driver():
     """ฟังก์ชันสำหรับตั้งค่า Selenium Driver ให้ทำงานเบื้องหลัง"""
     service = Service(executable_path='chromedriver.exe')
@@ -18,6 +21,17 @@ def setup_driver():
     options.add_argument('--disable-gpu')
     options.add_argument('--log-level=3') # ซ่อน log ที่ไม่จำเป็น
     driver = webdriver.Chrome(service=service, options=options)
+    return driver
+
+# --- วางฟังก์ชันใหม่นี้ไว้ใต้ setup_driver() เดิม ---
+
+def setup_undetected_driver():
+    """ฟังก์ชันสำหรับตั้งค่า undetected-chromedriver ให้ทำงานเบื้องหลัง"""
+    options = uc.ChromeOptions()
+    options.add_argument('--headless')
+    options.add_argument('--disable-gpu')
+    options.add_argument('--log-level=3')
+    driver = uc.Chrome(options=options, use_subprocess=True)
     return driver
 
 def scrape_one31_schedule():
@@ -61,7 +75,6 @@ def scrape_one31_schedule():
 
 # In scrapers.py file
 
-# In scrapers.py file
 
 def scrape_mono29_schedule():
     """ดึงข้อมูลผังรายการจาก MONO29 (เวอร์ชันแก้ไข ป้องกันข้อมูลซ้ำซ้อน)"""
@@ -221,119 +234,794 @@ def scrape_ch3_schedule():
         driver.quit()
     return scraped_programs
 
-# In scrapers.py file, replace the old amarin function with this one
+# --- แทนที่ฟังก์ชัน scrape_amarin_schedule() เดิมด้วยโค้ดนี้ ---
 
-#def scrape_amarin_schedule():
-    """ดึงข้อมูลผังรายการจาก Amarin TV (ใช้วิธีคลิกเพื่อเปิดข้อมูล)"""
-    URL = "https://www.amarintv.com/schedule"
-    print("🕵️  กำลังเริ่มดึงข้อมูลช่อง Amarin TV (Selenium)...")
-    driver = setup_driver()
+def scrape_amarin_schedule():
+    """
+    ดึงข้อมูลผังรายการของช่อง Amarin TV HD จาก TrueID (เวอร์ชันหลบการตรวจจับและอัปเดต Selector)
+    """
+    URL = "https://tv.trueid.net/th-th/live/amarintv-hd"
+    print("🕵️  กำลังเริ่มดึงข้อมูลช่อง Amarin TV (จาก TrueID - undetected)...")
+    driver = setup_undetected_driver()
     scraped_programs = []
 
     try:
         driver.get(URL)
-        
-        print("...กำลังรอให้ปุ่มควบคุมโหลดเสร็จ...")
-        
-        # รอจนเจอ "ปุ่ม" ควบคุมของแต่ละช่วงเวลา
-        time_section_buttons = WebDriverWait(driver, 20).until(
-            EC.presence_of_all_elements_located((By.CSS_SELECTOR, "button[id^=':r']"))
-        )
+        wait = WebDriverWait(driver, 20)
 
-        print(f"👍เจอปุ่มควบคุม {len(time_section_buttons)} ปุ่ม กำลังคลิกเพื่อเปิดข้อมูล...")
-        
-        # วนลูปเพื่อคลิกเปิดแต่ละช่วงเวลา
-        for button in time_section_buttons:
-            try:
-                # ใช้ JavaScript คลิกเพื่อความแน่นอน
-                driver.execute_script("arguments[0].click();", button)
-                time.sleep(1) # รอ 1 วินาทีเพื่อให้ข้อมูลโหลดหลังคลิก
-            except Exception:
-                continue # ถ้าคลิกไม่ได้ก็ข้ามไป
-
-        # หลังจากคลิกเปิดทั้งหมดแล้ว ค่อยดึงโค้ด HTML ทั้งหน้า
-        html = driver.page_source
-        soup = BeautifulSoup(html, 'html.parser')
-        
-        # ค้นหารายการทั้งหมดในหน้าเว็บ (ตอนนี้ข้อมูลควรจะมาครบทุกช่วงเวลาแล้ว)
-        program_items = soup.find_all('a', class_='detail_row__jWZ4z')
-        
-        if program_items:
-            for item in program_items:
-                try:
-                    time_str = item.find_all('div')[0].text.strip()
-                    title = item.find_all('div')[2].text.strip()
-
-                    if time_str and title:
-                        scraped_programs.append({"start_time": time_str, "title": title})
-                except (AttributeError, IndexError):
-                    continue
-            print("✅ ดึงข้อมูล Amarin TV สำเร็จ")
-        else:
-            print("❌ Amarin TV: ไม่พบข้อมูลรายการย่อย")
-
-    except Exception as e:
-        print(f"❌ เกิดข้อผิดพลาดขณะดึงข้อมูล Amarin TV: {e}")
-    finally:
-        driver.quit()
-    
-    # เรียงลำดับรายการตามเวลาเริ่มต้นก่อนส่งค่ากลับ
-    scraped_programs.sort(key=lambda x: x['start_time'])
-    return scraped_programs
-
-# In scrapers.py file, replace the old ch7 function with this new one
-
-# def scrape_ch7_schedule():
-    """ดึงข้อมูลผังรายการจาก CH7 (ใช้ Selenium และ Class ที่ถูกต้องจากผู้ใช้)"""
-    URL = "https://www.ch7.com/schedule.html"
-    print("🕵️  กำลังเริ่มดึงข้อมูลช่อง 7HD (Selenium)...")
-    driver = setup_driver()
-    scraped_programs = []
-
-    try:
-        driver.get(URL)
-        
+        # จัดการปุ่มคุกกี้
         try:
-            # --- จุดที่แก้ไข 1: รอและกดปุ่มคุกกี้ตาม ID ที่ถูกต้อง ---
-            print("...กำลังค้นหาปุ่มยอมรับคุกกี้...")
-            cookie_button = WebDriverWait(driver, 10).until(
-                EC.element_to_be_clickable((By.ID, "cookie-notice-accept-btn"))
-            )
-            print("👍 7HD: เจอปุ่มคุกกี้แล้ว กำลังจะกด...")
-            # ใช้ Javascript คลิกเพื่อความแน่นอน
-            driver.execute_script("arguments[0].click();", cookie_button) 
-            time.sleep(2) # รอ 2 วินาทีเพื่อให้ pop-up หายไป
-        except TimeoutException:
-            print("🤔 7HD: ไม่พบหน้าต่างคุกกี้")
-
-        # --- จุดที่แก้ไข 2: รอจนกว่า 'content-left' ซึ่งเป็นกรอบของรายการจะโหลดเสร็จ ---
-        print("...กำลังรอให้ผังรายการของวันนี้โหลดเสร็จ...")
-        WebDriverWait(driver, 20).until(
-            EC.presence_of_element_located((By.CLASS_NAME, "content-left"))
-        )
+            print("...กำลังค้นหาปุ่มคุกกี้...")
+            cookie_button = wait.until(EC.element_to_be_clickable((By.XPATH, "//button[text()='ยอมรับ']")))
+            cookie_button.click()
+            print("👍 กดปุ่มยอมรับคุกกี้แล้ว")
+            time.sleep(2)
+        except Exception:
+            print("🤔 ไม่พบปุ่มคุกกี้ หรืออาจเคยกดไปแล้ว")
+        
+        print("...กำลังรอให้ผังรายการของ TrueID โหลด...")
+        # --- จุดแก้ไขที่ 1: เปลี่ยนมาใช้ data-testid ที่คุณหาเจอในการรอ ---
+        program_container_selector = "div[data-testid='all-items-programTv']"
+        wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, program_container_selector)))
+        
+        time.sleep(3) 
 
         html = driver.page_source
         soup = BeautifulSoup(html, 'html.parser')
+
+        # --- จุดแก้ไขที่ 2: ใช้ selector ใหม่ในการค้นหาข้อมูล ---
+        program_container = soup.select_one(program_container_selector)
         
-        # ค้นหารายการทั้งหมดที่มี class 'content-left'
-        program_items = soup.find_all('div', class_='content-left')
-        
+        if not program_container:
+            print("❌ Amarin (TrueID): ไม่พบกรอบข้อมูลผังรายการ (data-testid)")
+            return []
+
+        # ค้นหารายการทั้งหมดจาก class ที่ถูกต้อง
+        program_items = program_container.select("div[class*='style__ProgramItems-sc-']")
+
         for item in program_items:
             try:
-                # --- จุดที่แก้ไข 3: ดึงข้อมูลจาก Class ที่ถูกต้อง ---
-                time_str = item.find(class_='text-muted').text.strip()
-                title = item.find(class_='text-title-schedule-program').text.strip()
-
-                if time_str and title:
-                    scraped_programs.append({"start_time": time_str, "title": title})
-            except (AttributeError, IndexError):
+                # ค้นหาเวลาและชื่อรายการจาก class ที่ถูกต้อง
+                time_tag = item.select_one("span[class*='style__ProgramShowTime-sc-']")
+                title_tag = item.select_one("span[class*='style__ProgramName-sc-']")
+                
+                if time_tag and title_tag:
+                    time_str = time_tag.text.strip()
+                    # กรองเอาเฉพาะรายการที่มีเวลาจริงๆ (ไม่ใช่คำว่า Live)
+                    if ':' in time_str: 
+                        scraped_programs.append({
+                            "start_time": time_str, 
+                            "title": title_tag.text.strip()
+                        })
+            except AttributeError:
                 continue
-        print("✅ ดึงข้อมูล 7HD สำเร็จ")
+                
+        print("✅ ดึงข้อมูล Amarin TV (จาก TrueID) สำเร็จ!")
 
     except Exception as e:
-        print(f"❌ เกิดข้อผิดพลาดขณะดึงข้อมูล 7HD: {e}")
+        print(f"❌ เกิดข้อผิดพลาดขณะดึงข้อมูล Amarin TV (จาก TrueID): {e}")
     finally:
         driver.quit()
-    
+        
     return scraped_programs
+
+#
+# --- วางฟังก์ชันใหม่นี้ต่อท้ายไฟล์ scrapers.py ---
+#
+
+def scrape_ch7_schedule():
+    """
+    ดึงข้อมูลผังรายการของช่อง 7HD จาก TrueID (เวอร์ชันหลบการตรวจจับ)
+    """
+    # --- จุดที่แก้ไข 1: เปลี่ยน URL เป็นของช่อง 7HD ---
+    URL = "https://tv.trueid.net/th-th/live/ch7-hd"
+    # --- จุดที่แก้ไข 2: เปลี่ยนข้อความ Log ต่างๆ ---
+    print("🕵️  กำลังเริ่มดึงข้อมูลช่อง 7HD (จาก TrueID - undetected)...")
+    driver = setup_undetected_driver()
+    scraped_programs = []
+
+    try:
+        driver.get(URL)
+        wait = WebDriverWait(driver, 20)
+
+        try:
+            print("...[7HD] กำลังค้นหาปุ่มคุกกี้...")
+            cookie_button = wait.until(EC.element_to_be_clickable((By.XPATH, "//button[text()='ยอมรับ']")))
+            cookie_button.click()
+            print("👍 [7HD] กดปุ่มยอมรับคุกกี้แล้ว")
+            time.sleep(2)
+        except Exception:
+            print("🤔 [7HD] ไม่พบปุ่มคุกกี้ หรืออาจเคยกดไปแล้ว")
+        
+        print("...[7HD] กำลังรอให้ผังรายการของ TrueID โหลด...")
+        program_container_selector = "div[data-testid='all-items-programTv']"
+        wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, program_container_selector)))
+        
+        time.sleep(3) 
+
+        html = driver.page_source
+        soup = BeautifulSoup(html, 'html.parser')
+
+        program_container = soup.select_one(program_container_selector)
+        
+        if not program_container:
+            print("❌ 7HD (TrueID): ไม่พบกรอบข้อมูลผังรายการ (data-testid)")
+            return []
+
+        program_items = program_container.select("div[class*='style__ProgramItems-sc-']")
+
+        for item in program_items:
+            try:
+                time_tag = item.select_one("span[class*='style__ProgramShowTime-sc-']")
+                title_tag = item.select_one("span[class*='style__ProgramName-sc-']")
+                
+                if time_tag and title_tag:
+                    time_str = time_tag.text.strip()
+                    if ':' in time_str:
+                        scraped_programs.append({
+                            "start_time": time_str, 
+                            "title": title_tag.text.strip()
+                        })
+            except AttributeError:
+                continue
+                
+        print("✅ ดึงข้อมูล 7HD (จาก TrueID) สำเร็จ!")
+
+    except Exception as e:
+        print(f"❌ เกิดข้อผิดพลาดขณะดึงข้อมูล 7HD (จาก TrueID): {e}")
+    finally:
+        driver.quit()
+        
+    return scraped_programs
+
+def scrape_Workpoint_schedule():
+    """
+    ดึงข้อมูลผังรายการของช่อง Workpoint จาก TrueID (เวอร์ชันหลบการตรวจจับ)
+    """
+    # --- จุดที่แก้ไข 1: เปลี่ยน URL เป็นของช่อง 7HD ---
+    URL = "https://tv.trueid.net/th-th/live/workpointtv"
+    # --- จุดที่แก้ไข 2: เปลี่ยนข้อความ Log ต่างๆ ---
+    print("🕵️  กำลังเริ่มดึงข้อมูลช่อง Workpoint (จาก TrueID - undetected)...")
+    driver = setup_undetected_driver()
+    scraped_programs = []
+
+    try:
+        driver.get(URL)
+        wait = WebDriverWait(driver, 20)
+
+        try:
+            print("...[Workpoint] กำลังค้นหาปุ่มคุกกี้...")
+            cookie_button = wait.until(EC.element_to_be_clickable((By.XPATH, "//button[text()='ยอมรับ']")))
+            cookie_button.click()
+            print("👍 [Workpoint] กดปุ่มยอมรับคุกกี้แล้ว")
+            time.sleep(2)
+        except Exception:
+            print("🤔 [Workpoint] ไม่พบปุ่มคุกกี้ หรืออาจเคยกดไปแล้ว")
+        
+        print("...[Workpoint] กำลังรอให้ผังรายการของ TrueID โหลด...")
+        program_container_selector = "div[data-testid='all-items-programTv']"
+        wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, program_container_selector)))
+        
+        time.sleep(3) 
+
+        html = driver.page_source
+        soup = BeautifulSoup(html, 'html.parser')
+
+        program_container = soup.select_one(program_container_selector)
+        
+        if not program_container:
+            print("❌ Workpoint (TrueID): ไม่พบกรอบข้อมูลผังรายการ (data-testid)")
+            return []
+
+        program_items = program_container.select("div[class*='style__ProgramItems-sc-']")
+
+        for item in program_items:
+            try:
+                time_tag = item.select_one("span[class*='style__ProgramShowTime-sc-']")
+                title_tag = item.select_one("span[class*='style__ProgramName-sc-']")
+                
+                if time_tag and title_tag:
+                    time_str = time_tag.text.strip()
+                    if ':' in time_str:
+                        scraped_programs.append({
+                            "start_time": time_str, 
+                            "title": title_tag.text.strip()
+                        })
+            except AttributeError:
+                continue
+                
+        print("✅ ดึงข้อมูล Workpoint (จาก TrueID) สำเร็จ!")
+
+    except Exception as e:
+        print(f"❌ เกิดข้อผิดพลาดขณะดึงข้อมูล Workpoint (จาก TrueID): {e}")
+    finally:
+        driver.quit()
+        
+    return scraped_programs
+
+def scrape_PPTV_schedule():
+    """
+    ดึงข้อมูลผังรายการของช่อง PPTV จาก TrueID (เวอร์ชันหลบการตรวจจับ)
+    """
+    # --- จุดที่แก้ไข 1: เปลี่ยน URL เป็นของช่อง 7HD ---
+    URL = "https://tv.trueid.net/th-th/live/pptv-hd"
+    # --- จุดที่แก้ไข 2: เปลี่ยนข้อความ Log ต่างๆ ---
+    print("🕵️  กำลังเริ่มดึงข้อมูลช่อง PPTV (จาก TrueID - undetected)...")
+    driver = setup_undetected_driver()
+    scraped_programs = []
+
+    try:
+        driver.get(URL)
+        wait = WebDriverWait(driver, 20)
+
+        try:
+            print("...[PPTV] กำลังค้นหาปุ่มคุกกี้...")
+            cookie_button = wait.until(EC.element_to_be_clickable((By.XPATH, "//button[text()='ยอมรับ']")))
+            cookie_button.click()
+            print("👍 [PPTV] กดปุ่มยอมรับคุกกี้แล้ว")
+            time.sleep(2)
+        except Exception:
+            print("🤔 [PPTV] ไม่พบปุ่มคุกกี้ หรืออาจเคยกดไปแล้ว")
+        
+        print("...[PPTV] กำลังรอให้ผังรายการของ TrueID โหลด...")
+        program_container_selector = "div[data-testid='all-items-programTv']"
+        wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, program_container_selector)))
+        
+        time.sleep(3) 
+
+        html = driver.page_source
+        soup = BeautifulSoup(html, 'html.parser')
+
+        program_container = soup.select_one(program_container_selector)
+        
+        if not program_container:
+            print("❌ PPTV (TrueID): ไม่พบกรอบข้อมูลผังรายการ (data-testid)")
+            return []
+
+        program_items = program_container.select("div[class*='style__ProgramItems-sc-']")
+
+        for item in program_items:
+            try:
+                time_tag = item.select_one("span[class*='style__ProgramShowTime-sc-']")
+                title_tag = item.select_one("span[class*='style__ProgramName-sc-']")
+                
+                if time_tag and title_tag:
+                    time_str = time_tag.text.strip()
+                    if ':' in time_str:
+                        scraped_programs.append({
+                            "start_time": time_str, 
+                            "title": title_tag.text.strip()
+                        })
+            except AttributeError:
+                continue
+                
+        print("✅ ดึงข้อมูล PPTV (จาก TrueID) สำเร็จ!")
+
+    except Exception as e:
+        print(f"❌ เกิดข้อผิดพลาดขณะดึงข้อมูล PPTV (จาก TrueID): {e}")
+    finally:
+        driver.quit()
+        
+    return scraped_programs
+
+def scrape_True24_schedule():
+    """
+    ดึงข้อมูลผังรายการของช่อง True24 จาก TrueID (เวอร์ชันหลบการตรวจจับ)
+    """
+    # --- จุดที่แก้ไข 1: เปลี่ยน URL เป็นของช่อง 7HD ---
+    URL = "https://tv.trueid.net/th-th/live/true4u"
+    # --- จุดที่แก้ไข 2: เปลี่ยนข้อความ Log ต่างๆ ---
+    print("🕵️  กำลังเริ่มดึงข้อมูลช่อง True24 (จาก TrueID - undetected)...")
+    driver = setup_undetected_driver()
+    scraped_programs = []
+
+    try:
+        driver.get(URL)
+        wait = WebDriverWait(driver, 20)
+
+        try:
+            print("...[True24] กำลังค้นหาปุ่มคุกกี้...")
+            cookie_button = wait.until(EC.element_to_be_clickable((By.XPATH, "//button[text()='ยอมรับ']")))
+            cookie_button.click()
+            print("👍 [True24] กดปุ่มยอมรับคุกกี้แล้ว")
+            time.sleep(2)
+        except Exception:
+            print("🤔 [True24] ไม่พบปุ่มคุกกี้ หรืออาจเคยกดไปแล้ว")
+        
+        print("...[True24] กำลังรอให้ผังรายการของ TrueID โหลด...")
+        program_container_selector = "div[data-testid='all-items-programTv']"
+        wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, program_container_selector)))
+        
+        time.sleep(3) 
+
+        html = driver.page_source
+        soup = BeautifulSoup(html, 'html.parser')
+
+        program_container = soup.select_one(program_container_selector)
+        
+        if not program_container:
+            print("❌ True24 (TrueID): ไม่พบกรอบข้อมูลผังรายการ (data-testid)")
+            return []
+
+        program_items = program_container.select("div[class*='style__ProgramItems-sc-']")
+
+        for item in program_items:
+            try:
+                time_tag = item.select_one("span[class*='style__ProgramShowTime-sc-']")
+                title_tag = item.select_one("span[class*='style__ProgramName-sc-']")
+                
+                if time_tag and title_tag:
+                    time_str = time_tag.text.strip()
+                    if ':' in time_str:
+                        scraped_programs.append({
+                            "start_time": time_str, 
+                            "title": title_tag.text.strip()
+                        })
+            except AttributeError:
+                continue
+                
+        print("✅ ดึงข้อมูล True24 (จาก TrueID) สำเร็จ!")
+
+    except Exception as e:
+        print(f"❌ เกิดข้อผิดพลาดขณะดึงข้อมูล True24 (จาก TrueID): {e}")
+    finally:
+        driver.quit()
+        
+    return scraped_programs
+
+def scrape_GMM25_schedule():
+    """
+    ดึงข้อมูลผังรายการของช่อง GMM25 จาก TrueID (เวอร์ชันหลบการตรวจจับ)
+    """
+    # --- จุดที่แก้ไข 1: เปลี่ยน URL เป็นของช่อง 7HD ---
+    URL = "https://tv.trueid.net/th-th/live/gmm25"
+    # --- จุดที่แก้ไข 2: เปลี่ยนข้อความ Log ต่างๆ ---
+    print("🕵️  กำลังเริ่มดึงข้อมูลช่อง GMM25 (จาก TrueID - undetected)...")
+    driver = setup_undetected_driver()
+    scraped_programs = []
+
+    try:
+        driver.get(URL)
+        wait = WebDriverWait(driver, 20)
+
+        try:
+            print("...[GMM25] กำลังค้นหาปุ่มคุกกี้...")
+            cookie_button = wait.until(EC.element_to_be_clickable((By.XPATH, "//button[text()='ยอมรับ']")))
+            cookie_button.click()
+            print("👍 [GMM25] กดปุ่มยอมรับคุกกี้แล้ว")
+            time.sleep(2)
+        except Exception:
+            print("🤔 [GMM25] ไม่พบปุ่มคุกกี้ หรืออาจเคยกดไปแล้ว")
+        
+        print("...[GMM25] กำลังรอให้ผังรายการของ TrueID โหลด...")
+        program_container_selector = "div[data-testid='all-items-programTv']"
+        wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, program_container_selector)))
+        
+        time.sleep(3) 
+
+        html = driver.page_source
+        soup = BeautifulSoup(html, 'html.parser')
+
+        program_container = soup.select_one(program_container_selector)
+        
+        if not program_container:
+            print("❌ GMM25 (TrueID): ไม่พบกรอบข้อมูลผังรายการ (data-testid)")
+            return []
+
+        program_items = program_container.select("div[class*='style__ProgramItems-sc-']")
+
+        for item in program_items:
+            try:
+                time_tag = item.select_one("span[class*='style__ProgramShowTime-sc-']")
+                title_tag = item.select_one("span[class*='style__ProgramName-sc-']")
+                
+                if time_tag and title_tag:
+                    time_str = time_tag.text.strip()
+                    if ':' in time_str:
+                        scraped_programs.append({
+                            "start_time": time_str, 
+                            "title": title_tag.text.strip()
+                        })
+            except AttributeError:
+                continue
+                
+        print("✅ ดึงข้อมูล GMM25 (จาก TrueID) สำเร็จ!")
+
+    except Exception as e:
+        print(f"❌ เกิดข้อผิดพลาดขณะดึงข้อมูล GMM25 (จาก TrueID): {e}")
+    finally:
+        driver.quit()
+        
+    return scraped_programs
+
+def scrape_TOPNew_schedule():
+    """
+    ดึงข้อมูลผังรายการของช่อง TOP New จาก TrueID (เวอร์ชันหลบการตรวจจับ)
+    """
+    # --- จุดที่แก้ไข 1: เปลี่ยน URL เป็นของช่อง 7HD ---
+    URL = "https://tv.trueid.net/th-th/live/tid-top-news"
+    # --- จุดที่แก้ไข 2: เปลี่ยนข้อความ Log ต่างๆ ---
+    print("🕵️  กำลังเริ่มดึงข้อมูลช่อง TOP New (จาก TrueID - undetected)...")
+    driver = setup_undetected_driver()
+    scraped_programs = []
+
+    try:
+        driver.get(URL)
+        wait = WebDriverWait(driver, 20)
+
+        try:
+            print("...[TOP New] กำลังค้นหาปุ่มคุกกี้...")
+            cookie_button = wait.until(EC.element_to_be_clickable((By.XPATH, "//button[text()='ยอมรับ']")))
+            cookie_button.click()
+            print("👍 [TOP New] กดปุ่มยอมรับคุกกี้แล้ว")
+            time.sleep(2)
+        except Exception:
+            print("🤔 [TOP New] ไม่พบปุ่มคุกกี้ หรืออาจเคยกดไปแล้ว")
+        
+        print("...[TOP New] กำลังรอให้ผังรายการของ TrueID โหลด...")
+        program_container_selector = "div[data-testid='all-items-programTv']"
+        wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, program_container_selector)))
+        
+        time.sleep(3) 
+
+        html = driver.page_source
+        soup = BeautifulSoup(html, 'html.parser')
+
+        program_container = soup.select_one(program_container_selector)
+        
+        if not program_container:
+            print("❌ TOP New (TrueID): ไม่พบกรอบข้อมูลผังรายการ (data-testid)")
+            return []
+
+        program_items = program_container.select("div[class*='style__ProgramItems-sc-']")
+
+        for item in program_items:
+            try:
+                time_tag = item.select_one("span[class*='style__ProgramShowTime-sc-']")
+                title_tag = item.select_one("span[class*='style__ProgramName-sc-']")
+                
+                if time_tag and title_tag:
+                    time_str = time_tag.text.strip()
+                    if ':' in time_str:
+                        scraped_programs.append({
+                            "start_time": time_str, 
+                            "title": title_tag.text.strip()
+                        })
+            except AttributeError:
+                continue
+                
+        print("✅ ดึงข้อมูล TOP New (จาก TrueID) สำเร็จ!")
+
+    except Exception as e:
+        print(f"❌ เกิดข้อผิดพลาดขณะดึงข้อมูล TOP New (จาก TrueID): {e}")
+    finally:
+        driver.quit()
+        
+    return scraped_programs
+
+def scrape_TPBS_schedule():
+    """
+    ดึงข้อมูลผังรายการของช่อง TPBS จาก TrueID (เวอร์ชันหลบการตรวจจับ)
+    """
+    # --- จุดที่แก้ไข 1: เปลี่ยน URL เป็นของช่อง 7HD ---
+    URL = "https://tv.trueid.net/th-th/live/thaipbs"
+    # --- จุดที่แก้ไข 2: เปลี่ยนข้อความ Log ต่างๆ ---
+    print("🕵️  กำลังเริ่มดึงข้อมูลช่อง TPBS (จาก TrueID - undetected)...")
+    driver = setup_undetected_driver()
+    scraped_programs = []
+
+    try:
+        driver.get(URL)
+        wait = WebDriverWait(driver, 20)
+
+        try:
+            print("...[TPBS] กำลังค้นหาปุ่มคุกกี้...")
+            cookie_button = wait.until(EC.element_to_be_clickable((By.XPATH, "//button[text()='ยอมรับ']")))
+            cookie_button.click()
+            print("👍 [TPBS] กดปุ่มยอมรับคุกกี้แล้ว")
+            time.sleep(2)
+        except Exception:
+            print("🤔 [TPBS] ไม่พบปุ่มคุกกี้ หรืออาจเคยกดไปแล้ว")
+        
+        print("...[TPBS] กำลังรอให้ผังรายการของ TrueID โหลด...")
+        program_container_selector = "div[data-testid='all-items-programTv']"
+        wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, program_container_selector)))
+        
+        time.sleep(3) 
+
+        html = driver.page_source
+        soup = BeautifulSoup(html, 'html.parser')
+
+        program_container = soup.select_one(program_container_selector)
+        
+        if not program_container:
+            print("❌ TPBS (TrueID): ไม่พบกรอบข้อมูลผังรายการ (data-testid)")
+            return []
+
+        program_items = program_container.select("div[class*='style__ProgramItems-sc-']")
+
+        for item in program_items:
+            try:
+                time_tag = item.select_one("span[class*='style__ProgramShowTime-sc-']")
+                title_tag = item.select_one("span[class*='style__ProgramName-sc-']")
+                
+                if time_tag and title_tag:
+                    time_str = time_tag.text.strip()
+                    if ':' in time_str:
+                        scraped_programs.append({
+                            "start_time": time_str, 
+                            "title": title_tag.text.strip()
+                        })
+            except AttributeError:
+                continue
+                
+        print("✅ ดึงข้อมูล TPBS (จาก TrueID) สำเร็จ!")
+
+    except Exception as e:
+        print(f"❌ เกิดข้อผิดพลาดขณะดึงข้อมูล TPBS (จาก TrueID): {e}")
+    finally:
+        driver.quit()
+        
+    return scraped_programs
+
+def scrape_8SD_schedule():
+    """
+    ดึงข้อมูลผังรายการของช่อง 8SD จาก TrueID (เวอร์ชันหลบการตรวจจับ)
+    """
+    # --- จุดที่แก้ไข 1: เปลี่ยน URL เป็นของช่อง 7HD ---
+    URL = "https://tv.trueid.net/th-th/live/ch8"
+    # --- จุดที่แก้ไข 2: เปลี่ยนข้อความ Log ต่างๆ ---
+    print("🕵️  กำลังเริ่มดึงข้อมูลช่อง 8SD (จาก TrueID - undetected)...")
+    driver = setup_undetected_driver()
+    scraped_programs = []
+
+    try:
+        driver.get(URL)
+        wait = WebDriverWait(driver, 20)
+
+        try:
+            print("...[8SD] กำลังค้นหาปุ่มคุกกี้...")
+            cookie_button = wait.until(EC.element_to_be_clickable((By.XPATH, "//button[text()='ยอมรับ']")))
+            cookie_button.click()
+            print("👍 [8SD] กดปุ่มยอมรับคุกกี้แล้ว")
+            time.sleep(2)
+        except Exception:
+            print("🤔 [8SD] ไม่พบปุ่มคุกกี้ หรืออาจเคยกดไปแล้ว")
+        
+        print("...[8SD] กำลังรอให้ผังรายการของ TrueID โหลด...")
+        program_container_selector = "div[data-testid='all-items-programTv']"
+        wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, program_container_selector)))
+        
+        time.sleep(3) 
+
+        html = driver.page_source
+        soup = BeautifulSoup(html, 'html.parser')
+
+        program_container = soup.select_one(program_container_selector)
+        
+        if not program_container:
+            print("❌ 8SD (TrueID): ไม่พบกรอบข้อมูลผังรายการ (data-testid)")
+            return []
+
+        program_items = program_container.select("div[class*='style__ProgramItems-sc-']")
+
+        for item in program_items:
+            try:
+                time_tag = item.select_one("span[class*='style__ProgramShowTime-sc-']")
+                title_tag = item.select_one("span[class*='style__ProgramName-sc-']")
+                
+                if time_tag and title_tag:
+                    time_str = time_tag.text.strip()
+                    if ':' in time_str:
+                        scraped_programs.append({
+                            "start_time": time_str, 
+                            "title": title_tag.text.strip()
+                        })
+            except AttributeError:
+                continue
+                
+        print("✅ ดึงข้อมูล 8SD (จาก TrueID) สำเร็จ!")
+
+    except Exception as e:
+        print(f"❌ เกิดข้อผิดพลาดขณะดึงข้อมูล 8SD (จาก TrueID): {e}")
+    finally:
+        driver.quit()
+        
+    return scraped_programs
+
+def scrape_Nation_schedule():
+    """
+    ดึงข้อมูลผังรายการของช่อง Nation จาก TrueID (เวอร์ชันหลบการตรวจจับ)
+    """
+    # --- จุดที่แก้ไข 1: เปลี่ยน URL เป็นของช่อง 7HD ---
+    URL = "https://tv.trueid.net/th-th/live/nationtv"
+    # --- จุดที่แก้ไข 2: เปลี่ยนข้อความ Log ต่างๆ ---
+    print("🕵️  กำลังเริ่มดึงข้อมูลช่อง Nation (จาก TrueID - undetected)...")
+    driver = setup_undetected_driver()
+    scraped_programs = []
+
+    try:
+        driver.get(URL)
+        wait = WebDriverWait(driver, 20)
+
+        try:
+            print("...[Nation] กำลังค้นหาปุ่มคุกกี้...")
+            cookie_button = wait.until(EC.element_to_be_clickable((By.XPATH, "//button[text()='ยอมรับ']")))
+            cookie_button.click()
+            print("👍 [Nation] กดปุ่มยอมรับคุกกี้แล้ว")
+            time.sleep(2)
+        except Exception:
+            print("🤔 [Nation] ไม่พบปุ่มคุกกี้ หรืออาจเคยกดไปแล้ว")
+        
+        print("...[Nation] กำลังรอให้ผังรายการของ TrueID โหลด...")
+        program_container_selector = "div[data-testid='all-items-programTv']"
+        wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, program_container_selector)))
+        
+        time.sleep(3) 
+
+        html = driver.page_source
+        soup = BeautifulSoup(html, 'html.parser')
+
+        program_container = soup.select_one(program_container_selector)
+        
+        if not program_container:
+            print("❌ Nation (TrueID): ไม่พบกรอบข้อมูลผังรายการ (data-testid)")
+            return []
+
+        program_items = program_container.select("div[class*='style__ProgramItems-sc-']")
+
+        for item in program_items:
+            try:
+                time_tag = item.select_one("span[class*='style__ProgramShowTime-sc-']")
+                title_tag = item.select_one("span[class*='style__ProgramName-sc-']")
+                
+                if time_tag and title_tag:
+                    time_str = time_tag.text.strip()
+                    if ':' in time_str:
+                        scraped_programs.append({
+                            "start_time": time_str, 
+                            "title": title_tag.text.strip()
+                        })
+            except AttributeError:
+                continue
+                
+        print("✅ ดึงข้อมูล Nation (จาก TrueID) สำเร็จ!")
+
+    except Exception as e:
+        print(f"❌ เกิดข้อผิดพลาดขณะดึงข้อมูล Nation (จาก TrueID): {e}")
+    finally:
+        driver.quit()
+        
+    return scraped_programs
+
+def scrape_Boomerang_schedule():
+    """
+    ดึงข้อมูลผังรายการของช่อง Boomerang จาก TrueID (เวอร์ชันหลบการตรวจจับ)
+    """
+    # --- จุดที่แก้ไข 1: เปลี่ยน URL เป็นของช่อง 7HD ---
+    URL = "https://tv.trueid.net/th-th/live/boomerang-hd"
+    # --- จุดที่แก้ไข 2: เปลี่ยนข้อความ Log ต่างๆ ---
+    print("🕵️  กำลังเริ่มดึงข้อมูลช่อง Boomerang (จาก TrueID - undetected)...")
+    driver = setup_undetected_driver()
+    scraped_programs = []
+
+    try:
+        driver.get(URL)
+        wait = WebDriverWait(driver, 20)
+
+        try:
+            print("...[Boomerang] กำลังค้นหาปุ่มคุกกี้...")
+            cookie_button = wait.until(EC.element_to_be_clickable((By.XPATH, "//button[text()='ยอมรับ']")))
+            cookie_button.click()
+            print("👍 [Boomerang] กดปุ่มยอมรับคุกกี้แล้ว")
+            time.sleep(2)
+        except Exception:
+            print("🤔 [Boomerang] ไม่พบปุ่มคุกกี้ หรืออาจเคยกดไปแล้ว")
+        
+        print("...[Boomerang] กำลังรอให้ผังรายการของ TrueID โหลด...")
+        program_container_selector = "div[data-testid='all-items-programTv']"
+        wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, program_container_selector)))
+        
+        time.sleep(3) 
+
+        html = driver.page_source
+        soup = BeautifulSoup(html, 'html.parser')
+
+        program_container = soup.select_one(program_container_selector)
+        
+        if not program_container:
+            print("❌ Boomerang (TrueID): ไม่พบกรอบข้อมูลผังรายการ (data-testid)")
+            return []
+
+        program_items = program_container.select("div[class*='style__ProgramItems-sc-']")
+
+        for item in program_items:
+            try:
+                time_tag = item.select_one("span[class*='style__ProgramShowTime-sc-']")
+                title_tag = item.select_one("span[class*='style__ProgramName-sc-']")
+                
+                if time_tag and title_tag:
+                    time_str = time_tag.text.strip()
+                    if ':' in time_str:
+                        scraped_programs.append({
+                            "start_time": time_str, 
+                            "title": title_tag.text.strip()
+                        })
+            except AttributeError:
+                continue
+                
+        print("✅ ดึงข้อมูล Boomerang (จาก TrueID) สำเร็จ!")
+
+    except Exception as e:
+        print(f"❌ เกิดข้อผิดพลาดขณะดึงข้อมูล Boomerang (จาก TrueID): {e}")
+    finally:
+        driver.quit()
+        
+    return scraped_programs
+
+def scrape_MCOT_schedule():
+    """
+    ดึงข้อมูลผังรายการของช่อง MCOT จาก TrueID (เวอร์ชันหลบการตรวจจับ)
+    """
+    # --- จุดที่แก้ไข 1: เปลี่ยน URL เป็นของช่อง 7HD ---
+    URL = "https://tv.trueid.net/th-th/live/9mcot-hd"
+    # --- จุดที่แก้ไข 2: เปลี่ยนข้อความ Log ต่างๆ ---
+    print("🕵️  กำลังเริ่มดึงข้อมูลช่อง MCOT (จาก TrueID - undetected)...")
+    driver = setup_undetected_driver()
+    scraped_programs = []
+
+    try:
+        driver.get(URL)
+        wait = WebDriverWait(driver, 20)
+
+        try:
+            print("...[MCOT] กำลังค้นหาปุ่มคุกกี้...")
+            cookie_button = wait.until(EC.element_to_be_clickable((By.XPATH, "//button[text()='ยอมรับ']")))
+            cookie_button.click()
+            print("👍 [MCOT] กดปุ่มยอมรับคุกกี้แล้ว")
+            time.sleep(2)
+        except Exception:
+            print("🤔 [MCOT] ไม่พบปุ่มคุกกี้ หรืออาจเคยกดไปแล้ว")
+        
+        print("...[MCOT] กำลังรอให้ผังรายการของ TrueID โหลด...")
+        program_container_selector = "div[data-testid='all-items-programTv']"
+        wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, program_container_selector)))
+        
+        time.sleep(3) 
+
+        html = driver.page_source
+        soup = BeautifulSoup(html, 'html.parser')
+
+        program_container = soup.select_one(program_container_selector)
+        
+        if not program_container:
+            print("❌ MCOT (TrueID): ไม่พบกรอบข้อมูลผังรายการ (data-testid)")
+            return []
+
+        program_items = program_container.select("div[class*='style__ProgramItems-sc-']")
+
+        for item in program_items:
+            try:
+                time_tag = item.select_one("span[class*='style__ProgramShowTime-sc-']")
+                title_tag = item.select_one("span[class*='style__ProgramName-sc-']")
+                
+                if time_tag and title_tag:
+                    time_str = time_tag.text.strip()
+                    if ':' in time_str:
+                        scraped_programs.append({
+                            "start_time": time_str, 
+                            "title": title_tag.text.strip()
+                        })
+            except AttributeError:
+                continue
+                
+        print("✅ ดึงข้อมูล MCOT (จาก TrueID) สำเร็จ!")
+
+    except Exception as e:
+        print(f"❌ เกิดข้อผิดพลาดขณะดึงข้อมูล MCOT (จาก TrueID): {e}")
+    finally:
+        driver.quit()
+        
+    return scraped_programs
+
 # สามารถเพิ่มฟังก์ชัน scrape_...() สำหรับช่องอื่นๆ ต่อท้ายไฟล์นี้ได้เรื่อยๆ
