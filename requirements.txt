@@ -1,0 +1,7 @@
+# File: requirements.txt
+
+selenium
+beautifulsoup4
+requests
+undetected-chromedriver
+setuptools

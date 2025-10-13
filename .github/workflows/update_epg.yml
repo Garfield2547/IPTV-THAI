@@ -1,0 +1,50 @@
+# File: .github/workflows/update_epg.yml
+
+name: Generate EPG and Update Guide
+
+on:
+  schedule:
+    # ตั้งเวลาให้ทำงานทุกวัน เวลา 19:00 UTC ซึ่งเท่ากับ ตี 2 ของประเทศไทย (02:00 ICT)
+    # คุณสามารถเปลี่ยนเวลาได้ตามต้องการโดยใช้รูปแบบ Cron
+    - cron: '0 19 * * *'
+  workflow_dispatch:
+    # เพิ่มปุ่มให้สามารถกดรันเองได้จากหน้า Actions บนเว็บ GitHub
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11' # ระบุเวอร์ชัน Python
+
+      - name: Install Google Chrome
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y google-chrome-stable
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run the EPG generation script
+        run: python generate.py
+
+      - name: Commit and push if there are changes
+        run: |
+          git config --global user.name 'GitHub Actions Bot'
+          git config --global user.email 'actions@github.com'
+          git add guide.xml
+          # ตรวจสอบว่ามีอะไรเปลี่ยนแปลงหรือไม่ ก่อนที่จะ commit
+          if ! git diff --staged --quiet; then
+            git commit -m "Automated EPG guide update"
+            git push
+          else
+            echo "No changes to commit."
+          fi
