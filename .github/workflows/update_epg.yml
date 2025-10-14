@@ -48,7 +48,7 @@ jobs:
           git add guide.xml
           # ตรวจสอบว่ามีอะไรเปลี่ยนแปลงหรือไม่ ก่อนที่จะ commit
           if ! git diff --staged --quiet; then
-            git commit -m "อัพเดทผังรายการประจำวันที่ $(date +'%Y-%m-%d')"
+            git commit -m "อัพเดทผังรายการประจำวันที่ $(TZ='Asia/Bangkok' date +'%d-%m-%Y')"
             git push
           else
             echo "No changes to commit."

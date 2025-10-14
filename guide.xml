@@ -80,6 +80,10 @@
     <display-name lang="th">NBT</display-name>
     <icon src="..."/>
   </channel>
+  <channel id="ALTV">
+    <display-name lang="th">ALTV</display-name>
+    <icon src="..."/>
+  </channel>
   <programme start="20251014031000 +0700" stop="20251014040000 +0700" channel="ONE">
     <title lang="th">(RERUN) เฮง เฮง เฮง</title>
     <desc lang="th">-</desc>
@@ -2522,6 +2526,106 @@
   </programme>
   <programme start="20251014230000 +0700" stop="20251014235900 +0700" channel="NBT">
     <title lang="th">ข่าวดึก NBT News</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251014090000 +0700" stop="20251014093000 +0700" channel="ALTV">
+    <title lang="th">ดูให้รู้</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251014093000 +0700" stop="20251014100000 +0700" channel="ALTV">
+    <title lang="th">สูงวัยวาไรตี้</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251014100000 +0700" stop="20251014103000 +0700" channel="ALTV">
+    <title lang="th">First class ห้องเรียนแรก</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251014103000 +0700" stop="20251014110000 +0700" channel="ALTV">
+    <title lang="th">ลุยไม่รู้โรย</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251014110000 +0700" stop="20251014130000 +0700" channel="ALTV">
+    <title lang="th">วันใหม่วาไรตี้</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251014130000 +0700" stop="20251014133000 +0700" channel="ALTV">
+    <title lang="th">ภัตตาคารบ้านทุ่ง</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251014133000 +0700" stop="20251014140000 +0700" channel="ALTV">
+    <title lang="th">จากราก...สู่เรา</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251014140000 +0700" stop="20251014143000 +0700" channel="ALTV">
+    <title lang="th">กินอยู่คือ</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251014143000 +0700" stop="20251014150000 +0700" channel="ALTV">
+    <title lang="th">Come Home บ้านที่กลับมา</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251014150000 +0700" stop="20251014153000 +0700" channel="ALTV">
+    <title lang="th">ยินดีที่ได้รู้จัก</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251014153000 +0700" stop="20251014160000 +0700" channel="ALTV">
+    <title lang="th">Sports Trick</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251014160000 +0700" stop="20251014161000 +0700" channel="ALTV">
+    <title lang="th">Guardian 5 ผู้พิทักษ์รักโลก</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251014161000 +0700" stop="20251014162000 +0700" channel="ALTV">
+    <title lang="th">บ้านนักวิทยาศาสตร์น้อย</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251014162000 +0700" stop="20251014163000 +0700" channel="ALTV">
+    <title lang="th">ฉงนฉงาย สองควายช่างสงสัย</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251014163000 +0700" stop="20251014164000 +0700" channel="ALTV">
+    <title lang="th">Karnimal World 4 ล้อไล่ล่าทะลุฝัน</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251014164000 +0700" stop="20251014170000 +0700" channel="ALTV">
+    <title lang="th">I Know OK</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251014170000 +0700" stop="20251014171000 +0700" channel="ALTV">
+    <title lang="th">Pythagora Switch</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251014171000 +0700" stop="20251014173000 +0700" channel="ALTV">
+    <title lang="th">What and Why</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251014173000 +0700" stop="20251014180000 +0700" channel="ALTV">
+    <title lang="th">ข.ขยับ Family</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251014180000 +0700" stop="20251014190000 +0700" channel="ALTV">
+    <title lang="th">ละคร It’s ok to be 30 สามสิบกำลังดี</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251014190000 +0700" stop="20251014193000 +0700" channel="ALTV">
+    <title lang="th">Money Mindset ใช้เป็น เห็นเงิน</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251014193000 +0700" stop="20251014203000 +0700" channel="ALTV">
+    <title lang="th">You Easy Pass เตรียมสอบเข้า ม.1 ภาษาไทย</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251014203000 +0700" stop="20251014210000 +0700" channel="ALTV">
+    <title lang="th">ข่าวในพระราชสำนัก</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251014210000 +0700" stop="20251014220000 +0700" channel="ALTV">
+    <title lang="th">เปิดประตูสู่มหาวิทยาลัย</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251014220000 +0700" stop="20251014235900 +0700" channel="ALTV">
+    <title lang="th">ปิดสถานี</title>
     <desc lang="th">-</desc>
   </programme>
 </tv>
