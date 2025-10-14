@@ -58,7 +58,7 @@ https://lb1-live-mv.v2h-cdn.com/hls/fddc/mvmallliving/mvmallliving.m3u8
 
 #EXTINF:-1 tvg-chno="16" ch-number="16" tvg-id="TNN" tvg-name="TNN" tvg-logo="https://media-mvtv.imgix.net/channel/121_y_uQNBde5zrpo4TKm9kOZPx6iRbGaACfFE.png" group-title="Digital TV", TNN SD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36
-http://192.168.0.102:8080/live/mystream.m3u8
+https://lb1-live-mv.v2h-cdn.com/hls/ffdc/mugvhogvho/mugvhogvho.m3u8
 
 #EXTINF:-1 tvg-chno="17" ch-number="17" tvg-id="MVMall Family (40)" tvg-name="MVMall Family (40)" tvg-logo="https://media-mvtv.imgix.net/channel/107_y_aNzHOm07eZL1nc5MkpIUTBfPGit2qE4y.png" group-title="Digital TV", MVMall Family (40)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36
@@ -122,7 +122,7 @@ https://lb1-live-mv.v2h-cdn.com/hls/ffae/muulk/muulk.m3u8
 
 #EXTINF:-1 tvg-chno="34" ch-number="34" tvg-id="Amarin" tvg-name="Amarin" tvg-logo="https://media-mvtv.imgix.net/channel/133_y_kLIyaJt3VoGD8sqrHnhKPjZUQ0RE6mu4.png" group-title="Digital TV", Amarin HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36
-https://amarin-proxy.tanaphat-fiw2255.workers.dev/live/playlist.m3u8?x_ark_access_id=fleet-868&x_ark_auth_type=ark-v2&x_ark_expires=1760363199&x_ark_path_prefix=%2Flive%2F&x_ark_signature=bPeQxkTUCm6PPzEASMg_Rg
+https://amarin-proxy.tanaphat-fiw2255.workers.dev/live/playlist.m3u8?x_ark_access_id=fleet-868&x_ark_auth_type=ark-v2&x_ark_expires=1760530893&x_ark_path_prefix=%2Flive%2F&x_ark_signature=23MEGX_hhEgyk0ihVE66wg
 
 #EXTINF:-1 tvg-chno="35" ch-number="35" tvg-id="7HD" tvg-name="7HD" tvg-logo="https://media-mvtv.imgix.net/channel/134_y_YTkIZJDsbmX26owPRpAFSfW0eyz95vn4.png" group-title="Digital TV", 7HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36
@@ -135,6 +135,10 @@ https://lb1-live-mv.v2h-cdn.com/hls/ffab/rurumuu/rurumuu.m3u8
 #EXTINF:-1 tvg-chno="37" ch-number="37" tvg-id="TOPNew" tvg-name="TOPNew" tvg-logo="https://play-lh.googleusercontent.com/v-Qi-fR9neZqeMwVH3LAGRJ6kmdNXJsK4Y_GOuZnEchBW4QoHEueR0OLpYO1IcnG6ks=w240-h480-rw" group-title="Digital TV", TOP New SD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36
 https://live.topnews.co.th/hls/topnews_a_720.m3u8
+
+#EXTINF:-1 tvg-chno="38" ch-number="38" tvg-id="Cartoon" tvg-name="Cartoon" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_kLB8PQMp1GGFoPivp39GdwJiUFXT-wMAu7Qojb8I-KJBA=s900-c-k-c0x00ffffff-no-rj" group-title="Digital TV", Cartoon HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36
+http://192.168.0.102:8080/live/mystream.m3u8
 
 #EXTINF:-1 tvg-chno="101" ch-number="101" tvg-id="MVLAO" tvg-name="MVLAO" tvg-logo="https://media-mvtv.imgix.net/channel/33_y_H4Rw5iJ7py10NvGAPEhWbYD6SgfarXOc.png" group-title="Digital TV", MVLAO
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/127.0.6533.103 Mobile Safari/537.36
