@@ -84,2531 +84,2527 @@
     <display-name lang="th">ALTV</display-name>
     <icon src="..."/>
   </channel>
-  <programme start="20251023025500 +0700" stop="20251023034500 +0700" channel="ONE">
+  <programme start="20251024025500 +0700" stop="20251024034500 +0700" channel="ONE">
     <title lang="th">(RERUN) เฮง เฮง เฮง</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023034500 +0700" stop="20251023044500 +0700" channel="ONE">
+  <programme start="20251024034500 +0700" stop="20251024044500 +0700" channel="ONE">
     <title lang="th">(RERUN) เอาให้ชัด</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023044500 +0700" stop="20251023060000 +0700" channel="ONE">
+  <programme start="20251024044500 +0700" stop="20251024060000 +0700" channel="ONE">
     <title lang="th">(RERUN) ดวลเพลงชิงทุน</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023060000 +0700" stop="20251023080600 +0700" channel="ONE">
+  <programme start="20251024060000 +0700" stop="20251024080600 +0700" channel="ONE">
     <title lang="th">ข่าวเช้าช่องวัน</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023080600 +0700" stop="20251023115000 +0700" channel="ONE">
+  <programme start="20251024080600 +0700" stop="20251024115000 +0700" channel="ONE">
     <title lang="th">หีบหลอนซ่อนวิญญาณ</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023115000 +0700" stop="20251023123000 +0700" channel="ONE">
+  <programme start="20251024115000 +0700" stop="20251024123000 +0700" channel="ONE">
     <title lang="th">รอบวัน</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023123000 +0700" stop="20251023133000 +0700" channel="ONE">
+  <programme start="20251024123000 +0700" stop="20251024133000 +0700" channel="ONE">
     <title lang="th">เรื่องใหญ่รายวัน</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023133000 +0700" stop="20251023140500 +0700" channel="ONE">
+  <programme start="20251024133000 +0700" stop="20251024140500 +0700" channel="ONE">
     <title lang="th">อนุวัตทั่วไทย</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023140500 +0700" stop="20251023162000 +0700" channel="ONE">
+  <programme start="20251024140500 +0700" stop="20251024162000 +0700" channel="ONE">
     <title lang="th">ชีวิตเพื่อฆ่า หัวใจเพื่อเธอ</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023162000 +0700" stop="20251023180000 +0700" channel="ONE">
+  <programme start="20251024162000 +0700" stop="20251024180000 +0700" channel="ONE">
     <title lang="th">ข่าวเย็นช่องวัน</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023180000 +0700" stop="20251023190000 +0700" channel="ONE">
+  <programme start="20251024180000 +0700" stop="20251024190000 +0700" channel="ONE">
     <title lang="th">ดวลเพลงชิงทุน</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023190000 +0700" stop="20251023200000 +0700" channel="ONE">
-    <title lang="th">สงครามหมอลำ</title>
+  <programme start="20251024190000 +0700" stop="20251024203000 +0700" channel="ONE">
+    <title lang="th">ข่าววันศุกร์</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023200000 +0700" stop="20251023200000 +0700" channel="ONE">
-    <title lang="th">ข่าวค่ำช่องวัน และ ข่าวในพระราชสำนัก</title>
+  <programme start="20251024203000 +0700" stop="20251024213000 +0700" channel="ONE">
+    <title lang="th">That Summer ผมเจอเจ้าชายบนชายหาด</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023200000 +0700" stop="20251023203000 +0700" channel="ONE">
-    <title lang="th">ข่าวค่ำช่องวัน  ช่วงที่สอง</title>
+  <programme start="20251024213000 +0700" stop="20251024223000 +0700" channel="ONE">
+    <title lang="th">Club Friday The Series ตอน เลือกคนที่เรารักหรือรักเรา</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023203000 +0700" stop="20251023213000 +0700" channel="ONE">
-    <title lang="th">(ตอนอวสาน) ทายาทหมายเลข 1</title>
+  <programme start="20251024223000 +0700" stop="20251024235900 +0700" channel="ONE">
+    <title lang="th">(ตอนจบ) ฉันนี่แหละท่านขุนที่สวยที่สุด (I’m The Most Beautiful Count)</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023213000 +0700" stop="20251023223000 +0700" channel="ONE">
-    <title lang="th">เอาให้ชัด</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023223000 +0700" stop="20251023235900 +0700" channel="ONE">
-    <title lang="th">เป็นต่อ</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023000000 +0700" stop="20251023011500 +0700" channel="Thairath">
+  <programme start="20251024000000 +0700" stop="20251024011500 +0700" channel="Thairath">
     <title lang="th">ข่าวใส่ไข่ (Rerun)</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023011500 +0700" stop="20251023023500 +0700" channel="Thairath">
+  <programme start="20251024011500 +0700" stop="20251024023500 +0700" channel="Thairath">
     <title lang="th">ตะลอนข่าว (Rerun)</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023023500 +0700" stop="20251023033500 +0700" channel="Thairath">
+  <programme start="20251024023500 +0700" stop="20251024033500 +0700" channel="Thairath">
     <title lang="th">ข่าวแสบเฉพาะกิจ AD CC</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023033500 +0700" stop="20251023042900 +0700" channel="Thairath">
+  <programme start="20251024033500 +0700" stop="20251024042900 +0700" channel="Thairath">
     <title lang="th">คู่กัดสะบัดข่าว (Rerun)</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023042900 +0700" stop="20251023045900 +0700" channel="Thairath">
+  <programme start="20251024042900 +0700" stop="20251024045900 +0700" channel="Thairath">
     <title lang="th">True Shopping 04.30</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023045900 +0700" stop="20251023050000 +0700" channel="Thairath">
+  <programme start="20251024045900 +0700" stop="20251024050000 +0700" channel="Thairath">
     <title lang="th">เพลง สรรเสริญพระบารมี รัชกาลที่ 10</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023050000 +0700" stop="20251023053000 +0700" channel="Thairath">
+  <programme start="20251024050000 +0700" stop="20251024053000 +0700" channel="Thairath">
     <title lang="th">True Shopping 05.00-05.30</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023053000 +0700" stop="20251023063000 +0700" channel="Thairath">
+  <programme start="20251024053000 +0700" stop="20251024063000 +0700" channel="Thairath">
     <title lang="th">ห้องข่าว หัวเขียว</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023063000 +0700" stop="20251023080000 +0700" channel="Thairath">
+  <programme start="20251024063000 +0700" stop="20251024080000 +0700" channel="Thairath">
     <title lang="th">ข่าวเช้าหัวเขียว</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023080000 +0700" stop="20251023083000 +0700" channel="Thairath">
+  <programme start="20251024080000 +0700" stop="20251024083000 +0700" channel="Thairath">
     <title lang="th">เพลงชาติไทย v.cc</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023083000 +0700" stop="20251023095300 +0700" channel="Thairath">
+  <programme start="20251024083000 +0700" stop="20251024095300 +0700" channel="Thairath">
     <title lang="th">ตะลอนข่าว</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023095300 +0700" stop="20251023095800 +0700" channel="Thairath">
+  <programme start="20251024095300 +0700" stop="20251024095800 +0700" channel="Thairath">
     <title lang="th">O Shopping</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023095800 +0700" stop="20251023100000 +0700" channel="Thairath">
+  <programme start="20251024095800 +0700" stop="20251024100000 +0700" channel="Thairath">
     <title lang="th">Express News</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023100000 +0700" stop="20251023105800 +0700" channel="Thairath">
+  <programme start="20251024100000 +0700" stop="20251024105800 +0700" channel="Thairath">
     <title lang="th">ปูเสื่อรอ</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023105800 +0700" stop="20251023110000 +0700" channel="Thairath">
+  <programme start="20251024105800 +0700" stop="20251024110000 +0700" channel="Thairath">
     <title lang="th">Express News</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023110000 +0700" stop="20251023114500 +0700" channel="Thairath">
+  <programme start="20251024110000 +0700" stop="20251024114500 +0700" channel="Thairath">
     <title lang="th">ข่าวเที่ยงไทยรัฐ ช่วงที่ 1</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023114500 +0700" stop="20251023132800 +0700" channel="Thairath">
+  <programme start="20251024114500 +0700" stop="20251024132800 +0700" channel="Thairath">
     <title lang="th">ข่าวเที่ยงไทยรัฐ</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023132800 +0700" stop="20251023133000 +0700" channel="Thairath">
+  <programme start="20251024132800 +0700" stop="20251024133000 +0700" channel="Thairath">
     <title lang="th">Express News</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023133000 +0700" stop="20251023142800 +0700" channel="Thairath">
+  <programme start="20251024133000 +0700" stop="20251024142800 +0700" channel="Thairath">
     <title lang="th">บันเทิงไทยรัฐ (บ่าย)</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023142800 +0700" stop="20251023143000 +0700" channel="Thairath">
+  <programme start="20251024142800 +0700" stop="20251024143000 +0700" channel="Thairath">
     <title lang="th">Express News</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023143000 +0700" stop="20251023152800 +0700" channel="Thairath">
+  <programme start="20251024143000 +0700" stop="20251024152800 +0700" channel="Thairath">
     <title lang="th">คู่กัดสะบัดข่าว</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023152800 +0700" stop="20251023153000 +0700" channel="Thairath">
+  <programme start="20251024152800 +0700" stop="20251024153000 +0700" channel="Thairath">
     <title lang="th">Express News</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023153000 +0700" stop="20251023161500 +0700" channel="Thairath">
+  <programme start="20251024153000 +0700" stop="20251024161500 +0700" channel="Thairath">
     <title lang="th">เปิดปากกับภาคภูมิ</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023161500 +0700" stop="20251023162000 +0700" channel="Thairath">
+  <programme start="20251024161500 +0700" stop="20251024162000 +0700" channel="Thairath">
     <title lang="th">หั่นราคา ท้าช็อป 16.15</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023162000 +0700" stop="20251023174500 +0700" channel="Thairath">
+  <programme start="20251024162000 +0700" stop="20251024174500 +0700" channel="Thairath">
     <title lang="th">ข่าวเย็นไทยรัฐ</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023174500 +0700" stop="20251023180000 +0700" channel="Thairath">
+  <programme start="20251024174500 +0700" stop="20251024180000 +0700" channel="Thairath">
     <title lang="th">ข่าวใส่ไข่</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023180000 +0700" stop="20251023190000 +0700" channel="Thairath">
+  <programme start="20251024180000 +0700" stop="20251024190000 +0700" channel="Thairath">
     <title lang="th">เพลงชาติไทย v.cc</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023190000 +0700" stop="20251023200000 +0700" channel="Thairath">
+  <programme start="20251024190000 +0700" stop="20251024200000 +0700" channel="Thairath">
     <title lang="th">ไทยรัฐ นิวส์โชว์ ช่วง 1</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023200000 +0700" stop="20251023201500 +0700" channel="Thairath">
+  <programme start="20251024200000 +0700" stop="20251024201500 +0700" channel="Thairath">
     <title lang="th">ข่าวในพระราชสำนัก</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023201500 +0700" stop="20251023222800 +0700" channel="Thairath">
+  <programme start="20251024201500 +0700" stop="20251024222800 +0700" channel="Thairath">
     <title lang="th">ไทยรัฐ นิวส์โชว์</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023222800 +0700" stop="20251023223000 +0700" channel="Thairath">
+  <programme start="20251024222800 +0700" stop="20251024223000 +0700" channel="Thairath">
     <title lang="th">Express News</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023223000 +0700" stop="20251023223500 +0700" channel="Thairath">
+  <programme start="20251024223000 +0700" stop="20251024223500 +0700" channel="Thairath">
     <title lang="th">หั่นราคา ท้าช็อป 22.40</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023223500 +0700" stop="20251023232000 +0700" channel="Thairath">
+  <programme start="20251024223500 +0700" stop="20251024232000 +0700" channel="Thairath">
     <title lang="th">เปิดปากกับภาคภูมิ (Rerun)</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023232000 +0700" stop="20251023235900 +0700" channel="Thairath">
+  <programme start="20251024232000 +0700" stop="20251024235900 +0700" channel="Thairath">
     <title lang="th">ไทยรัฐเจาะประเด็น</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023033000 +0700" stop="20251023070000 +0700" channel="MONO29">
+  <programme start="20251024033000 +0700" stop="20251024070000 +0700" channel="MONO29">
     <title lang="th">World Voyage โลกเดินเรื่อง</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023070000 +0700" stop="20251023080000 +0700" channel="MONO29">
+  <programme start="20251024070000 +0700" stop="20251024080000 +0700" channel="MONO29">
     <title lang="th">ข่าวเด็ด : MONO ข่าวเช้า</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023080000 +0700" stop="20251023090000 +0700" channel="MONO29">
-    <title lang="th">ซีรีส์ : กระจกสองนครา Mirror: A Tale of Twin Cities (EP.19)</title>
+  <programme start="20251024080000 +0700" stop="20251024090000 +0700" channel="MONO29">
+    <title lang="th">ซีรีส์ : กระจกสองนครา Mirror: A Tale of Twin Cities (EP.20)</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023090000 +0700" stop="20251023091000 +0700" channel="MONO29">
+  <programme start="20251024090000 +0700" stop="20251024091000 +0700" channel="MONO29">
     <title lang="th">ข่าวเด็ด : What's up 29</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023091000 +0700" stop="20251023094500 +0700" channel="MONO29">
+  <programme start="20251024091000 +0700" stop="20251024094500 +0700" channel="MONO29">
     <title lang="th">ข่าวเด็ด : โฟกัส เศรษฐกิจ</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023094500 +0700" stop="20251023114000 +0700" channel="MONO29">
-    <title lang="th">ภาพยนตร์ : 24 Hours to Live 24 ชั่วโมง จับเวลาฝ่าตาย</title>
+  <programme start="20251024094500 +0700" stop="20251024115500 +0700" channel="MONO29">
+    <title lang="th">ภาพยนตร์ : From Vegas to Macau 2 โคตรเซียนมาเก๊า เขย่าเวกัส 2</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023114000 +0700" stop="20251023141000 +0700" channel="MONO29">
-    <title lang="th">ภาพยนตร์ : Sakra แปดเทพอสูรมังกรฟ้า</title>
+  <programme start="20251024115500 +0700" stop="20251024134500 +0700" channel="MONO29">
+    <title lang="th">ภาพยนตร์ : 47 Meters Down: Uncaged 47 ดิ่งลึกสุดนรก</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023141000 +0700" stop="20251023145500 +0700" channel="MONO29">
+  <programme start="20251024134500 +0700" stop="20251024143000 +0700" channel="MONO29">
     <title lang="th">ข่าวเด็ด : MONO เจาะข่าวเด็ด</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023145500 +0700" stop="20251023170000 +0700" channel="MONO29">
-    <title lang="th">ภาพยนตร์ : Fire With Fire คนอึดล้างเพลิงนรก</title>
+  <programme start="20251024143000 +0700" stop="20251024170000 +0700" channel="MONO29">
+    <title lang="th">ภาพยนตร์ : Born To Fly ปฏิบัติการจ้าวเวหา</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023170000 +0700" stop="20251023180000 +0700" channel="MONO29">
+  <programme start="20251024170000 +0700" stop="20251024180000 +0700" channel="MONO29">
     <title lang="th">ข่าวเด็ด : ข่าวพร้อมบวก</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023180000 +0700" stop="20251023195000 +0700" channel="MONO29">
-    <title lang="th">ภาพยนตร์ : The Last Airbender มหาศึก 4 ธาตุ จอมราชันย์</title>
+  <programme start="20251024180000 +0700" stop="20251024195000 +0700" channel="MONO29">
+    <title lang="th">ภาพยนตร์ : The Rundown โคตรคนล่าขุมทรัพย์ป่านรก</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023195000 +0700" stop="20251023201000 +0700" channel="MONO29">
+  <programme start="20251024195000 +0700" stop="20251024201000 +0700" channel="MONO29">
     <title lang="th">ข่าวเด็ด : MONO ข่าวค่ำ</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023201000 +0700" stop="20251023205500 +0700" channel="MONO29">
+  <programme start="20251024201000 +0700" stop="20251024205500 +0700" channel="MONO29">
     <title lang="th">ข่าวเด็ด : ข่าวในพระราชสำนัก</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023205500 +0700" stop="20251023220000 +0700" channel="MONO29">
-    <title lang="th">ซีรีส์ : บุปผารักคืนใจ In Blossom (EP.13)</title>
+  <programme start="20251024205500 +0700" stop="20251024220000 +0700" channel="MONO29">
+    <title lang="th">ซีรีส์ : บุปผารักคืนใจ In Blossom (EP.14)</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023220000 +0700" stop="20251023224500 +0700" channel="MONO29">
+  <programme start="20251024220000 +0700" stop="20251024224500 +0700" channel="MONO29">
     <title lang="th">ข่าวเด็ด : ชัดทุกข่าว</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023224500 +0700" stop="20251023231500 +0700" channel="MONO29">
-    <title lang="th">KICK IT REAL</title>
+  <programme start="20251024224500 +0700" stop="20251024231500 +0700" channel="MONO29">
+    <title lang="th">MAX Sport Weekend Preview</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023231500 +0700" stop="20251023232000 +0700" channel="MONO29">
+  <programme start="20251024231500 +0700" stop="20251024232000 +0700" channel="MONO29">
     <title lang="th">Premier League Highlights</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023232000 +0700" stop="20251023235900 +0700" channel="MONO29">
+  <programme start="20251024232000 +0700" stop="20251024235900 +0700" channel="MONO29">
     <title lang="th">รายการทั่วไป : Luxury 29</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023035000 +0700" stop="20251023040000 +0700" channel="3HD">
+  <programme start="20251024035000 +0700" stop="20251024040000 +0700" channel="3HD">
     <title lang="th">โอช้อปปิ้ง</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023040000 +0700" stop="20251023045000 +0700" channel="3HD">
-    <title lang="th">ย้อนเวลาหาละคร เสน่ห์นางงิ้ว (ตอนจบ)</title>
+  <programme start="20251024040000 +0700" stop="20251024045000 +0700" channel="3HD">
+    <title lang="th">ย้อนเวลาหาละคร สามใบไม่เถา</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023045000 +0700" stop="20251023045500 +0700" channel="3HD">
+  <programme start="20251024045000 +0700" stop="20251024045500 +0700" channel="3HD">
     <title lang="th">ตะวันส่องธรรม</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023045500 +0700" stop="20251023052300 +0700" channel="3HD">
+  <programme start="20251024045500 +0700" stop="20251024052000 +0700" channel="3HD">
     <title lang="th">ขันข่าวเช้าตรู่</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023052300 +0700" stop="20251023053000 +0700" channel="3HD">
+  <programme start="20251024052000 +0700" stop="20251024053000 +0700" channel="3HD">
     <title lang="th">Happy Shopping</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023053000 +0700" stop="20251023060000 +0700" channel="3HD">
+  <programme start="20251024053000 +0700" stop="20251024060000 +0700" channel="3HD">
     <title lang="th">เรื่องเล่าหน้าหนึ่ง</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023060000 +0700" stop="20251023082000 +0700" channel="3HD">
+  <programme start="20251024060000 +0700" stop="20251024082000 +0700" channel="3HD">
     <title lang="th">เรื่องเล่าเช้านี้</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023082000 +0700" stop="20251023082500 +0700" channel="3HD">
+  <programme start="20251024082000 +0700" stop="20251024082500 +0700" channel="3HD">
     <title lang="th">เพื่อนคู่คิด</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023082500 +0700" stop="20251023084500 +0700" channel="3HD">
+  <programme start="20251024082500 +0700" stop="20251024084500 +0700" channel="3HD">
     <title lang="th">ผู้หญิงยกกำลังเเจ๋ว</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023084500 +0700" stop="20251023085000 +0700" channel="3HD">
+  <programme start="20251024084500 +0700" stop="20251024085000 +0700" channel="3HD">
     <title lang="th">อร่อยเลิศกับคุณหรีด</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023085000 +0700" stop="20251023085500 +0700" channel="3HD">
-    <title lang="th">5 นาที โปรฯดี โอจัดให้</title>
+  <programme start="20251024085000 +0700" stop="20251024085500 +0700" channel="3HD">
+    <title lang="th">โอช้อปปิ้ง</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023085500 +0700" stop="20251023102500 +0700" channel="3HD">
+  <programme start="20251024085500 +0700" stop="20251024102500 +0700" channel="3HD">
     <title lang="th">ละครดังข้ามเวลา เล่ห์ลับสลับร่าง</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023102500 +0700" stop="20251023105000 +0700" channel="3HD">
+  <programme start="20251024102500 +0700" stop="20251024105000 +0700" channel="3HD">
     <title lang="th">ทีเด็ดลูกหนี้</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023105000 +0700" stop="20251023105500 +0700" channel="3HD">
+  <programme start="20251024105000 +0700" stop="20251024105500 +0700" channel="3HD">
     <title lang="th">Happy Shopping</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023105500 +0700" stop="20251023112000 +0700" channel="3HD">
+  <programme start="20251024105500 +0700" stop="20251024112000 +0700" channel="3HD">
     <title lang="th">ฮาเกินต้าน</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023112000 +0700" stop="20251023123000 +0700" channel="3HD">
+  <programme start="20251024112000 +0700" stop="20251024122300 +0700" channel="3HD">
     <title lang="th">เที่ยงวันทันเหตุการณ์</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023123000 +0700" stop="20251023132500 +0700" channel="3HD">
+  <programme start="20251024122300 +0700" stop="20251024122500 +0700" channel="3HD">
+    <title lang="th">สถานีรักโลก 360 องศา</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024122500 +0700" stop="20251024132500 +0700" channel="3HD">
     <title lang="th">โหนกระเเส</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023132500 +0700" stop="20251023133000 +0700" channel="3HD">
+  <programme start="20251024132500 +0700" stop="20251024133000 +0700" channel="3HD">
     <title lang="th">บางกอกกระซิบ โว้ว มายา</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023133000 +0700" stop="20251023140000 +0700" channel="3HD">
+  <programme start="20251024133000 +0700" stop="20251024140000 +0700" channel="3HD">
     <title lang="th">ครัวคุณต๋อย</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023140000 +0700" stop="20251023140700 +0700" channel="3HD">
+  <programme start="20251024140000 +0700" stop="20251024140700 +0700" channel="3HD">
     <title lang="th">Happy Shopping</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023140700 +0700" stop="20251023143700 +0700" channel="3HD">
+  <programme start="20251024140700 +0700" stop="20251024143700 +0700" channel="3HD">
     <title lang="th">ข่าว 3 สี</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023143700 +0700" stop="20251023163000 +0700" channel="3HD">
+  <programme start="20251024143700 +0700" stop="20251024163000 +0700" channel="3HD">
     <title lang="th">ละคร เลือดมังกร : สิงห์ / โอ ช้อปปิ้ง /</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023163000 +0700" stop="20251023175900 +0700" channel="3HD">
+  <programme start="20251024163000 +0700" stop="20251024175900 +0700" channel="3HD">
     <title lang="th">เรื่องเด่นเย็นนี้</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023175900 +0700" stop="20251023180000 +0700" channel="3HD">
+  <programme start="20251024175900 +0700" stop="20251024180000 +0700" channel="3HD">
     <title lang="th">อิงลิช ออน ทัวร์</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023180000 +0700" stop="20251023190000 +0700" channel="3HD">
-    <title lang="th">ละคร สุภาพบุรุษจุฑาเทพ คุณชายรณพีร์</title>
+  <programme start="20251024180000 +0700" stop="20251024190000 +0700" channel="3HD">
+    <title lang="th">รายการพิเศษ รักสุดท้าย</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023190000 +0700" stop="20251023200000 +0700" channel="3HD">
+  <programme start="20251024190000 +0700" stop="20251024200000 +0700" channel="3HD">
     <title lang="th">ละคร กรงดอกสร้อย</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023200000 +0700" stop="20251023201500 +0700" channel="3HD">
+  <programme start="20251024200000 +0700" stop="20251024201500 +0700" channel="3HD">
     <title lang="th">ข่าวนอกลู่</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023201500 +0700" stop="20251023203000 +0700" channel="3HD">
-    <title lang="th">ข่าวในพระราชสำนัก / สีสันบันเทิง</title>
+  <programme start="20251024201500 +0700" stop="20251024202500 +0700" channel="3HD">
+    <title lang="th">ข่าวในพระราชสำนัก</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023203000 +0700" stop="20251023214500 +0700" channel="3HD">
-    <title lang="th">ละคร เจ้าคุณพี่กับอีนางคำดวง</title>
+  <programme start="20251024202500 +0700" stop="20251024203000 +0700" channel="3HD">
+    <title lang="th">สีสันบันเทิง</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023214500 +0700" stop="20251023223000 +0700" channel="3HD">
+  <programme start="20251024203000 +0700" stop="20251024214000 +0700" channel="3HD">
+    <title lang="th">ซีรีส์ รักสุดท้าย My Safe Zone (ตอนแรก)</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024214000 +0700" stop="20251024222500 +0700" channel="3HD">
     <title lang="th">ข่าว 3 มิติ</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023223000 +0700" stop="20251023233000 +0700" channel="3HD">
-    <title lang="th">ซีรีส์ รับ (รัก) ออกแบบ Love Design</title>
+  <programme start="20251024222500 +0700" stop="20251024232500 +0700" channel="3HD">
+    <title lang="th">ภ.จีน เปาบุ้นจิ้น อภินิหารผ้ายันต์</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023233000 +0700" stop="20251023235900 +0700" channel="3HD">
-    <title lang="th">แก้เกมเศรษฐกิจ / ของฝากนักกอล์ฟ</title>
+  <programme start="20251024232500 +0700" stop="20251024235900 +0700" channel="3HD">
+    <title lang="th">เซย์ไฮ!</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023023000 +0700" stop="20251023030000 +0700" channel="Amarin">
+  <programme start="20251024023000 +0700" stop="20251024030000 +0700" channel="Amarin">
     <title lang="th">ชีวิตดีดี มีได้ทุกวัน</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023030000 +0700" stop="20251023033000 +0700" channel="Amarin">
-    <title lang="th">เรื่องเด็ดเอ็ดตะโร</title>
+  <programme start="20251024030000 +0700" stop="20251024033000 +0700" channel="Amarin">
+    <title lang="th">ซุป'ตาร์ พาตะลุย The S-file AD CC</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023033000 +0700" stop="20251023040000 +0700" channel="Amarin">
+  <programme start="20251024033000 +0700" stop="20251024040000 +0700" channel="Amarin">
     <title lang="th">โปรดีคนตื่นเช้า</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023040000 +0700" stop="20251023043000 +0700" channel="Amarin">
+  <programme start="20251024040000 +0700" stop="20251024043000 +0700" channel="Amarin">
     <title lang="th">Happy Shopping</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023043000 +0700" stop="20251023053000 +0700" channel="Amarin">
+  <programme start="20251024043000 +0700" stop="20251024053000 +0700" channel="Amarin">
     <title lang="th">สุขทุกวัน 7 วัน 7 กูรู</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023053000 +0700" stop="20251023063000 +0700" channel="Amarin">
+  <programme start="20251024053000 +0700" stop="20251024063000 +0700" channel="Amarin">
     <title lang="th">ข่าวอรุณอมรินทร์ ทั่วไทย</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023063000 +0700" stop="20251023080000 +0700" channel="Amarin">
+  <programme start="20251024063000 +0700" stop="20251024080000 +0700" channel="Amarin">
     <title lang="th">ข่าวอรุณอมรินทร์</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023080000 +0700" stop="20251023080100 +0700" channel="Amarin">
+  <programme start="20251024080000 +0700" stop="20251024080100 +0700" channel="Amarin">
     <title lang="th">เพลงชาติไทย</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023080100 +0700" stop="20251023084500 +0700" channel="Amarin">
+  <programme start="20251024080100 +0700" stop="20251024084500 +0700" channel="Amarin">
     <title lang="th">ข่าวอรุณอมรินทร์</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023084500 +0700" stop="20251023090500 +0700" channel="Amarin">
+  <programme start="20251024084500 +0700" stop="20251024090500 +0700" channel="Amarin">
     <title lang="th">Sport Lifestyle 34</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023090500 +0700" stop="20251023091500 +0700" channel="Amarin">
+  <programme start="20251024090500 +0700" stop="20251024091500 +0700" channel="Amarin">
     <title lang="th">ดีลดีไดเร็ค</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023091500 +0700" stop="20251023093000 +0700" channel="Amarin">
-    <title lang="th">เรื่องเด็ดเอ็ดตะโร รีรัน</title>
+  <programme start="20251024091500 +0700" stop="20251024095000 +0700" channel="Amarin">
+    <title lang="th">แม๊..เม้าท์ รีรัน</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023093000 +0700" stop="20251023095000 +0700" channel="Amarin">
-    <title lang="th">Car On TV</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023095000 +0700" stop="20251023100000 +0700" channel="Amarin">
+  <programme start="20251024095000 +0700" stop="20251024100000 +0700" channel="Amarin">
     <title lang="th">ดีลดีไดเร็ค</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023100000 +0700" stop="20251023103000 +0700" channel="Amarin">
-    <title lang="th">ดาว ทาวน์ แฟมิลี</title>
+  <programme start="20251024100000 +0700" stop="20251024103000 +0700" channel="Amarin">
+    <title lang="th">ชีพจรลงพุง รีรัน</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023103000 +0700" stop="20251023110000 +0700" channel="Amarin">
+  <programme start="20251024103000 +0700" stop="20251024110000 +0700" channel="Amarin">
     <title lang="th">ตามอำเภอจาน รีรัน</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023110000 +0700" stop="20251023133000 +0700" channel="Amarin">
+  <programme start="20251024110000 +0700" stop="20251024133000 +0700" channel="Amarin">
     <title lang="th">ข่าวเที่ยงอมรินทร์</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023133000 +0700" stop="20251023140000 +0700" channel="Amarin">
+  <programme start="20251024133000 +0700" stop="20251024140000 +0700" channel="Amarin">
     <title lang="th">APOP Today</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023140000 +0700" stop="20251023141000 +0700" channel="Amarin">
+  <programme start="20251024140000 +0700" stop="20251024141000 +0700" channel="Amarin">
     <title lang="th">ดีลดีไดเร็ค</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023141000 +0700" stop="20251023152000 +0700" channel="Amarin">
+  <programme start="20251024141000 +0700" stop="20251024152000 +0700" channel="Amarin">
     <title lang="th">เพลงบินใบงิ้ว รีรัน</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023152000 +0700" stop="20251023153000 +0700" channel="Amarin">
+  <programme start="20251024152000 +0700" stop="20251024153000 +0700" channel="Amarin">
     <title lang="th">ดีลดีไดเร็ค</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023153000 +0700" stop="20251023155300 +0700" channel="Amarin">
+  <programme start="20251024153000 +0700" stop="20251024155300 +0700" channel="Amarin">
     <title lang="th">ชีพจรลงพุงไกด์</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023155300 +0700" stop="20251023160000 +0700" channel="Amarin">
+  <programme start="20251024155300 +0700" stop="20251024160000 +0700" channel="Amarin">
     <title lang="th">ดีลดีไดเร็ค</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023160000 +0700" stop="20251023170000 +0700" channel="Amarin">
+  <programme start="20251024160000 +0700" stop="20251024170000 +0700" channel="Amarin">
     <title lang="th">ข่าวเย็นอมรินทร์</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023170000 +0700" stop="20251023180000 +0700" channel="Amarin">
+  <programme start="20251024170000 +0700" stop="20251024180000 +0700" channel="Amarin">
     <title lang="th">ฅ.คนขั้นเทพ</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023180000 +0700" stop="20251023180100 +0700" channel="Amarin">
+  <programme start="20251024180000 +0700" stop="20251024180100 +0700" channel="Amarin">
     <title lang="th">เพลงชาติไทย</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023180100 +0700" stop="20251023185500 +0700" channel="Amarin">
-    <title lang="th">ตามอำเภอจาน รวมฮิต</title>
+  <programme start="20251024180100 +0700" stop="20251024185500 +0700" channel="Amarin">
+    <title lang="th">ปริศนาพยากรณ์</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023185500 +0700" stop="20251023200000 +0700" channel="Amarin">
+  <programme start="20251024185500 +0700" stop="20251024200000 +0700" channel="Amarin">
     <title lang="th">ทุบโต๊ะข่าว</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023200000 +0700" stop="20251023201500 +0700" channel="Amarin">
+  <programme start="20251024200000 +0700" stop="20251024201500 +0700" channel="Amarin">
     <title lang="th">ข่าวในพระราชสำนัก</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023201500 +0700" stop="20251023220000 +0700" channel="Amarin">
+  <programme start="20251024201500 +0700" stop="20251024220000 +0700" channel="Amarin">
     <title lang="th">ทุบโต๊ะข่าว</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023220000 +0700" stop="20251023223000 +0700" channel="Amarin">
+  <programme start="20251024220000 +0700" stop="20251024223000 +0700" channel="Amarin">
     <title lang="th">ทุบโต๊ะข่าว X'Clusive</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023223000 +0700" stop="20251023223700 +0700" channel="Amarin">
-    <title lang="th">โปรดี คนนอนดึก</title>
+  <programme start="20251024223000 +0700" stop="20251024230000 +0700" channel="Amarin">
+    <title lang="th">แพรว Talk TV</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023223700 +0700" stop="20251023230000 +0700" channel="Amarin">
-    <title lang="th">เซเลบริตี้ มอลล์</title>
+  <programme start="20251024230000 +0700" stop="20251024233500 +0700" channel="Amarin">
+    <title lang="th">Spotlight World</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023230000 +0700" stop="20251023232000 +0700" channel="Amarin">
-    <title lang="th">Auto World</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023232000 +0700" stop="20251023233500 +0700" channel="Amarin">
-    <title lang="th">ชีพจรลงพุงไกด์</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023233500 +0700" stop="20251023235900 +0700" channel="Amarin">
+  <programme start="20251024233500 +0700" stop="20251024235900 +0700" channel="Amarin">
     <title lang="th">Tel2Tell TV Shopping</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023024000 +0700" stop="20251023034000 +0700" channel="7HD">
+  <programme start="20251024024000 +0700" stop="20251024034000 +0700" channel="7HD">
     <title lang="th">สมบัติมหาเฮง (Rerun)</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023034000 +0700" stop="20251023043000 +0700" channel="7HD">
+  <programme start="20251024034000 +0700" stop="20251024043000 +0700" channel="7HD">
     <title lang="th">ไทยรักษ์สุขภาพ</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023043000 +0700" stop="20251023053000 +0700" channel="7HD">
+  <programme start="20251024043000 +0700" stop="20251024053000 +0700" channel="7HD">
     <title lang="th">จ้อข่าวเช้า</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023053000 +0700" stop="20251023070000 +0700" channel="7HD">
+  <programme start="20251024053000 +0700" stop="20251024070000 +0700" channel="7HD">
     <title lang="th">เช้านี้...ที่หมอชิต</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023070000 +0700" stop="20251023082000 +0700" channel="7HD">
+  <programme start="20251024070000 +0700" stop="20251024082000 +0700" channel="7HD">
     <title lang="th">สนามข่าว 7 สี</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023082000 +0700" stop="20251023083000 +0700" channel="7HD">
+  <programme start="20251024082000 +0700" stop="20251024083000 +0700" channel="7HD">
     <title lang="th">สนามข่าวกีฬา</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023083000 +0700" stop="20251023084000 +0700" channel="7HD">
+  <programme start="20251024083000 +0700" stop="20251024084000 +0700" channel="7HD">
     <title lang="th">เงินทองของจริง</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023084000 +0700" stop="20251023110000 +0700" channel="7HD">
+  <programme start="20251024084000 +0700" stop="20251024110000 +0700" channel="7HD">
     <title lang="th">อุ้มรักปาฏิหาริย์ (Rerun)</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023110000 +0700" stop="20251023121000 +0700" channel="7HD">
+  <programme start="20251024110000 +0700" stop="20251024115500 +0700" channel="7HD">
     <title lang="th">ห้องข่าวภาคเที่ยง</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023121000 +0700" stop="20251023125500 +0700" channel="7HD">
+  <programme start="20251024115500 +0700" stop="20251024124000 +0700" channel="7HD">
     <title lang="th">ยิ่งคุย ยิ่งลึก</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023125500 +0700" stop="20251023131000 +0700" channel="7HD">
-    <title lang="th">เที่ยงบันเทิง สด</title>
+  <programme start="20251024124000 +0700" stop="20251024131000 +0700" channel="7HD">
+    <title lang="th">ยิ่งสุขสโมสร</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023131000 +0700" stop="20251023141000 +0700" channel="7HD">
+  <programme start="20251024131000 +0700" stop="20251024141000 +0700" channel="7HD">
     <title lang="th">ชุมทางดาวทอง</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023141000 +0700" stop="20251023141500 +0700" channel="7HD">
+  <programme start="20251024141000 +0700" stop="20251024141500 +0700" channel="7HD">
     <title lang="th">ข่าวเด็ด 7 สี</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023141500 +0700" stop="20251023142000 +0700" channel="7HD">
+  <programme start="20251024141500 +0700" stop="20251024142000 +0700" channel="7HD">
     <title lang="th">ช็อตเด็ดแม่ไม้มวยไทย 7 สี</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023142000 +0700" stop="20251023162000 +0700" channel="7HD">
-    <title lang="th">บันทึกการแสดงคอนเสิร์ตการกุศล &quot;ไตรกาล”</title>
+  <programme start="20251024142000 +0700" stop="20251024162000 +0700" channel="7HD">
+    <title lang="th">ชาติพยัคฆ์ คมนักเลง (Rerun)</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023162000 +0700" stop="20251023172000 +0700" channel="7HD">
+  <programme start="20251024162000 +0700" stop="20251024172000 +0700" channel="7HD">
     <title lang="th">ข่าวเย็นประเด็นร้อน</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023172000 +0700" stop="20251023180000 +0700" channel="7HD">
+  <programme start="20251024172000 +0700" stop="20251024180000 +0700" channel="7HD">
     <title lang="th">ถกไม่เถียง</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023180000 +0700" stop="20251023190000 +0700" channel="7HD">
-    <title lang="th">ภูเขาเงาพยัคฆ์ (Rerun)</title>
+  <programme start="20251024180000 +0700" stop="20251024190000 +0700" channel="7HD">
+    <title lang="th">The Spoon ช้อนทองคำ</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023190000 +0700" stop="20251023195000 +0700" channel="7HD">
+  <programme start="20251024190000 +0700" stop="20251024200000 +0700" channel="7HD">
     <title lang="th">สาวน้อยร้อยไมค์ (Rerun)</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023195000 +0700" stop="20251023202500 +0700" channel="7HD">
+  <programme start="20251024200000 +0700" stop="20251024202500 +0700" channel="7HD">
     <title lang="th">ข่าวภาคค่ำ</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023202500 +0700" stop="20251023204000 +0700" channel="7HD">
+  <programme start="20251024202500 +0700" stop="20251024203000 +0700" channel="7HD">
     <title lang="th">เส้นทางบันเทิง</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023204000 +0700" stop="20251023214000 +0700" channel="7HD">
-    <title lang="th">ลวง</title>
+  <programme start="20251024203000 +0700" stop="20251024233000 +0700" channel="7HD">
+    <title lang="th">มวย One Lumpinee</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023214000 +0700" stop="20251023223000 +0700" channel="7HD">
-    <title lang="th">พริกกับเกลือ (Rerun)</title>
+  <programme start="20251024233000 +0700" stop="20251024234000 +0700" channel="7HD">
+    <title lang="th">ข่าวเด็ด 7 สี</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023223000 +0700" stop="20251023223500 +0700" channel="7HD">
-    <title lang="th">ชิดจอรอดู</title>
+  <programme start="20251024234000 +0700" stop="20251024235900 +0700" channel="7HD">
+    <title lang="th">พี่นาค 3 (Pee Nak 3)</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023223500 +0700" stop="20251023225000 +0700" channel="7HD">
-    <title lang="th">ประเด็นเด็ด 7 สี</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023225000 +0700" stop="20251023232000 +0700" channel="7HD">
-    <title lang="th">ทำดีได้ดี</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023232000 +0700" stop="20251023235900 +0700" channel="7HD">
-    <title lang="th">Hell’s Kitchen Thailand Season 2</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023030000 +0700" stop="20251023032500 +0700" channel="Workpoint">
+  <programme start="20251024030000 +0700" stop="20251024032500 +0700" channel="Workpoint">
     <title lang="th">TV Direct Shopping</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023032500 +0700" stop="20251023035800 +0700" channel="Workpoint">
+  <programme start="20251024032500 +0700" stop="20251024035800 +0700" channel="Workpoint">
     <title lang="th">โต๊ะหนูแหม่ม รีรัน</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023035800 +0700" stop="20251023040000 +0700" channel="Workpoint">
+  <programme start="20251024035800 +0700" stop="20251024040000 +0700" channel="Workpoint">
     <title lang="th">ธรรมสวัสดี</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023040000 +0700" stop="20251023050000 +0700" channel="Workpoint">
+  <programme start="20251024040000 +0700" stop="20251024050000 +0700" channel="Workpoint">
     <title lang="th">โอมเพี้ยงอาจารย์คง</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023050000 +0700" stop="20251023051000 +0700" channel="Workpoint">
+  <programme start="20251024050000 +0700" stop="20251024051000 +0700" channel="Workpoint">
     <title lang="th">ของมันต้องมี Daily</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023051000 +0700" stop="20251023063000 +0700" channel="Workpoint">
+  <programme start="20251024051000 +0700" stop="20251024063000 +0700" channel="Workpoint">
     <title lang="th">ตลาดข่าวเวิร์คพอยท์</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023063000 +0700" stop="20251023080000 +0700" channel="Workpoint">
+  <programme start="20251024063000 +0700" stop="20251024080000 +0700" channel="Workpoint">
     <title lang="th">ข่าวเช้าเวิร์คพอยท์</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023080000 +0700" stop="20251023080100 +0700" channel="Workpoint">
+  <programme start="20251024080000 +0700" stop="20251024080100 +0700" channel="Workpoint">
     <title lang="th">เคารพธงชาติ</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023080100 +0700" stop="20251023084500 +0700" channel="Workpoint">
+  <programme start="20251024080100 +0700" stop="20251024084500 +0700" channel="Workpoint">
     <title lang="th">ข่าวเช้าเวิร์คพอยท์</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023084500 +0700" stop="20251023092000 +0700" channel="Workpoint">
+  <programme start="20251024084500 +0700" stop="20251024092000 +0700" channel="Workpoint">
     <title lang="th">ห้องข่าวบันเทิง</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023092000 +0700" stop="20251023092500 +0700" channel="Workpoint">
+  <programme start="20251024092000 +0700" stop="20251024092500 +0700" channel="Workpoint">
     <title lang="th">INSIDE 8</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023092500 +0700" stop="20251023102000 +0700" channel="Workpoint">
-    <title lang="th">ไมค์หมดหนี้มหาโชค รีรัน</title>
+  <programme start="20251024092500 +0700" stop="20251024102000 +0700" channel="Workpoint">
+    <title lang="th">ชิงช้าสวรรค์ 2025 รีรัน</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023102000 +0700" stop="20251023103000 +0700" channel="Workpoint">
+  <programme start="20251024102000 +0700" stop="20251024103000 +0700" channel="Workpoint">
     <title lang="th">ของมันต้องมี Daily</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023103000 +0700" stop="20251023105800 +0700" channel="Workpoint">
-    <title lang="th">ก่อนบ่ายคลายเครียด</title>
+  <programme start="20251024103000 +0700" stop="20251024105800 +0700" channel="Workpoint">
+    <title lang="th">ก่อนบ่าย Go กะโก</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023105800 +0700" stop="20251023110000 +0700" channel="Workpoint">
+  <programme start="20251024105800 +0700" stop="20251024110000 +0700" channel="Workpoint">
     <title lang="th">ข่าวใหม่ต้นชั่วโมง</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023110000 +0700" stop="20251023114500 +0700" channel="Workpoint">
+  <programme start="20251024110000 +0700" stop="20251024114500 +0700" channel="Workpoint">
     <title lang="th">โต๊ะหนูแหม่ม</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023114500 +0700" stop="20251023130000 +0700" channel="Workpoint">
+  <programme start="20251024114500 +0700" stop="20251024130000 +0700" channel="Workpoint">
     <title lang="th">ข่าวเด็ดคนเดือด</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023130000 +0700" stop="20251023134500 +0700" channel="Workpoint">
+  <programme start="20251024130000 +0700" stop="20251024134500 +0700" channel="Workpoint">
     <title lang="th">เคลียร์ชัดชัด</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023134500 +0700" stop="20251023134800 +0700" channel="Workpoint">
+  <programme start="20251024134500 +0700" stop="20251024134800 +0700" channel="Workpoint">
     <title lang="th">ข่าวใหม่ต้นชั่วโมง</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023134800 +0700" stop="20251023144200 +0700" channel="Workpoint">
+  <programme start="20251024134800 +0700" stop="20251024144200 +0700" channel="Workpoint">
     <title lang="th">เพชรตัดเพชร ซีซั่น 3 รีรัน</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023144200 +0700" stop="20251023144500 +0700" channel="Workpoint">
+  <programme start="20251024144200 +0700" stop="20251024144500 +0700" channel="Workpoint">
     <title lang="th">ข่าวใหม่ต้นชั่วโมง</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023144500 +0700" stop="20251023151500 +0700" channel="Workpoint">
-    <title lang="th">Dr.Car รีรัน</title>
+  <programme start="20251024144500 +0700" stop="20251024151500 +0700" channel="Workpoint">
+    <title lang="th">บ้านอิ่มสุข</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023151500 +0700" stop="20251023160000 +0700" channel="Workpoint">
+  <programme start="20251024151500 +0700" stop="20251024160000 +0700" channel="Workpoint">
     <title lang="th">ติ่งบ่นข่าว</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023160000 +0700" stop="20251023174700 +0700" channel="Workpoint">
+  <programme start="20251024160000 +0700" stop="20251024174700 +0700" channel="Workpoint">
     <title lang="th">บรรจงชงข่าว</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023174700 +0700" stop="20251023175700 +0700" channel="Workpoint">
+  <programme start="20251024174700 +0700" stop="20251024175700 +0700" channel="Workpoint">
     <title lang="th">ติ่งข่าว</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023175700 +0700" stop="20251023180000 +0700" channel="Workpoint">
+  <programme start="20251024175700 +0700" stop="20251024180000 +0700" channel="Workpoint">
     <title lang="th">ไฮไลต์บันเทิง</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023180000 +0700" stop="20251023180100 +0700" channel="Workpoint">
+  <programme start="20251024180000 +0700" stop="20251024180100 +0700" channel="Workpoint">
     <title lang="th">เคารพธงชาติ</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023180100 +0700" stop="20251023190300 +0700" channel="Workpoint">
-    <title lang="th">ไมค์หมดหนี้มหาโชค</title>
+  <programme start="20251024180100 +0700" stop="20251024190300 +0700" channel="Workpoint">
+    <title lang="th">ศึกจักรวาลหมอลำ</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023190300 +0700" stop="20251023195900 +0700" channel="Workpoint">
+  <programme start="20251024190300 +0700" stop="20251024195900 +0700" channel="Workpoint">
     <title lang="th">ปัญญา 5 ดาว</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023195900 +0700" stop="20251023200200 +0700" channel="Workpoint">
+  <programme start="20251024195900 +0700" stop="20251024200200 +0700" channel="Workpoint">
     <title lang="th">2 ข่าวใหญ่ เวิร์คพอยท์</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023200200 +0700" stop="20251023201500 +0700" channel="Workpoint">
+  <programme start="20251024200200 +0700" stop="20251024201500 +0700" channel="Workpoint">
     <title lang="th">ข่าวในพระราชสำนัก</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023201500 +0700" stop="20251023214500 +0700" channel="Workpoint">
-    <title lang="th">ร้องข้ามกำแพง</title>
+  <programme start="20251024201500 +0700" stop="20251024213000 +0700" channel="Workpoint">
+    <title lang="th">Who Is My Chef โต๊ะนี้มีจอง</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023214500 +0700" stop="20251023215000 +0700" channel="Workpoint">
+  <programme start="20251024213000 +0700" stop="20251024213500 +0700" channel="Workpoint">
     <title lang="th">INSIDE 8</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023215000 +0700" stop="20251023223000 +0700" channel="Workpoint">
-    <title lang="th">T Pop Stage Show</title>
+  <programme start="20251024213500 +0700" stop="20251024223000 +0700" channel="Workpoint">
+    <title lang="th">ซีรีส์ รักปากแข็ง</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023223000 +0700" stop="20251023223300 +0700" channel="Workpoint">
+  <programme start="20251024223000 +0700" stop="20251024223300 +0700" channel="Workpoint">
     <title lang="th">ข่าวใหม่ต้นชั่วโมง</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023223300 +0700" stop="20251023224500 +0700" channel="Workpoint">
-    <title lang="th">T Pop Stage Show</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023224500 +0700" stop="20251023231100 +0700" channel="Workpoint">
+  <programme start="20251024223300 +0700" stop="20251024231100 +0700" channel="Workpoint">
     <title lang="th">ติ่งบ่นข่าว รีรัน</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023231100 +0700" stop="20251023234900 +0700" channel="Workpoint">
+  <programme start="20251024231100 +0700" stop="20251024234900 +0700" channel="Workpoint">
     <title lang="th">เคลียร์ชัดชัด รีรัน</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023234900 +0700" stop="20251023235700 +0700" channel="Workpoint">
+  <programme start="20251024234900 +0700" stop="20251024235700 +0700" channel="Workpoint">
     <title lang="th">ติ่งข่าว รีรัน</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023235700 +0700" stop="20251023235900 +0700" channel="Workpoint">
+  <programme start="20251024235700 +0700" stop="20251024235900 +0700" channel="Workpoint">
     <title lang="th">2 ข่าวใหญ่เวิร์คพอยท์ รีรัน</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023023000 +0700" stop="20251023030000 +0700" channel="PPTV">
+  <programme start="20251024023000 +0700" stop="20251024030000 +0700" channel="PPTV">
     <title lang="th">True Shopping</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023030000 +0700" stop="20251023033000 +0700" channel="PPTV">
+  <programme start="20251024030000 +0700" stop="20251024033000 +0700" channel="PPTV">
     <title lang="th">Highlights Bundesliga</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023033000 +0700" stop="20251023040000 +0700" channel="PPTV">
+  <programme start="20251024033000 +0700" stop="20251024040000 +0700" channel="PPTV">
     <title lang="th">True Shopping</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023040000 +0700" stop="20251023050000 +0700" channel="PPTV">
+  <programme start="20251024040000 +0700" stop="20251024050000 +0700" channel="PPTV">
     <title lang="th">เปิดตำนานกับเผ่าทอง ทองเจือ</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023050000 +0700" stop="20251023053000 +0700" channel="PPTV">
+  <programme start="20251024050000 +0700" stop="20251024053000 +0700" channel="PPTV">
     <title lang="th">True Shopping</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023053000 +0700" stop="20251023060000 +0700" channel="PPTV">
+  <programme start="20251024053000 +0700" stop="20251024060000 +0700" channel="PPTV">
     <title lang="th">มองมุมใหม่ Bird's Eye View</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023060000 +0700" stop="20251023061500 +0700" channel="PPTV">
+  <programme start="20251024060000 +0700" stop="20251024061500 +0700" channel="PPTV">
     <title lang="th">True Shopping</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023061500 +0700" stop="20251023070000 +0700" channel="PPTV">
+  <programme start="20251024061500 +0700" stop="20251024070000 +0700" channel="PPTV">
     <title lang="th">ทันโลก Daily</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023070000 +0700" stop="20251023074500 +0700" channel="PPTV">
+  <programme start="20251024070000 +0700" stop="20251024074500 +0700" channel="PPTV">
     <title lang="th">เรื่องใหญ่ Live Talk</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023074500 +0700" stop="20251023081500 +0700" channel="PPTV">
+  <programme start="20251024074500 +0700" stop="20251024081500 +0700" channel="PPTV">
     <title lang="th">ทันโลก Express</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023081500 +0700" stop="20251023082000 +0700" channel="PPTV">
+  <programme start="20251024081500 +0700" stop="20251024082000 +0700" channel="PPTV">
     <title lang="th">Happy Shopping</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023082000 +0700" stop="20251023092500 +0700" channel="PPTV">
+  <programme start="20251024082000 +0700" stop="20251024092500 +0700" channel="PPTV">
     <title lang="th">โชว์ข่าวเช้านี้</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023092500 +0700" stop="20251023093000 +0700" channel="PPTV">
+  <programme start="20251024092500 +0700" stop="20251024093000 +0700" channel="PPTV">
     <title lang="th">Happy Shopping</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023093000 +0700" stop="20251023105000 +0700" channel="PPTV">
+  <programme start="20251024093000 +0700" stop="20251024105000 +0700" channel="PPTV">
     <title lang="th">เปิดโต๊ะข่าว</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023105000 +0700" stop="20251023124000 +0700" channel="PPTV">
+  <programme start="20251024105000 +0700" stop="20251024124000 +0700" channel="PPTV">
     <title lang="th">เที่ยงทันข่าว</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023124000 +0700" stop="20251023124500 +0700" channel="PPTV">
+  <programme start="20251024124000 +0700" stop="20251024124500 +0700" channel="PPTV">
     <title lang="th">Happy Shopping</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023124500 +0700" stop="20251023134500 +0700" channel="PPTV">
+  <programme start="20251024124500 +0700" stop="20251024134500 +0700" channel="PPTV">
     <title lang="th">Sport Corner</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023134500 +0700" stop="20251023135000 +0700" channel="PPTV">
+  <programme start="20251024134500 +0700" stop="20251024135000 +0700" channel="PPTV">
     <title lang="th">Happy Shopping</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023135000 +0700" stop="20251023155000 +0700" channel="PPTV">
+  <programme start="20251024135000 +0700" stop="20251024151500 +0700" channel="PPTV">
     <title lang="th">World Sports +</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023155000 +0700" stop="20251023180000 +0700" channel="PPTV">
-    <title lang="th">หนังดังวันหยุด</title>
+  <programme start="20251024151500 +0700" stop="20251024161500 +0700" channel="PPTV">
+    <title lang="th">จับข่าวคุย</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023180000 +0700" stop="20251023201500 +0700" channel="PPTV">
+  <programme start="20251024161500 +0700" stop="20251024171500 +0700" channel="PPTV">
+    <title lang="th">เข้มข่าวเย็น</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024171500 +0700" stop="20251024180000 +0700" channel="PPTV">
+    <title lang="th">คุยข้ามช็อต Exclusive Talk</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024180000 +0700" stop="20251024201500 +0700" channel="PPTV">
     <title lang="th">เข้มข่าวค่ำ</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023201500 +0700" stop="20251023203000 +0700" channel="PPTV">
+  <programme start="20251024201500 +0700" stop="20251024203000 +0700" channel="PPTV">
     <title lang="th">ข่าวในพระราชสำนัก</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023203000 +0700" stop="20251023211500 +0700" channel="PPTV">
+  <programme start="20251024203000 +0700" stop="20251024211500 +0700" channel="PPTV">
     <title lang="th">เรื่องใหญ่ Live Talk</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023211500 +0700" stop="20251023232000 +0700" channel="PPTV">
-    <title lang="th">เทป AFC CHAMPIONS LEAGHE TWO แบงค็อก ยูไ</title>
+  <programme start="20251024211500 +0700" stop="20251024220000 +0700" channel="PPTV">
+    <title lang="th">ทันโลก Daily</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023232000 +0700" stop="20251023235900 +0700" channel="PPTV">
+  <programme start="20251024220000 +0700" stop="20251024230000 +0700" channel="PPTV">
+    <title lang="th">Final Call</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024230000 +0700" stop="20251024235900 +0700" channel="PPTV">
     <title lang="th">World Sports +</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023023000 +0700" stop="20251023033000 +0700" channel="True24">
+  <programme start="20251024023000 +0700" stop="20251024033000 +0700" channel="True24">
     <title lang="th">TNN ข่าวเที่ยง 2025</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023033000 +0700" stop="20251023043000 +0700" channel="True24">
+  <programme start="20251024033000 +0700" stop="20251024043000 +0700" channel="True24">
     <title lang="th">สามเณรปลูกปัญญาธรรม ปี4</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023043000 +0700" stop="20251023050000 +0700" channel="True24">
+  <programme start="20251024043000 +0700" stop="20251024050000 +0700" channel="True24">
     <title lang="th">เรื่องดีดีทั่วไทย 2025</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023050000 +0700" stop="20251023060000 +0700" channel="True24">
+  <programme start="20251024050000 +0700" stop="20251024060000 +0700" channel="True24">
     <title lang="th">เถียนมีมี่ รักเธอชั่วนิรันดร์</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023060000 +0700" stop="20251023070000 +0700" channel="True24">
+  <programme start="20251024060000 +0700" stop="20251024070000 +0700" channel="True24">
     <title lang="th">รักแรกของฉันกับคดีพิลึกพิลั่นของเจ้าบ่าว</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023070000 +0700" stop="20251023080000 +0700" channel="True24">
+  <programme start="20251024070000 +0700" stop="20251024080000 +0700" channel="True24">
     <title lang="th">สามเณรปลูกปัญญาธรรม ปี4</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023080000 +0700" stop="20251023080100 +0700" channel="True24">
+  <programme start="20251024080000 +0700" stop="20251024080100 +0700" channel="True24">
     <title lang="th">เพลงชาติไทย</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023080100 +0700" stop="20251023083000 +0700" channel="True24">
+  <programme start="20251024080100 +0700" stop="20251024083000 +0700" channel="True24">
     <title lang="th">ทรูช้อปปิ้ง</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023083000 +0700" stop="20251023102500 +0700" channel="True24">
-    <title lang="th">ภาพยนตร์ รักไม่เป็นภาษา</title>
+  <programme start="20251024083000 +0700" stop="20251024102500 +0700" channel="True24">
+    <title lang="th">ภาพยนตร์ ครูบ้านนอก บ้านหนองฮีใหญ่</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023102500 +0700" stop="20251023105500 +0700" channel="True24">
+  <programme start="20251024102500 +0700" stop="20251024105500 +0700" channel="True24">
     <title lang="th">ทรูช้อปปิ้ง</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023105500 +0700" stop="20251023112500 +0700" channel="True24">
+  <programme start="20251024105500 +0700" stop="20251024112500 +0700" channel="True24">
     <title lang="th">เรื่องดีดีทั่วไทย 2025</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023112500 +0700" stop="20251023113000 +0700" channel="True24">
+  <programme start="20251024112500 +0700" stop="20251024113000 +0700" channel="True24">
     <title lang="th">Happy Shopping</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023113000 +0700" stop="20251023123000 +0700" channel="True24">
+  <programme start="20251024113000 +0700" stop="20251024123000 +0700" channel="True24">
     <title lang="th">TNN ข่าวเที่ยง 2025</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023123000 +0700" stop="20251023143000 +0700" channel="True24">
-    <title lang="th">ภ.ดิ อะเมซิ่ง สไปเดอร์แมน</title>
+  <programme start="20251024123000 +0700" stop="20251024143000 +0700" channel="True24">
+    <title lang="th">ภาพยนตร์ ปัญญาเรณู 2</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023143000 +0700" stop="20251023150000 +0700" channel="True24">
+  <programme start="20251024143000 +0700" stop="20251024150000 +0700" channel="True24">
     <title lang="th">ทรูช้อปปิ้ง</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023150000 +0700" stop="20251023170000 +0700" channel="True24">
-    <title lang="th">ภ.ดิ อะเมซิ่ง สไปเดอร์แมน 2</title>
+  <programme start="20251024150000 +0700" stop="20251024170000 +0700" channel="True24">
+    <title lang="th">ปัญญาเรณู 3 ตอน รูปู รูปี</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023170000 +0700" stop="20251023175500 +0700" channel="True24">
+  <programme start="20251024170000 +0700" stop="20251024175500 +0700" channel="True24">
     <title lang="th">Match Day</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023175500 +0700" stop="20251023180000 +0700" channel="True24">
+  <programme start="20251024175500 +0700" stop="20251024180000 +0700" channel="True24">
     <title lang="th">Happy Shopping</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023180000 +0700" stop="20251023180100 +0700" channel="True24">
+  <programme start="20251024180000 +0700" stop="20251024180100 +0700" channel="True24">
     <title lang="th">เพลงชาติไทย</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023180100 +0700" stop="20251023190000 +0700" channel="True24">
-    <title lang="th">Match Day</title>
+  <programme start="20251024180100 +0700" stop="20251024200000 +0700" channel="True24">
+    <title lang="th">Match Day Friday</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023190000 +0700" stop="20251023201000 +0700" channel="True24">
-    <title lang="th">Match Day</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023201000 +0700" stop="20251023204000 +0700" channel="True24">
+  <programme start="20251024200000 +0700" stop="20251024203000 +0700" channel="True24">
     <title lang="th">ข่าวในพระราชสำนัก</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023204000 +0700" stop="20251023235900 +0700" channel="True24">
-    <title lang="th">ภาพยนตร์ บุพเพสันนิวาส ๒</title>
+  <programme start="20251024203000 +0700" stop="20251024223000 +0700" channel="True24">
+    <title lang="th">ภาพยนตร์ ต้มยำเก้ง 2</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023022500 +0700" stop="20251023025500 +0700" channel="GMM25">
-    <title lang="th">Music</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023025500 +0700" stop="20251023031500 +0700" channel="GMM25">
-    <title lang="th">O Shopping</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023031500 +0700" stop="20251023033000 +0700" channel="GMM25">
-    <title lang="th">Music</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023033000 +0700" stop="20251023035000 +0700" channel="GMM25">
-    <title lang="th">O Shopping</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023035000 +0700" stop="20251023045000 +0700" channel="GMM25">
-    <title lang="th">ธรรมนำชีวิต</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023045000 +0700" stop="20251023051000 +0700" channel="GMM25">
-    <title lang="th">O Shopping</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023051000 +0700" stop="20251023054500 +0700" channel="GMM25">
-    <title lang="th">Music</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023054500 +0700" stop="20251023060000 +0700" channel="GMM25">
+  <programme start="20251024223000 +0700" stop="20251024223500 +0700" channel="True24">
     <title lang="th">True Shopping</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023060000 +0700" stop="20251023071000 +0700" channel="GMM25">
-    <title lang="th">ไทยทึ่ง Wow Thailand (AD/CC/SL)</title>
+  <programme start="20251024223500 +0700" stop="20251024230500 +0700" channel="True24">
+    <title lang="th">Cine' Pop</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023071000 +0700" stop="20251023083000 +0700" channel="GMM25">
-    <title lang="th">ข่าวแหกโค้ง (Rerun)</title>
+  <programme start="20251024230500 +0700" stop="20251024235900 +0700" channel="True24">
+    <title lang="th">Match Day</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023083000 +0700" stop="20251023093000 +0700" channel="GMM25">
-    <title lang="th">เรื่องใหญ่รายวัน</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023093000 +0700" stop="20251023103000 +0700" channel="GMM25">
-    <title lang="th">เคาะข่าวเช้า จันทร์-ศุกร์ (สด)</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023103000 +0700" stop="20251023123000 +0700" channel="GMM25">
-    <title lang="th">ละคร วิมานจอเงิน</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023123000 +0700" stop="20251023133000 +0700" channel="GMM25">
-    <title lang="th">ข่าวเที่ยงช่องวัน</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023133000 +0700" stop="20251023150000 +0700" channel="GMM25">
-    <title lang="th">แฉ</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023150000 +0700" stop="20251023160000 +0700" channel="GMM25">
-    <title lang="th">ไทยทึ่ง Wow Thailand (AD/CC/SL)</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023160000 +0700" stop="20251023184500 +0700" channel="GMM25">
-    <title lang="th">ละคร เกมรักเอาคืน</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023184500 +0700" stop="20251023201500 +0700" channel="GMM25">
-    <title lang="th">ข่าวแหกโค้ง (สด)</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023201500 +0700" stop="20251023203000 +0700" channel="GMM25">
-    <title lang="th">ข่าวในพระราชสำนัก</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023203000 +0700" stop="20251023213000 +0700" channel="GMM25">
-    <title lang="th">ซีรีส์ Sotus S The Series (ตอนจบ)</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023213000 +0700" stop="20251023230000 +0700" channel="GMM25">
-    <title lang="th">แฉ (สด)</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023230000 +0700" stop="20251023230500 +0700" channel="GMM25">
+  <programme start="20251024022500 +0700" stop="20251024025500 +0700" channel="GMM25">
     <title lang="th">Music</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023230500 +0700" stop="20251023235900 +0700" channel="GMM25">
-    <title lang="th">เกลือวันเด้อ</title>
+  <programme start="20251024025500 +0700" stop="20251024031500 +0700" channel="GMM25">
+    <title lang="th">O Shopping</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023040000 +0700" stop="20251023042000 +0700" channel="TOPNew">
+  <programme start="20251024031500 +0700" stop="20251024033000 +0700" channel="GMM25">
+    <title lang="th">Music</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024033000 +0700" stop="20251024035000 +0700" channel="GMM25">
+    <title lang="th">O Shopping</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024035000 +0700" stop="20251024045000 +0700" channel="GMM25">
+    <title lang="th">ธรรมนำชีวิต</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024045000 +0700" stop="20251024051000 +0700" channel="GMM25">
+    <title lang="th">O Shopping</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024051000 +0700" stop="20251024054500 +0700" channel="GMM25">
+    <title lang="th">Music</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024054500 +0700" stop="20251024060000 +0700" channel="GMM25">
+    <title lang="th">True Shopping</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024060000 +0700" stop="20251024071000 +0700" channel="GMM25">
+    <title lang="th">ไทยทึ่ง Wow Thailand (AD/CC/SL)</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024071000 +0700" stop="20251024083000 +0700" channel="GMM25">
+    <title lang="th">ข่าวแหกโค้ง (Rerun)</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024083000 +0700" stop="20251024093000 +0700" channel="GMM25">
+    <title lang="th">เรื่องใหญ่รายวัน</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024093000 +0700" stop="20251024103000 +0700" channel="GMM25">
+    <title lang="th">เคาะข่าวเช้า จันทร์-ศุกร์ (สด)</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024103000 +0700" stop="20251024123000 +0700" channel="GMM25">
+    <title lang="th">ละคร วิมานจอเงิน</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024123000 +0700" stop="20251024133000 +0700" channel="GMM25">
+    <title lang="th">ข่าวเที่ยงช่องวัน</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024133000 +0700" stop="20251024150000 +0700" channel="GMM25">
+    <title lang="th">แฉ</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024150000 +0700" stop="20251024160000 +0700" channel="GMM25">
+    <title lang="th">ไทยทึ่ง Wow Thailand (AD/CC/SL)</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024160000 +0700" stop="20251024184500 +0700" channel="GMM25">
+    <title lang="th">ละคร เกมรักเอาคืน</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024184500 +0700" stop="20251024201500 +0700" channel="GMM25">
+    <title lang="th">ข่าวแหกโค้ง (สด)</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024201500 +0700" stop="20251024203000 +0700" channel="GMM25">
+    <title lang="th">ข่าวในพระราชสำนัก</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024203000 +0700" stop="20251024213000 +0700" channel="GMM25">
+    <title lang="th">ซีรีส์ High School Frenemy</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024213000 +0700" stop="20251024230000 +0700" channel="GMM25">
+    <title lang="th">แฉ (สด)</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024230000 +0700" stop="20251024230500 +0700" channel="GMM25">
+    <title lang="th">Music</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024230500 +0700" stop="20251024233500 +0700" channel="GMM25">
+    <title lang="th">G Stage</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024233500 +0700" stop="20251024235500 +0700" channel="GMM25">
+    <title lang="th">O Shopping</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024235500 +0700" stop="20251024235900 +0700" channel="GMM25">
+    <title lang="th">ซิทคอม สุภาพบุรุษสุดซอย</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024040000 +0700" stop="20251024042000 +0700" channel="TOPNew">
     <title lang="th">Rerun วัยรุ่น 90</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023042000 +0700" stop="20251023060000 +0700" channel="TOPNew">
+  <programme start="20251024042000 +0700" stop="20251024060000 +0700" channel="TOPNew">
     <title lang="th">Rerun เล่าข่าวข้น</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023060000 +0700" stop="20251023061000 +0700" channel="TOPNew">
+  <programme start="20251024060000 +0700" stop="20251024061000 +0700" channel="TOPNew">
     <title lang="th">TV Direct</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023061000 +0700" stop="20251023080000 +0700" channel="TOPNew">
+  <programme start="20251024061000 +0700" stop="20251024080000 +0700" channel="TOPNew">
     <title lang="th">ข่าวมีคม</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023080000 +0700" stop="20251023080200 +0700" channel="TOPNew">
+  <programme start="20251024080000 +0700" stop="20251024080200 +0700" channel="TOPNew">
     <title lang="th">เคารพธงชาติ</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023080200 +0700" stop="20251023081000 +0700" channel="TOPNew">
+  <programme start="20251024080200 +0700" stop="20251024081000 +0700" channel="TOPNew">
     <title lang="th">ข่าวมีคม</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023081000 +0700" stop="20251023082000 +0700" channel="TOPNew">
+  <programme start="20251024081000 +0700" stop="20251024082000 +0700" channel="TOPNew">
     <title lang="th">TV Direct</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023082000 +0700" stop="20251023100000 +0700" channel="TOPNew">
+  <programme start="20251024082000 +0700" stop="20251024100000 +0700" channel="TOPNew">
     <title lang="th">เช้าข่าวเข้ม</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023100000 +0700" stop="20251023101000 +0700" channel="TOPNew">
+  <programme start="20251024100000 +0700" stop="20251024101000 +0700" channel="TOPNew">
     <title lang="th">เรื่องดีมีสุข</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023101000 +0700" stop="20251023105000 +0700" channel="TOPNew">
+  <programme start="20251024101000 +0700" stop="20251024105000 +0700" channel="TOPNew">
     <title lang="th">ผ่าประเด็นโลก</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023105000 +0700" stop="20251023115000 +0700" channel="TOPNew">
+  <programme start="20251024105000 +0700" stop="20251024115000 +0700" channel="TOPNew">
     <title lang="th">จับตาประเทศไทย</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023115000 +0700" stop="20251023120000 +0700" channel="TOPNew">
+  <programme start="20251024115000 +0700" stop="20251024120000 +0700" channel="TOPNew">
     <title lang="th">TV Direct</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023120000 +0700" stop="20251023145000 +0700" channel="TOPNew">
+  <programme start="20251024120000 +0700" stop="20251024145000 +0700" channel="TOPNew">
     <title lang="th">เจาะข่าวเด่น (Top ทั่วไทย / ลึกจริงเศรษฐกิจ Top Biz Inside)</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023145000 +0700" stop="20251023155000 +0700" channel="TOPNew">
+  <programme start="20251024145000 +0700" stop="20251024155000 +0700" channel="TOPNew">
     <title lang="th">Top Talk เรื่องนี้ต้องเคลียร์</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023155000 +0700" stop="20251023160000 +0700" channel="TOPNew">
+  <programme start="20251024155000 +0700" stop="20251024160000 +0700" channel="TOPNew">
     <title lang="th">TV Direct</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023160000 +0700" stop="20251023170000 +0700" channel="TOPNew">
+  <programme start="20251024160000 +0700" stop="20251024170000 +0700" channel="TOPNew">
     <title lang="th">Rerun ลายกนกยกสยาม</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023170000 +0700" stop="20251023172000 +0700" channel="TOPNew">
+  <programme start="20251024170000 +0700" stop="20251024172000 +0700" channel="TOPNew">
     <title lang="th">TOP HEALTH STORY สุขภาพแบบท็อปๆ</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023172000 +0700" stop="20251023180000 +0700" channel="TOPNew">
+  <programme start="20251024172000 +0700" stop="20251024180000 +0700" channel="TOPNew">
     <title lang="th">ข่าวเป็นข่าว</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023180000 +0700" stop="20251023180200 +0700" channel="TOPNew">
+  <programme start="20251024180000 +0700" stop="20251024180200 +0700" channel="TOPNew">
     <title lang="th">เคารพธงชาติ</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023180200 +0700" stop="20251023191500 +0700" channel="TOPNew">
+  <programme start="20251024180200 +0700" stop="20251024191500 +0700" channel="TOPNew">
     <title lang="th">ข่าวเป็นข่าว</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023191500 +0700" stop="20251023192500 +0700" channel="TOPNew">
+  <programme start="20251024191500 +0700" stop="20251024192500 +0700" channel="TOPNew">
     <title lang="th">เรื่องดีมีสุข</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023192500 +0700" stop="20251023200000 +0700" channel="TOPNew">
+  <programme start="20251024192500 +0700" stop="20251024200000 +0700" channel="TOPNew">
     <title lang="th">เล่าข่าวข้น</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023200000 +0700" stop="20251023201500 +0700" channel="TOPNew">
+  <programme start="20251024200000 +0700" stop="20251024201500 +0700" channel="TOPNew">
     <title lang="th">ข่าวในพระราชสำนัก</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023201500 +0700" stop="20251023212000 +0700" channel="TOPNew">
+  <programme start="20251024201500 +0700" stop="20251024212000 +0700" channel="TOPNew">
     <title lang="th">เล่าข่าวข้น</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023212000 +0700" stop="20251023213000 +0700" channel="TOPNew">
+  <programme start="20251024212000 +0700" stop="20251024213000 +0700" channel="TOPNew">
     <title lang="th">เรื่องดีมีสุข</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023213000 +0700" stop="20251023215000 +0700" channel="TOPNew">
+  <programme start="20251024213000 +0700" stop="20251024215000 +0700" channel="TOPNew">
     <title lang="th">เจาะประเด็นโลก</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023215000 +0700" stop="20251023221000 +0700" channel="TOPNew">
+  <programme start="20251024215000 +0700" stop="20251024221000 +0700" channel="TOPNew">
     <title lang="th">Rerun TOP HEALTH STORY สุขภาพแบบท็อปๆ</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023221000 +0700" stop="20251023235900 +0700" channel="TOPNew">
+  <programme start="20251024221000 +0700" stop="20251024235900 +0700" channel="TOPNew">
     <title lang="th">Rerun ข่าวเป็นข่าว</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023050000 +0700" stop="20251023070000 +0700" channel="TPBS">
+  <programme start="20251024050000 +0700" stop="20251024070000 +0700" channel="TPBS">
     <title lang="th">วันใหม่ ไทยพีบีเอส</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023070000 +0700" stop="20251023080000 +0700" channel="TPBS">
-    <title lang="th">สารคดี บันทึกน่ารู้ของหนูกินนี่พิก</title>
+  <programme start="20251024070000 +0700" stop="20251024080000 +0700" channel="TPBS">
+    <title lang="th">มุมการเมือง</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023080000 +0700" stop="20251023100000 +0700" channel="TPBS">
+  <programme start="20251024080000 +0700" stop="20251024100000 +0700" channel="TPBS">
     <title lang="th">วันใหม่วาไรตี้</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023100000 +0700" stop="20251023100500 +0700" channel="TPBS">
-    <title lang="th">ทันข่าว 10.00 น.</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023100500 +0700" stop="20251023110000 +0700" channel="TPBS">
-    <title lang="th">ยินดีที่ได้รู้จัก</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023110000 +0700" stop="20251023110500 +0700" channel="TPBS">
-    <title lang="th">ทันข่าว 11.00 น.</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023110500 +0700" stop="20251023120000 +0700" channel="TPBS">
-    <title lang="th">Navigator</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023120000 +0700" stop="20251023130000 +0700" channel="TPBS">
-    <title lang="th">ข่าวเที่ยง</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023130000 +0700" stop="20251023140000 +0700" channel="TPBS">
-    <title lang="th">Aun Aycf - ASEAN Youth Cultural Forum</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023140000 +0700" stop="20251023150000 +0700" channel="TPBS">
-    <title lang="th">ภาพยนตร์ เรื่อง ฒ ผู้เฒ่า the Last Light</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023150000 +0700" stop="20251023150500 +0700" channel="TPBS">
-    <title lang="th">ทันข่าว 15.00 น.</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023150500 +0700" stop="20251023153000 +0700" channel="TPBS">
-    <title lang="th">Man Made มนุษย์นักสร้าง</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023153000 +0700" stop="20251023160000 +0700" channel="TPBS">
-    <title lang="th">Cook culture</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023160000 +0700" stop="20251023163000 +0700" channel="TPBS">
-    <title lang="th">ข่าว 16.00 น.</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023163000 +0700" stop="20251023164500 +0700" channel="TPBS">
-    <title lang="th">เสียงเปลี่ยนเมือง</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023164500 +0700" stop="20251023170000 +0700" channel="TPBS">
+  <programme start="20251024100000 +0700" stop="20251024103000 +0700" channel="TPBS">
     <title lang="th">ไทยบันเทิง</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023170000 +0700" stop="20251023180000 +0700" channel="TPBS">
-    <title lang="th">ท่องโลกกว้าง</title>
+  <programme start="20251024103000 +0700" stop="20251024120000 +0700" channel="TPBS">
+    <title lang="th">จับตาสถานการณ์</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023180000 +0700" stop="20251023203000 +0700" channel="TPBS">
-    <title lang="th">ข่าวค่ำ</title>
+  <programme start="20251024120000 +0700" stop="20251024123000 +0700" channel="TPBS">
+    <title lang="th">ตรงประเด็น</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023203000 +0700" stop="20251023210000 +0700" channel="TPBS">
-    <title lang="th">ตอบโจทย์</title>
+  <programme start="20251024123000 +0700" stop="20251024130000 +0700" channel="TPBS">
+    <title lang="th">จับตารอบทิศ</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023210000 +0700" stop="20251023213000 +0700" channel="TPBS">
-    <title lang="th">ทันโลก กับ Thai PBS</title>
+  <programme start="20251024130000 +0700" stop="20251024140000 +0700" channel="TPBS">
+    <title lang="th">8 ยอดมนุษย์ธรรมดา</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023213000 +0700" stop="20251023220000 +0700" channel="TPBS">
-    <title lang="th">คุยนอกกรอบ กับ สุทธิชัย หยุ่น</title>
+  <programme start="20251024140000 +0700" stop="20251024140500 +0700" channel="TPBS">
+    <title lang="th">ทันข่าว 14.00 น.</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023220000 +0700" stop="20251023230000 +0700" channel="TPBS">
-    <title lang="th">Big Story เรื่องใหญ่ Thai PBS</title>
+  <programme start="20251024140500 +0700" stop="20251024150000 +0700" channel="TPBS">
+    <title lang="th">สถานีประชาชน</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023230000 +0700" stop="20251023233000 +0700" channel="TPBS">
-    <title lang="th">ข่าวดึก</title>
+  <programme start="20251024150000 +0700" stop="20251024150500 +0700" channel="TPBS">
+    <title lang="th">ทันข่าว 15.00 น.</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023233000 +0700" stop="20251023235900 +0700" channel="TPBS">
+  <programme start="20251024150500 +0700" stop="20251024153000 +0700" channel="TPBS">
+    <title lang="th">Made My Day วันนี้ดีที่สุด</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024153000 +0700" stop="20251024160000 +0700" channel="TPBS">
     <title lang="th">ทุกทิศทั่วไทย</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023025000 +0700" stop="20251023035000 +0700" channel="8SD">
+  <programme start="20251024160000 +0700" stop="20251024163000 +0700" channel="TPBS">
+    <title lang="th">ข่าว 16.00 น.</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024163000 +0700" stop="20251024164500 +0700" channel="TPBS">
+    <title lang="th">เสียงเปลี่ยนเมือง</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024164500 +0700" stop="20251024170000 +0700" channel="TPBS">
+    <title lang="th">ไทยบันเทิง</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024170000 +0700" stop="20251024180000 +0700" channel="TPBS">
+    <title lang="th">ท่องโลกกว้าง</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024180000 +0700" stop="20251024203000 +0700" channel="TPBS">
+    <title lang="th">ข่าวค่ำ</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024203000 +0700" stop="20251024213000 +0700" channel="TPBS">
+    <title lang="th">ละคร วิชาทุก(ข์)พื้นฐาน</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024213000 +0700" stop="20251024223000 +0700" channel="TPBS">
+    <title lang="th">คุยให้คิด</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024223000 +0700" stop="20251024230000 +0700" channel="TPBS">
+    <title lang="th">This Week With Thai PBS World</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024230000 +0700" stop="20251024233000 +0700" channel="TPBS">
+    <title lang="th">ข่าวดึก</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024233000 +0700" stop="20251024235900 +0700" channel="TPBS">
+    <title lang="th">ทุกทิศทั่วไทย</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024025000 +0700" stop="20251024035000 +0700" channel="8SD">
     <title lang="th">อึ้งทึ่งเสียว</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023035000 +0700" stop="20251023042000 +0700" channel="8SD">
-    <title lang="th">เรื่องว้าวเล่าโลก</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023042000 +0700" stop="20251023043000 +0700" channel="8SD">
-    <title lang="th">ชีวิตดี สาระดี</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023043000 +0700" stop="20251023050000 +0700" channel="8SD">
-    <title lang="th">ลุยชนข่าว</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023050000 +0700" stop="20251023053000 +0700" channel="8SD">
-    <title lang="th">ลุยชนข่าว</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023053000 +0700" stop="20251023080000 +0700" channel="8SD">
-    <title lang="th">คุยข่าวเช้าช่อง 8</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023080000 +0700" stop="20251023085000 +0700" channel="8SD">
-    <title lang="th">เช้านี้ขยี้ข่าว</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023085000 +0700" stop="20251023101000 +0700" channel="8SD">
-    <title lang="th">ซีรีส์อินเดีย กรงรักกับดักหัวใจ</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023101000 +0700" stop="20251023102000 +0700" channel="8SD">
-    <title lang="th">ชีวิตดี สาระดี</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023102000 +0700" stop="20251023105000 +0700" channel="8SD">
+  <programme start="20251024035000 +0700" stop="20251024042000 +0700" channel="8SD">
     <title lang="th">ลุยข่าวเกษตร</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023105000 +0700" stop="20251023124500 +0700" channel="8SD">
-    <title lang="th">ข่าวใหญ่ช่อง 8</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023124500 +0700" stop="20251023125500 +0700" channel="8SD">
+  <programme start="20251024042000 +0700" stop="20251024043000 +0700" channel="8SD">
     <title lang="th">ชีวิตดี สาระดี</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023125500 +0700" stop="20251023140500 +0700" channel="8SD">
-    <title lang="th">ซีรีส์ ดรุณพเนจรท่องยุทธภพ</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023140500 +0700" stop="20251023150500 +0700" channel="8SD">
-    <title lang="th">คนดังนั่งเคลียร์</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023150500 +0700" stop="20251023163000 +0700" channel="8SD">
-    <title lang="th">ซีรีส์อินเดีย มหากาพย์นารายณ์ลักษมี</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023163000 +0700" stop="20251023164000 +0700" channel="8SD">
-    <title lang="th">ชีวิตดี สาระดี</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023164000 +0700" stop="20251023180000 +0700" channel="8SD">
-    <title lang="th">ละคร บ่วงใบบุญ</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023180000 +0700" stop="20251023190000 +0700" channel="8SD">
-    <title lang="th">ละคร ผีตาโขน</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023190000 +0700" stop="20251023200000 +0700" channel="8SD">
+  <programme start="20251024043000 +0700" stop="20251024050000 +0700" channel="8SD">
     <title lang="th">ลุยชนข่าว</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023200000 +0700" stop="20251023202000 +0700" channel="8SD">
-    <title lang="th">ข่าวในพระราชสำนัก</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023202000 +0700" stop="20251023220000 +0700" channel="8SD">
+  <programme start="20251024050000 +0700" stop="20251024053000 +0700" channel="8SD">
     <title lang="th">ลุยชนข่าว</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023220000 +0700" stop="20251023221500 +0700" channel="8SD">
-    <title lang="th">ลุยชนข่าว The X-Files</title>
+  <programme start="20251024053000 +0700" stop="20251024080000 +0700" channel="8SD">
+    <title lang="th">คุยข่าวเช้าช่อง 8</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023221500 +0700" stop="20251023231500 +0700" channel="8SD">
-    <title lang="th">ซีรีส์เกาหลี รักแค้นข้ามภพ</title>
+  <programme start="20251024080000 +0700" stop="20251024085000 +0700" channel="8SD">
+    <title lang="th">เช้านี้ขยี้ข่าว</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023231500 +0700" stop="20251023235900 +0700" channel="8SD">
-    <title lang="th">ซีรีส์ ดรุณพเนจรท่องยุทธภพ</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023024000 +0700" stop="20251023040000 +0700" channel="Nation">
-    <title lang="th">ข่าวข้นคนข่าว</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023040000 +0700" stop="20251023042500 +0700" channel="Nation">
-    <title lang="th">Show Time</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023042500 +0700" stop="20251023045000 +0700" channel="Nation">
-    <title lang="th">ทันข่าวเย็น</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023045000 +0700" stop="20251023051500 +0700" channel="Nation">
-    <title lang="th">Show Time</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023051500 +0700" stop="20251023053500 +0700" channel="Nation">
-    <title lang="th">ทันข่าวเย็น</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023053500 +0700" stop="20251023060000 +0700" channel="Nation">
-    <title lang="th">Show Time</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023060000 +0700" stop="20251023063000 +0700" channel="Nation">
-    <title lang="th">ยุคลชนข่าว</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023063000 +0700" stop="20251023070000 +0700" channel="Nation">
-    <title lang="th">Nation Insight</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023070000 +0700" stop="20251023075300 +0700" channel="Nation">
-    <title lang="th">Nation Focus (สด)</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023075300 +0700" stop="20251023080000 +0700" channel="Nation">
-    <title lang="th">ชีวิตดี Happy Life</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023080000 +0700" stop="20251023093800 +0700" channel="Nation">
-    <title lang="th">เนชั่น วิเคราะห์ข่าว (สด)</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023093800 +0700" stop="20251023094500 +0700" channel="Nation">
-    <title lang="th">ชีวิตดี Happy Life</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023094500 +0700" stop="20251023103000 +0700" channel="Nation">
-    <title lang="th">กรุงเทพธุรกิจ Insight   [Re]</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023103000 +0700" stop="20251023103700 +0700" channel="Nation">
-    <title lang="th">ชีวิตดี Happy Life</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023103700 +0700" stop="20251023104000 +0700" channel="Nation">
-    <title lang="th">Nation News Alert</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023104000 +0700" stop="20251023113000 +0700" channel="Nation">
-    <title lang="th">ฐานทอล์ค</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023113000 +0700" stop="20251023124500 +0700" channel="Nation">
-    <title lang="th">ทันข่าวเที่ยง</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023124500 +0700" stop="20251023125200 +0700" channel="Nation">
-    <title lang="th">ชีวิตดี Happy Life</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023125200 +0700" stop="20251023132200 +0700" channel="Nation">
-    <title lang="th">ขอเพียงแค่เขียนมา</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023132200 +0700" stop="20251023132500 +0700" channel="Nation">
-    <title lang="th">Nation News Alert</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023132500 +0700" stop="20251023141800 +0700" channel="Nation">
-    <title lang="th">เนชั่นทั่วไทย (สด)</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023141800 +0700" stop="20251023142500 +0700" channel="Nation">
-    <title lang="th">ชีวิตดี Happy Life</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023142500 +0700" stop="20251023151000 +0700" channel="Nation">
-    <title lang="th">เนชั่นอาสา</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023151000 +0700" stop="20251023155500 +0700" channel="Nation">
-    <title lang="th">คมชัดลึก</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023155500 +0700" stop="20251023165300 +0700" channel="Nation">
-    <title lang="th">ทันข่าวเย็น</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023165300 +0700" stop="20251023170000 +0700" channel="Nation">
-    <title lang="th">ชีวิตดี Happy Life /Happy Shopping</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023170000 +0700" stop="20251023173000 +0700" channel="Nation">
-    <title lang="th">Nation Insight</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023173000 +0700" stop="20251023173700 +0700" channel="Nation">
-    <title lang="th">ชีวิตดี Happy Life /Happy Shopping</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023173700 +0700" stop="20251023180000 +0700" channel="Nation">
-    <title lang="th">ยุคลชนข่าว</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023180000 +0700" stop="20251023195500 +0700" channel="Nation">
-    <title lang="th">เนชั่นทันข่าว ค่ำ</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023195500 +0700" stop="20251023200000 +0700" channel="Nation">
-    <title lang="th">Happy Shopping</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023200000 +0700" stop="20251023202000 +0700" channel="Nation">
-    <title lang="th">ข่าวพระราชสำนัก</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023202000 +0700" stop="20251023214000 +0700" channel="Nation">
-    <title lang="th">ข่าวข้นคนข่าว</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023214000 +0700" stop="20251023214500 +0700" channel="Nation">
-    <title lang="th">Nation News Alert</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023214500 +0700" stop="20251023223000 +0700" channel="Nation">
-    <title lang="th">กรุงเทพธุรกิจ Insight  (สด)</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023223000 +0700" stop="20251023230000 +0700" channel="Nation">
-    <title lang="th">Nation Insight</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023230000 +0700" stop="20251023234500 +0700" channel="Nation">
-    <title lang="th">คมชัดลึก</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023234500 +0700" stop="20251023235900 +0700" channel="Nation">
-    <title lang="th">Naris Seasons (Re)</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023030000 +0700" stop="20251023040000 +0700" channel="Boomerang">
-    <title lang="th">Hello Jadoo</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023040000 +0700" stop="20251023050000 +0700" channel="Boomerang">
-    <title lang="th">Dragons Guardian</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023050000 +0700" stop="20251023053000 +0700" channel="Boomerang">
-    <title lang="th">Super Wings 3</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023053000 +0700" stop="20251023060000 +0700" channel="Boomerang">
-    <title lang="th">Gogobus S2+Katuri</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023060000 +0700" stop="20251023063000 +0700" channel="Boomerang">
-    <title lang="th">Tobot 8 + Dinoman 35</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023063000 +0700" stop="20251023070000 +0700" channel="Boomerang">
-    <title lang="th">Smurfs</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023070000 +0700" stop="20251023073000 +0700" channel="Boomerang">
-    <title lang="th">The Garfield Show</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023073000 +0700" stop="20251023080000 +0700" channel="Boomerang">
-    <title lang="th">Boonie Cubs</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023080000 +0700" stop="20251023083000 +0700" channel="Boomerang">
-    <title lang="th">Astro boy go 31+Zombie Dumb 57-60</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023083000 +0700" stop="20251023090000 +0700" channel="Boomerang">
-    <title lang="th">Wheewheel</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023090000 +0700" stop="20251023093000 +0700" channel="Boomerang">
-    <title lang="th">Super Wings 2</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023093000 +0700" stop="20251023100000 +0700" channel="Boomerang">
-    <title lang="th">Hello Jadoo</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023100000 +0700" stop="20251023103000 +0700" channel="Boomerang">
-    <title lang="th">Smurfs</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023103000 +0700" stop="20251023110000 +0700" channel="Boomerang">
-    <title lang="th">Johnny Test</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023110000 +0700" stop="20251023113000 +0700" channel="Boomerang">
-    <title lang="th">Wheewheel</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023113000 +0700" stop="20251023120000 +0700" channel="Boomerang">
-    <title lang="th">Garfield Show</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023120000 +0700" stop="20251023123000 +0700" channel="Boomerang">
-    <title lang="th">Super Wings 2</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023123000 +0700" stop="20251023130000 +0700" channel="Boomerang">
-    <title lang="th">Boonie Cubs</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023130000 +0700" stop="20251023133000 +0700" channel="Boomerang">
-    <title lang="th">Future Card BuddyFight (ปี1) 17</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023133000 +0700" stop="20251023140000 +0700" channel="Boomerang">
-    <title lang="th">BeyBlade X (ปี1) 32</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023140000 +0700" stop="20251023143000 +0700" channel="Boomerang">
-    <title lang="th">Super Wings 2</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023143000 +0700" stop="20251023150000 +0700" channel="Boomerang">
-    <title lang="th">Smurfs</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023150000 +0700" stop="20251023153000 +0700" channel="Boomerang">
-    <title lang="th">Tobot 8 + Dinoman 35</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023153000 +0700" stop="20251023160000 +0700" channel="Boomerang">
-    <title lang="th">GG Bond : Dodgeball Legend</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023160000 +0700" stop="20251023163000 +0700" channel="Boomerang">
-    <title lang="th">Astro boy go 31+Zombie Dumb 57-60</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023163000 +0700" stop="20251023170000 +0700" channel="Boomerang">
-    <title lang="th">Johnny Test</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023170000 +0700" stop="20251023173000 +0700" channel="Boomerang">
-    <title lang="th">Smurfs</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023173000 +0700" stop="20251023180000 +0700" channel="Boomerang">
-    <title lang="th">Strawberry Shortcake</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023180000 +0700" stop="20251023183000 +0700" channel="Boomerang">
-    <title lang="th">Super Wings 3</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023183000 +0700" stop="20251023190000 +0700" channel="Boomerang">
-    <title lang="th">Garfield Show</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023190000 +0700" stop="20251023193000 +0700" channel="Boomerang">
-    <title lang="th">Wheewheel</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023193000 +0700" stop="20251023200000 +0700" channel="Boomerang">
-    <title lang="th">Boonie Cubs</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023200000 +0700" stop="20251023203000 +0700" channel="Boomerang">
-    <title lang="th">My Little Pony: Friendship Is Magic S1</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023203000 +0700" stop="20251023210000 +0700" channel="Boomerang">
-    <title lang="th">Wheewheel</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023210000 +0700" stop="20251023213000 +0700" channel="Boomerang">
-    <title lang="th">Card Fight vanguard G (ปี5) 17</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023213000 +0700" stop="20251023220000 +0700" channel="Boomerang">
-    <title lang="th">Kiramager 7</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023220000 +0700" stop="20251023223000 +0700" channel="Boomerang">
-    <title lang="th">Pokemon (ปี23) 9</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023223000 +0700" stop="20251023230000 +0700" channel="Boomerang">
-    <title lang="th">Ninja Hattori Returns 60</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023230000 +0700" stop="20251023233000 +0700" channel="Boomerang">
-    <title lang="th">Ryusoulger 9</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023233000 +0700" stop="20251023235900 +0700" channel="Boomerang">
-    <title lang="th">Future Card BuddyFight (ปี1) 11</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023030000 +0700" stop="20251023040000 +0700" channel="MCOT">
-    <title lang="th">ซีรี่ส์จีน เงารักในความทรงจำ</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023040000 +0700" stop="20251023043000 +0700" channel="MCOT">
-    <title lang="th">TVD Shop</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023043000 +0700" stop="20251023050000 +0700" channel="MCOT">
-    <title lang="th">รากแก้วศาสนทายาท</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023050000 +0700" stop="20251023060000 +0700" channel="MCOT">
-    <title lang="th">Shop Mania</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023060000 +0700" stop="20251023063000 +0700" channel="MCOT">
-    <title lang="th">ล้วง ลึก หลอก ลวง</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023063000 +0700" stop="20251023075000 +0700" channel="MCOT">
-    <title lang="th">9 ข่าวเช้า</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023075000 +0700" stop="20251023080000 +0700" channel="MCOT">
-    <title lang="th">Shop Mania</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023080000 +0700" stop="20251023080100 +0700" channel="MCOT">
-    <title lang="th">เคารพธงชาติ 08.00 น.</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023080100 +0700" stop="20251023093000 +0700" channel="MCOT">
-    <title lang="th">เจาะลึกทั่วไทย Inside Thailand</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023093000 +0700" stop="20251023100000 +0700" channel="MCOT">
-    <title lang="th">ช่อง 9 การ์ตูน สเปเชี่ยล</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023100000 +0700" stop="20251023100500 +0700" channel="MCOT">
-    <title lang="th">ข่าวต้นชั่วโมง</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023100500 +0700" stop="20251023105500 +0700" channel="MCOT">
-    <title lang="th">ช่อง 9 การ์ตูน สเปเชี่ยล</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023105500 +0700" stop="20251023110000 +0700" channel="MCOT">
-    <title lang="th">Shop Mania</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023110000 +0700" stop="20251023110500 +0700" channel="MCOT">
-    <title lang="th">ข่าวต้นชั่วโมง</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023110500 +0700" stop="20251023113000 +0700" channel="MCOT">
-    <title lang="th">ชีพจรลงล้อ</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023113000 +0700" stop="20251023120000 +0700" channel="MCOT">
-    <title lang="th">ไนน์เอ็นเตอร์เทน</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023120000 +0700" stop="20251023130000 +0700" channel="MCOT">
-    <title lang="th">9 ข่าวเที่ยง</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023130000 +0700" stop="20251023140000 +0700" channel="MCOT">
-    <title lang="th">ออฟโรดโทรฟี่ วีคเอนด์</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023140000 +0700" stop="20251023140500 +0700" channel="MCOT">
-    <title lang="th">ข่าวต้นชั่วโมง</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023140500 +0700" stop="20251023145500 +0700" channel="MCOT">
-    <title lang="th">คู่ข่าวออนทัวร์</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023145500 +0700" stop="20251023150000 +0700" channel="MCOT">
-    <title lang="th">Shop Mania</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023150000 +0700" stop="20251023150500 +0700" channel="MCOT">
-    <title lang="th">ข่าวต้นชั่วโมง</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023150500 +0700" stop="20251023160000 +0700" channel="MCOT">
-    <title lang="th">คุยโขมง บ่าย 3 โมง</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023160000 +0700" stop="20251023170000 +0700" channel="MCOT">
-    <title lang="th">กระบี่เย้ยยุทธจักร</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023170000 +0700" stop="20251023180000 +0700" channel="MCOT">
-    <title lang="th">เรื่องพลบค่ำ</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023180000 +0700" stop="20251023180100 +0700" channel="MCOT">
-    <title lang="th">เคารพธงชาติ 18.00 น.</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023180100 +0700" stop="20251023181500 +0700" channel="MCOT">
-    <title lang="th">เรื่องพลบค่ำ (ต่อ)</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023181500 +0700" stop="20251023190000 +0700" channel="MCOT">
-    <title lang="th">ตกมันส์บันเทิง</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023190000 +0700" stop="20251023203000 +0700" channel="MCOT">
-    <title lang="th">9 ข่าวค่ำ</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023203000 +0700" stop="20251023205000 +0700" channel="MCOT">
-    <title lang="th">ไนน์เอ็นเตอร์เทน ไนท์ ไลฟ์</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023205000 +0700" stop="20251023213000 +0700" channel="MCOT">
-    <title lang="th">ฟังหู ไว้หู</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023213000 +0700" stop="20251023220000 +0700" channel="MCOT">
-    <title lang="th">คับข่าว 9</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023220000 +0700" stop="20251023220500 +0700" channel="MCOT">
-    <title lang="th">ข่าวต้นชั่วโมง</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023220500 +0700" stop="20251023222500 +0700" channel="MCOT">
-    <title lang="th">คับข่าว 9 (ต่อ)</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023222500 +0700" stop="20251023223000 +0700" channel="MCOT">
-    <title lang="th">Shop Mania</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023223000 +0700" stop="20251023230000 +0700" channel="MCOT">
-    <title lang="th">คู่ข่าวออนทัวร์</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023230000 +0700" stop="20251023230500 +0700" channel="MCOT">
-    <title lang="th">ข่าวต้นชั่วโมง</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023230500 +0700" stop="20251023235900 +0700" channel="MCOT">
-    <title lang="th">ยอดหญิงจอมทระนง 3</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023030000 +0700" stop="20251023043000 +0700" channel="TNN">
-    <title lang="th">TNN ข่าวดึก</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023043000 +0700" stop="20251023053000 +0700" channel="TNN">
-    <title lang="th">เถียนมีมี่ รักเธอชั่วนิรันดร์</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023053000 +0700" stop="20251023060000 +0700" channel="TNN">
-    <title lang="th">TNN สตาร์ตอัป</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023060000 +0700" stop="20251023080000 +0700" channel="TNN">
-    <title lang="th">TNN ข่าวเช้า</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023080000 +0700" stop="20251023083000 +0700" channel="TNN">
-    <title lang="th">เศรษฐกิจอินไซต์</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023083000 +0700" stop="20251023090000 +0700" channel="TNN">
-    <title lang="th">TNN ข่าวเช้า</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023090000 +0700" stop="20251023093000 +0700" channel="TNN">
-    <title lang="th">เรื่องดีดีทั่วไทย</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023093000 +0700" stop="20251023103000 +0700" channel="TNN">
-    <title lang="th">ชั่วโมงทำเงิน</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023103000 +0700" stop="20251023110000 +0700" channel="TNN">
-    <title lang="th">TNN สปอร์ต</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023110000 +0700" stop="20251023113000 +0700" channel="TNN">
-    <title lang="th">การตลาดเงินล้าน</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023113000 +0700" stop="20251023133000 +0700" channel="TNN">
-    <title lang="th">TNN ข่าวเที่ยง</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023133000 +0700" stop="20251023133200 +0700" channel="TNN">
-    <title lang="th">TNN บิซนิวส์</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023133200 +0700" stop="20251023140000 +0700" channel="TNN">
-    <title lang="th">คนชนข่าว</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023140000 +0700" stop="20251023140500 +0700" channel="TNN">
-    <title lang="th">TNN ข่าวต้นชั่วโมง</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023140500 +0700" stop="20251023143000 +0700" channel="TNN">
-    <title lang="th">เศรษฐกิจอินไซต์</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023143000 +0700" stop="20251023150000 +0700" channel="TNN">
-    <title lang="th">ย่อโลกเศรษฐกิจ</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023150000 +0700" stop="20251023153000 +0700" channel="TNN">
-    <title lang="th">คนหลังข่าว</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023153000 +0700" stop="20251023160000 +0700" channel="TNN">
-    <title lang="th">เรื่องดีดีทั่วไทย</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023160000 +0700" stop="20251023165000 +0700" channel="TNN">
-    <title lang="th">บิสเนสวอตช์</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023165000 +0700" stop="20251023170000 +0700" channel="TNN">
-    <title lang="th">TNN เทครีพอตส์</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023170000 +0700" stop="20251023180000 +0700" channel="TNN">
-    <title lang="th">TNN รู้ทันลงทุน</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023180000 +0700" stop="20251023195700 +0700" channel="TNN">
-    <title lang="th">TNN ข่าวค่ำ</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023195700 +0700" stop="20251023200500 +0700" channel="TNN">
-    <title lang="th">TNN เทครีพอตส์</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023200500 +0700" stop="20251023203000 +0700" channel="TNN">
-    <title lang="th">ข่าวในพระราชสำนัก</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023203000 +0700" stop="20251023211500 +0700" channel="TNN">
-    <title lang="th">TNN เวิลด์ ทูเดย์</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023211500 +0700" stop="20251023211700 +0700" channel="TNN">
-    <title lang="th">TNN บิซนิวส์</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023211700 +0700" stop="20251023220000 +0700" channel="TNN">
-    <title lang="th">บิสเนสวอตช์</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023220000 +0700" stop="20251023223000 +0700" channel="TNN">
-    <title lang="th">มันนี่ทูเดย์</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023223000 +0700" stop="20251023235900 +0700" channel="TNN">
-    <title lang="th">TNN ข่าวดึก</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023040000 +0700" stop="20251023043000 +0700" channel="5HD">
-    <title lang="th">ทรู ช้อปปิ้ง</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023043000 +0700" stop="20251023050000 +0700" channel="5HD">
-    <title lang="th">แนะนำสินค้า</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023050000 +0700" stop="20251023053000 +0700" channel="5HD">
-    <title lang="th">สายธารแสงธรรม</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023053000 +0700" stop="20251023060000 +0700" channel="5HD">
-    <title lang="th">อรุณสวัสดิ์ยามเช้า (Re)</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023060000 +0700" stop="20251023063000 +0700" channel="5HD">
-    <title lang="th">เคาะข่าวเด่น</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023063000 +0700" stop="20251023070000 +0700" channel="5HD">
-    <title lang="th">ต้นกล้าพหุวัฒนธรรม (Re)</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023070000 +0700" stop="20251023080000 +0700" channel="5HD">
-    <title lang="th">ข่าวเด่นเช้านี้ (สด)</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023080000 +0700" stop="20251023085500 +0700" channel="5HD">
-    <title lang="th">สารคดี</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023085500 +0700" stop="20251023090000 +0700" channel="5HD">
-    <title lang="th">สารคดี</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023090000 +0700" stop="20251023090500 +0700" channel="5HD">
-    <title lang="th">เบรคกิ้งนิวส์ (สด)</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023090500 +0700" stop="20251023093000 +0700" channel="5HD">
-    <title lang="th">ไขรหัสแดนมหัศจรรย์</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023093000 +0700" stop="20251023100000 +0700" channel="5HD">
-    <title lang="th">เกษตรไดเร็ค</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023100000 +0700" stop="20251023100500 +0700" channel="5HD">
-    <title lang="th">เบรคกิ้งนิวส์ (สด)</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023100500 +0700" stop="20251023102000 +0700" channel="5HD">
-    <title lang="th">พ่อมดรถยนต์</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023102000 +0700" stop="20251023104500 +0700" channel="5HD">
-    <title lang="th">โลกไร้กรอบ  (Worldwide Code)</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023104500 +0700" stop="20251023111500 +0700" channel="5HD">
-    <title lang="th">ทรู ช้อปปิ้ง</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023111500 +0700" stop="20251023114500 +0700" channel="5HD">
-    <title lang="th">ถอดรหัสธรรมชาติ (Nature Code)</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023114500 +0700" stop="20251023120000 +0700" channel="5HD">
-    <title lang="th">ทางออกเกษตรกรไทย</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023120000 +0700" stop="20251023130000 +0700" channel="5HD">
-    <title lang="th">เที่ยงวันทันข่าว (สด)</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023130000 +0700" stop="20251023133000 +0700" channel="5HD">
-    <title lang="th">ตลาดสนามเป้า</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023133000 +0700" stop="20251023135500 +0700" channel="5HD">
-    <title lang="th">ทรู ช้อปปิ้ง</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023135500 +0700" stop="20251023140000 +0700" channel="5HD">
-    <title lang="th">ข่าวดี๊ดีกับพี่คำรณ</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023140000 +0700" stop="20251023140500 +0700" channel="5HD">
-    <title lang="th">เบรคกิ้งนิวส์ (สด)</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023140500 +0700" stop="20251023143000 +0700" channel="5HD">
-    <title lang="th">มอเตอร์ สมาร์ท</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023143000 +0700" stop="20251023150000 +0700" channel="5HD">
-    <title lang="th">รู้รอบโลก</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023150000 +0700" stop="20251023150500 +0700" channel="5HD">
-    <title lang="th">เบรคกิ้งนิวส์ (สด)</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023150500 +0700" stop="20251023153500 +0700" channel="5HD">
-    <title lang="th">ร้อยเรื่องราว วาไรตี้</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023153500 +0700" stop="20251023160000 +0700" channel="5HD">
-    <title lang="th">มีเดีย ช้อปปิ้ง</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023160000 +0700" stop="20251023160500 +0700" channel="5HD">
-    <title lang="th">เบรคกิ้งนิวส์ (สด)</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023160500 +0700" stop="20251023165000 +0700" channel="5HD">
-    <title lang="th">ซีรีย์ ฮิตติดจอ</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023165000 +0700" stop="20251023170000 +0700" channel="5HD">
-    <title lang="th">สารคดี</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023170000 +0700" stop="20251023180000 +0700" channel="5HD">
-    <title lang="th">แฉมิจฉาชีพ</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023180000 +0700" stop="20251023193000 +0700" channel="5HD">
-    <title lang="th">ข่าวเด่นทันสถานการณ์ (สด)</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023193000 +0700" stop="20251023200000 +0700" channel="5HD">
-    <title lang="th">แทนคุณแผ่นดิน</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023200000 +0700" stop="20251023203000 +0700" channel="5HD">
-    <title lang="th">ข่าวในพระราชสำนัก</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023203000 +0700" stop="20251023210000 +0700" channel="5HD">
-    <title lang="th">กอ.รมน.เพื่อประชาชน(Re)</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023210000 +0700" stop="20251023223000 +0700" channel="5HD">
-    <title lang="th">ป่าตอง ไฟท์ ไนท์ (สด)</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023223000 +0700" stop="20251023224500 +0700" channel="5HD">
-    <title lang="th">มอเตอร์ รันนิ่ง</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023224500 +0700" stop="20251023230000 +0700" channel="5HD">
-    <title lang="th">แอทไทม์ (Re)</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023230000 +0700" stop="20251023235900 +0700" channel="5HD">
-    <title lang="th">เดินหน้าปฎิรูป /ปิดทองหลังพระ</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023030000 +0700" stop="20251023040000 +0700" channel="JKN18">
-    <title lang="th">รายการ หน้าต่างโลก</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023040000 +0700" stop="20251023050000 +0700" channel="JKN18">
-    <title lang="th">รายการ อัศจรรย์บันลือโลก</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023050000 +0700" stop="20251023060000 +0700" channel="JKN18">
-    <title lang="th">รายการ อัศจรรย์บันลือโลก</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023060000 +0700" stop="20251023062500 +0700" channel="JKN18">
-    <title lang="th">รายการ Anniverse Shop</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023062500 +0700" stop="20251023071500 +0700" channel="JKN18">
-    <title lang="th">ซีรีส์อินเดีย กฤษณะ อภินิหารมหาเทพอวตาร</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023071500 +0700" stop="20251023074000 +0700" channel="JKN18">
-    <title lang="th">รายการ Anniverse Shop</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023074000 +0700" stop="20251023080000 +0700" channel="JKN18">
-    <title lang="th">ซีรีส์อินเดีย โยดาห์ อัคบาร์ ศึกจารีตพิศ</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023080000 +0700" stop="20251023080200 +0700" channel="JKN18">
-    <title lang="th">เพลงชาติไทย</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023080200 +0700" stop="20251023083000 +0700" channel="JKN18">
-    <title lang="th">ซีรีส์อินเดีย โยดาห์ อัคบาร์ ศึกจารีตพิศ</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023083000 +0700" stop="20251023100000 +0700" channel="JKN18">
-    <title lang="th">รายการ Hello Anniverse บันเทิง (Rerun)</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023100000 +0700" stop="20251023105500 +0700" channel="JKN18">
+  <programme start="20251024085000 +0700" stop="20251024101000 +0700" channel="8SD">
     <title lang="th">ซีรีส์อินเดีย กรงรักกับดักหัวใจ</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023105500 +0700" stop="20251023112000 +0700" channel="JKN18">
+  <programme start="20251024101000 +0700" stop="20251024102000 +0700" channel="8SD">
+    <title lang="th">ชีวิตดี สาระดี</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024102000 +0700" stop="20251024105000 +0700" channel="8SD">
+    <title lang="th">เรื่องว้าวเล่าโลก</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024105000 +0700" stop="20251024124500 +0700" channel="8SD">
+    <title lang="th">ข่าวใหญ่ช่อง 8</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024124500 +0700" stop="20251024125500 +0700" channel="8SD">
+    <title lang="th">ชีวิตดี สาระดี</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024125500 +0700" stop="20251024140500 +0700" channel="8SD">
+    <title lang="th">ซีรีส์จีน ดรุณพเนจรท่องยุทธภพ</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024140500 +0700" stop="20251024150500 +0700" channel="8SD">
+    <title lang="th">คนดังนั่งเคลียร์</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024150500 +0700" stop="20251024163000 +0700" channel="8SD">
+    <title lang="th">ซีรีส์อินเดีย มหากาพย์นารายณ์ลักษมี</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024163000 +0700" stop="20251024164000 +0700" channel="8SD">
+    <title lang="th">ชีวิตดี สาระดี</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024164000 +0700" stop="20251024180000 +0700" channel="8SD">
+    <title lang="th">มวยมันส์ช่อง 8</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024180000 +0700" stop="20251024190000 +0700" channel="8SD">
+    <title lang="th">Thai Fight Spirit</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024190000 +0700" stop="20251024200000 +0700" channel="8SD">
+    <title lang="th">ลุยชนข่าว</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024200000 +0700" stop="20251024202000 +0700" channel="8SD">
+    <title lang="th">ข่าวในพระราชสำนัก</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024202000 +0700" stop="20251024220000 +0700" channel="8SD">
+    <title lang="th">ลุยชนข่าว</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024220000 +0700" stop="20251024221500 +0700" channel="8SD">
+    <title lang="th">ลุยชนข่าว The X-Files</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024221500 +0700" stop="20251024231500 +0700" channel="8SD">
+    <title lang="th">ซีรีส์ หวนรัก หวนคืน</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024231500 +0700" stop="20251024235900 +0700" channel="8SD">
+    <title lang="th">ซีรีส์จีน ดรุณพเนจรท่องยุทธภพ</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024024000 +0700" stop="20251024040000 +0700" channel="Nation">
+    <title lang="th">ข่าวข้นคนข่าว</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024040000 +0700" stop="20251024042500 +0700" channel="Nation">
+    <title lang="th">Show Time</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024042500 +0700" stop="20251024045000 +0700" channel="Nation">
+    <title lang="th">ทันข่าวเย็น</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024045000 +0700" stop="20251024051500 +0700" channel="Nation">
+    <title lang="th">Show Time</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024051500 +0700" stop="20251024053500 +0700" channel="Nation">
+    <title lang="th">ทันข่าวเย็น</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024053500 +0700" stop="20251024060000 +0700" channel="Nation">
+    <title lang="th">Show Time</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024060000 +0700" stop="20251024063000 +0700" channel="Nation">
+    <title lang="th">ยุคลชนข่าว</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024063000 +0700" stop="20251024070000 +0700" channel="Nation">
+    <title lang="th">Nation Insight</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024070000 +0700" stop="20251024075300 +0700" channel="Nation">
+    <title lang="th">Nation Focus (สด)</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024075300 +0700" stop="20251024080000 +0700" channel="Nation">
+    <title lang="th">ชีวิตดี Happy Life</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024080000 +0700" stop="20251024093800 +0700" channel="Nation">
+    <title lang="th">เนชั่น วิเคราะห์ข่าว (สด)</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024093800 +0700" stop="20251024094500 +0700" channel="Nation">
+    <title lang="th">ชีวิตดี Happy Life</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024094500 +0700" stop="20251024103000 +0700" channel="Nation">
+    <title lang="th">กรุงเทพธุรกิจ Insight   [Re]</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024103000 +0700" stop="20251024103700 +0700" channel="Nation">
+    <title lang="th">ชีวิตดี Happy Life</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024103700 +0700" stop="20251024104000 +0700" channel="Nation">
+    <title lang="th">Nation News Alert</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024104000 +0700" stop="20251024113000 +0700" channel="Nation">
+    <title lang="th">ฐานทอล์ค</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024113000 +0700" stop="20251024124500 +0700" channel="Nation">
+    <title lang="th">ทันข่าวเที่ยง</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024124500 +0700" stop="20251024125200 +0700" channel="Nation">
+    <title lang="th">ชีวิตดี Happy Life</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024125200 +0700" stop="20251024132200 +0700" channel="Nation">
+    <title lang="th">50 ปีที่เดินทางร่วมกัน</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024132200 +0700" stop="20251024132500 +0700" channel="Nation">
+    <title lang="th">Nation News Alert</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024132500 +0700" stop="20251024141800 +0700" channel="Nation">
+    <title lang="th">เนชั่นทั่วไทย (สด)</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024141800 +0700" stop="20251024142500 +0700" channel="Nation">
+    <title lang="th">ชีวิตดี Happy Life</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024142500 +0700" stop="20251024151000 +0700" channel="Nation">
+    <title lang="th">Naris Seasons (Re)</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024151000 +0700" stop="20251024155500 +0700" channel="Nation">
+    <title lang="th">คมชัดลึก</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024155500 +0700" stop="20251024165300 +0700" channel="Nation">
+    <title lang="th">ทันข่าวเย็น</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024165300 +0700" stop="20251024170000 +0700" channel="Nation">
+    <title lang="th">ชีวิตดี Happy Life /Happy Shopping</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024170000 +0700" stop="20251024173000 +0700" channel="Nation">
+    <title lang="th">Nation Insight</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024173000 +0700" stop="20251024173700 +0700" channel="Nation">
+    <title lang="th">ชีวิตดี Happy Life /Happy Shopping</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024173700 +0700" stop="20251024180000 +0700" channel="Nation">
+    <title lang="th">ยุคลชนข่าว</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024180000 +0700" stop="20251024195500 +0700" channel="Nation">
+    <title lang="th">เนชั่นทันข่าว ค่ำ</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024195500 +0700" stop="20251024200000 +0700" channel="Nation">
+    <title lang="th">Happy Shopping</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024200000 +0700" stop="20251024202000 +0700" channel="Nation">
+    <title lang="th">ข่าวพระราชสำนัก</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024202000 +0700" stop="20251024214000 +0700" channel="Nation">
+    <title lang="th">ข่าวข้นคนข่าว</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024214000 +0700" stop="20251024214500 +0700" channel="Nation">
+    <title lang="th">Nation News Alert</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024214500 +0700" stop="20251024223000 +0700" channel="Nation">
+    <title lang="th">กรุงเทพธุรกิจ Insight</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024223000 +0700" stop="20251024230000 +0700" channel="Nation">
+    <title lang="th">Nation Insight</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024230000 +0700" stop="20251024234500 +0700" channel="Nation">
+    <title lang="th">คมชัดลึก</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024234500 +0700" stop="20251024235900 +0700" channel="Nation">
+    <title lang="th">เนชั่นอาสา</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024030000 +0700" stop="20251024040000 +0700" channel="Boomerang">
+    <title lang="th">Hello Jadoo</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024040000 +0700" stop="20251024050000 +0700" channel="Boomerang">
+    <title lang="th">Dragons Guardian</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024050000 +0700" stop="20251024053000 +0700" channel="Boomerang">
+    <title lang="th">Super Wings 3</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024053000 +0700" stop="20251024060000 +0700" channel="Boomerang">
+    <title lang="th">Gogobus S2+Katuri</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024060000 +0700" stop="20251024063000 +0700" channel="Boomerang">
+    <title lang="th">Tobot 9 + Dinoman 36</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024063000 +0700" stop="20251024070000 +0700" channel="Boomerang">
+    <title lang="th">Smurfs</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024070000 +0700" stop="20251024073000 +0700" channel="Boomerang">
+    <title lang="th">The Garfield Show</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024073000 +0700" stop="20251024080000 +0700" channel="Boomerang">
+    <title lang="th">Boonie Cubs</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024080000 +0700" stop="20251024083000 +0700" channel="Boomerang">
+    <title lang="th">Astro boy go 32+Zombie Dumb 61-64</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024083000 +0700" stop="20251024090000 +0700" channel="Boomerang">
+    <title lang="th">Robocar Poli S5</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024090000 +0700" stop="20251024093000 +0700" channel="Boomerang">
+    <title lang="th">Super Wings 2</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024093000 +0700" stop="20251024100000 +0700" channel="Boomerang">
+    <title lang="th">Hello Jadoo</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024100000 +0700" stop="20251024103000 +0700" channel="Boomerang">
+    <title lang="th">Smurfs</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024103000 +0700" stop="20251024110000 +0700" channel="Boomerang">
+    <title lang="th">Johnny Test</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024110000 +0700" stop="20251024113000 +0700" channel="Boomerang">
+    <title lang="th">Wheewheel</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024113000 +0700" stop="20251024120000 +0700" channel="Boomerang">
+    <title lang="th">Garfield Show</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024120000 +0700" stop="20251024123000 +0700" channel="Boomerang">
+    <title lang="th">Super Wings 2</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024123000 +0700" stop="20251024130000 +0700" channel="Boomerang">
+    <title lang="th">Boonie Cubs</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024130000 +0700" stop="20251024133000 +0700" channel="Boomerang">
+    <title lang="th">Future Card BuddyFight (ปี1) 18</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024133000 +0700" stop="20251024140000 +0700" channel="Boomerang">
+    <title lang="th">BeyBlade X (ปี1) 33</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024140000 +0700" stop="20251024143000 +0700" channel="Boomerang">
+    <title lang="th">Super Wings 2</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024143000 +0700" stop="20251024150000 +0700" channel="Boomerang">
+    <title lang="th">Smurfs</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024150000 +0700" stop="20251024153000 +0700" channel="Boomerang">
+    <title lang="th">Tobot 9 + Dinoman 36</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024153000 +0700" stop="20251024160000 +0700" channel="Boomerang">
+    <title lang="th">GG Bond : Dodgeball Legend</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024160000 +0700" stop="20251024163000 +0700" channel="Boomerang">
+    <title lang="th">Astro boy go 32+Zombie Dumb 61-64</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024163000 +0700" stop="20251024170000 +0700" channel="Boomerang">
+    <title lang="th">Johnny Test</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024170000 +0700" stop="20251024173000 +0700" channel="Boomerang">
+    <title lang="th">Hello Jadoo</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024173000 +0700" stop="20251024180000 +0700" channel="Boomerang">
+    <title lang="th">Strawberry Shortcake</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024180000 +0700" stop="20251024183000 +0700" channel="Boomerang">
+    <title lang="th">Super Wings 3</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024183000 +0700" stop="20251024190000 +0700" channel="Boomerang">
+    <title lang="th">Garfield Show</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024190000 +0700" stop="20251024193000 +0700" channel="Boomerang">
+    <title lang="th">Wheewheel</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024193000 +0700" stop="20251024200000 +0700" channel="Boomerang">
+    <title lang="th">Smurf</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024200000 +0700" stop="20251024203000 +0700" channel="Boomerang">
+    <title lang="th">My Little Pony: Friendship Is Magic S1</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024203000 +0700" stop="20251024210000 +0700" channel="Boomerang">
+    <title lang="th">Wheewheel</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024210000 +0700" stop="20251024213000 +0700" channel="Boomerang">
+    <title lang="th">Card Fight vanguard G (ปี5) 18</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024213000 +0700" stop="20251024220000 +0700" channel="Boomerang">
+    <title lang="th">Kiramager 8</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024220000 +0700" stop="20251024223000 +0700" channel="Boomerang">
+    <title lang="th">Pokemon (ปี23) 10</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024223000 +0700" stop="20251024230000 +0700" channel="Boomerang">
+    <title lang="th">Ninja Hattori Returns 61</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024230000 +0700" stop="20251024233000 +0700" channel="Boomerang">
+    <title lang="th">Ryusoulger 10</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024233000 +0700" stop="20251024235900 +0700" channel="Boomerang">
+    <title lang="th">Future Card BuddyFight (ปี1) 12</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024030000 +0700" stop="20251024040000 +0700" channel="MCOT">
+    <title lang="th">ซีรี่ส์จีน เงารักในความทรงจำ</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024040000 +0700" stop="20251024043000 +0700" channel="MCOT">
+    <title lang="th">TVD Shop</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024043000 +0700" stop="20251024050000 +0700" channel="MCOT">
+    <title lang="th">วิถีอิสลาม</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024050000 +0700" stop="20251024060000 +0700" channel="MCOT">
+    <title lang="th">Shop Mania</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024060000 +0700" stop="20251024063000 +0700" channel="MCOT">
+    <title lang="th">9th Stadium</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024063000 +0700" stop="20251024075000 +0700" channel="MCOT">
+    <title lang="th">9 ข่าวเช้า</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024075000 +0700" stop="20251024080000 +0700" channel="MCOT">
+    <title lang="th">Shop Mania</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024080000 +0700" stop="20251024080100 +0700" channel="MCOT">
+    <title lang="th">เคารพธงชาติ 08.00 น.</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024080100 +0700" stop="20251024093000 +0700" channel="MCOT">
+    <title lang="th">เจาะลึกทั่วไทย Inside Thailand</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024093000 +0700" stop="20251024095500 +0700" channel="MCOT">
+    <title lang="th">นาทีลงทุน</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024095500 +0700" stop="20251024100000 +0700" channel="MCOT">
+    <title lang="th">Shop Mania</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024100000 +0700" stop="20251024100500 +0700" channel="MCOT">
+    <title lang="th">ข่าวต้นชั่วโมง</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024100500 +0700" stop="20251024103000 +0700" channel="MCOT">
+    <title lang="th">Money Daily</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024103000 +0700" stop="20251024110000 +0700" channel="MCOT">
+    <title lang="th">Tips ศุกร์ สรร</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024110000 +0700" stop="20251024110500 +0700" channel="MCOT">
+    <title lang="th">ข่าวต้นชั่วโมง</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024110500 +0700" stop="20251024113000 +0700" channel="MCOT">
+    <title lang="th">ก้องซด พชร์มู</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024113000 +0700" stop="20251024120000 +0700" channel="MCOT">
+    <title lang="th">ไนน์เอ็นเตอร์เทน</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024120000 +0700" stop="20251024130000 +0700" channel="MCOT">
+    <title lang="th">9 ข่าวเที่ยง</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024130000 +0700" stop="20251024130500 +0700" channel="MCOT">
+    <title lang="th">Shop Mania</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024130500 +0700" stop="20251024135000 +0700" channel="MCOT">
+    <title lang="th">บ่ายนี้มีคำตอบ</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024135000 +0700" stop="20251024140000 +0700" channel="MCOT">
+    <title lang="th">Shop Mania</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024140000 +0700" stop="20251024140500 +0700" channel="MCOT">
+    <title lang="th">ข่าวต้นชั่วโมง</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024140500 +0700" stop="20251024150000 +0700" channel="MCOT">
+    <title lang="th">Zabb Today (แซ่บทูเดย์)</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024150000 +0700" stop="20251024150500 +0700" channel="MCOT">
+    <title lang="th">ข่าวต้นชั่วโมง</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024150500 +0700" stop="20251024160000 +0700" channel="MCOT">
+    <title lang="th">คุยโขมง บ่าย 3 โมง</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024160000 +0700" stop="20251024170000 +0700" channel="MCOT">
+    <title lang="th">กระบี่เย้ยยุทธจักร</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024170000 +0700" stop="20251024180000 +0700" channel="MCOT">
+    <title lang="th">เรื่องพลบค่ำ</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024180000 +0700" stop="20251024180100 +0700" channel="MCOT">
+    <title lang="th">เคารพธงชาติ 18.00 น.</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024180100 +0700" stop="20251024181500 +0700" channel="MCOT">
+    <title lang="th">เรื่องพลบค่ำ (ต่อ)</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024181500 +0700" stop="20251024190000 +0700" channel="MCOT">
+    <title lang="th">ตกมันส์บันเทิง</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024190000 +0700" stop="20251024203000 +0700" channel="MCOT">
+    <title lang="th">9 ข่าวค่ำ</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024203000 +0700" stop="20251024205000 +0700" channel="MCOT">
+    <title lang="th">ไนน์เอ็นเตอร์เทน ไนท์ ไลฟ์</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024205000 +0700" stop="20251024213000 +0700" channel="MCOT">
+    <title lang="th">ฟังหู ไว้หู</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024213000 +0700" stop="20251024220000 +0700" channel="MCOT">
+    <title lang="th">คับข่าว 9</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024220000 +0700" stop="20251024220500 +0700" channel="MCOT">
+    <title lang="th">ข่าวต้นชั่วโมง</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024220500 +0700" stop="20251024222500 +0700" channel="MCOT">
+    <title lang="th">คับข่าว 9 (ต่อ)</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024222500 +0700" stop="20251024223000 +0700" channel="MCOT">
+    <title lang="th">Shop Mania</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024223000 +0700" stop="20251024230000 +0700" channel="MCOT">
+    <title lang="th">World Pulse</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024230000 +0700" stop="20251024230500 +0700" channel="MCOT">
+    <title lang="th">ข่าวต้นชั่วโมง</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024230500 +0700" stop="20251024235900 +0700" channel="MCOT">
+    <title lang="th">ยอดหญิงจอมทระนง 3</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024030000 +0700" stop="20251024043000 +0700" channel="TNN">
+    <title lang="th">TNN ข่าวดึก</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024043000 +0700" stop="20251024053000 +0700" channel="TNN">
+    <title lang="th">เถียนมีมี่ รักเธอชั่วนิรันดร์</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024053000 +0700" stop="20251024060000 +0700" channel="TNN">
+    <title lang="th">เกษตร นิวเจน</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024060000 +0700" stop="20251024080000 +0700" channel="TNN">
+    <title lang="th">TNN ข่าวเช้า</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024080000 +0700" stop="20251024083000 +0700" channel="TNN">
+    <title lang="th">เศรษฐกิจอินไซต์</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024083000 +0700" stop="20251024090000 +0700" channel="TNN">
+    <title lang="th">TNN ข่าวเช้า</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024090000 +0700" stop="20251024093000 +0700" channel="TNN">
+    <title lang="th">เรื่องดีดีทั่วไทย</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024093000 +0700" stop="20251024103000 +0700" channel="TNN">
+    <title lang="th">ชั่วโมงทำเงิน</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024103000 +0700" stop="20251024110000 +0700" channel="TNN">
+    <title lang="th">TNN สปอร์ต</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024110000 +0700" stop="20251024113000 +0700" channel="TNN">
+    <title lang="th">การตลาดเงินล้าน</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024113000 +0700" stop="20251024133000 +0700" channel="TNN">
+    <title lang="th">TNN ข่าวเที่ยง</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024133000 +0700" stop="20251024133200 +0700" channel="TNN">
+    <title lang="th">TNN บิซนิวส์</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024133200 +0700" stop="20251024140000 +0700" channel="TNN">
+    <title lang="th">คนชนข่าว</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024140000 +0700" stop="20251024140500 +0700" channel="TNN">
+    <title lang="th">TNN ข่าวต้นชั่วโมง</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024140500 +0700" stop="20251024143000 +0700" channel="TNN">
+    <title lang="th">เศรษฐกิจอินไซต์</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024143000 +0700" stop="20251024150000 +0700" channel="TNN">
+    <title lang="th">ย่อโลกเศรษฐกิจ</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024150000 +0700" stop="20251024153000 +0700" channel="TNN">
+    <title lang="th">คนหลังข่าว</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024153000 +0700" stop="20251024160000 +0700" channel="TNN">
+    <title lang="th">เรื่องดีดีทั่วไทย</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024160000 +0700" stop="20251024165000 +0700" channel="TNN">
+    <title lang="th">บิสเนสวอตช์</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024165000 +0700" stop="20251024170000 +0700" channel="TNN">
+    <title lang="th">TNN เทครีพอตส์</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024170000 +0700" stop="20251024180000 +0700" channel="TNN">
+    <title lang="th">TNN รู้ทันลงทุน</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024180000 +0700" stop="20251024195700 +0700" channel="TNN">
+    <title lang="th">TNN ข่าวค่ำ</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024195700 +0700" stop="20251024200500 +0700" channel="TNN">
+    <title lang="th">TNN เทครีพอตส์</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024200500 +0700" stop="20251024203000 +0700" channel="TNN">
+    <title lang="th">ข่าวในพระราชสำนัก</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024203000 +0700" stop="20251024211500 +0700" channel="TNN">
+    <title lang="th">TNN เวิลด์ ทูเดย์</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024211500 +0700" stop="20251024211700 +0700" channel="TNN">
+    <title lang="th">TNN บิซนิวส์</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024211700 +0700" stop="20251024220000 +0700" channel="TNN">
+    <title lang="th">บิสเนสวอตช์</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024220000 +0700" stop="20251024223000 +0700" channel="TNN">
+    <title lang="th">มันนี่ทูเดย์</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024223000 +0700" stop="20251024235900 +0700" channel="TNN">
+    <title lang="th">TNN ข่าวดึก</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024040000 +0700" stop="20251024043000 +0700" channel="5HD">
+    <title lang="th">ทรู ช้อปปิ้ง</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024043000 +0700" stop="20251024050000 +0700" channel="5HD">
+    <title lang="th">แนะนำสินค้า</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024050000 +0700" stop="20251024053000 +0700" channel="5HD">
+    <title lang="th">มุสลิมไทม์</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024053000 +0700" stop="20251024060000 +0700" channel="5HD">
+    <title lang="th">อัศจรรย์แห่งรัก</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024060000 +0700" stop="20251024063000 +0700" channel="5HD">
+    <title lang="th">เคาะข่าวเด่น</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024063000 +0700" stop="20251024070000 +0700" channel="5HD">
+    <title lang="th">ต้นกล้าพหุวัฒนธรรม (Re)</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024070000 +0700" stop="20251024080000 +0700" channel="5HD">
+    <title lang="th">ข่าวเด่นเช้านี้ (สด)</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024080000 +0700" stop="20251024085500 +0700" channel="5HD">
+    <title lang="th">สนทนาปัญหาประชาชน Talk Together (สด)</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024085500 +0700" stop="20251024090000 +0700" channel="5HD">
+    <title lang="th">สารคดี</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024090000 +0700" stop="20251024090500 +0700" channel="5HD">
+    <title lang="th">เบรคกิ้งนิวส์ (สด)</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024090500 +0700" stop="20251024093000 +0700" channel="5HD">
+    <title lang="th">ไขรหัสแดนมหัศจรรย์</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024093000 +0700" stop="20251024100000 +0700" channel="5HD">
+    <title lang="th">เกษตรไดเร็ค</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024100000 +0700" stop="20251024100500 +0700" channel="5HD">
+    <title lang="th">เบรคกิ้งนิวส์ (สด)</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024100500 +0700" stop="20251024102000 +0700" channel="5HD">
+    <title lang="th">แมกมอเตอร์</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024102000 +0700" stop="20251024104500 +0700" channel="5HD">
+    <title lang="th">โลกไร้กรอบ  (Worldwide Code)</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024104500 +0700" stop="20251024111000 +0700" channel="5HD">
+    <title lang="th">ทรู ช้อปปิ้ง</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024111000 +0700" stop="20251024111500 +0700" channel="5HD">
+    <title lang="th">สารคดี</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024111500 +0700" stop="20251024114500 +0700" channel="5HD">
+    <title lang="th">ถอดรหัสธรรมชาติ (Nature Code)</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024114500 +0700" stop="20251024120000 +0700" channel="5HD">
+    <title lang="th">ทางออกเกษตรกรไทย</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024120000 +0700" stop="20251024130000 +0700" channel="5HD">
+    <title lang="th">เที่ยงวันทันข่าว (สด)</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024130000 +0700" stop="20251024133000 +0700" channel="5HD">
+    <title lang="th">ตลาดสนามเป้า</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024133000 +0700" stop="20251024135500 +0700" channel="5HD">
+    <title lang="th">ทรู ช้อปปิ้ง</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024135500 +0700" stop="20251024140000 +0700" channel="5HD">
+    <title lang="th">ข่าวดี๊ดีกับพี่คำรณ</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024140000 +0700" stop="20251024140500 +0700" channel="5HD">
+    <title lang="th">เบรคกิ้งนิวส์ (สด)</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024140500 +0700" stop="20251024143000 +0700" channel="5HD">
+    <title lang="th">รู้รอบโลก (Knowledge Code)</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024143000 +0700" stop="20251024150000 +0700" channel="5HD">
+    <title lang="th">ออโต้ไลค์ทีวี</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024150000 +0700" stop="20251024150500 +0700" channel="5HD">
+    <title lang="th">เบรคกิ้งนิวส์ (สด)</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024150500 +0700" stop="20251024153500 +0700" channel="5HD">
+    <title lang="th">แฮปปี้ซีซัน ฤดูแห่งความสุข</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024153500 +0700" stop="20251024160000 +0700" channel="5HD">
+    <title lang="th">มีเดีย ช้อปปิ้ง</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024160000 +0700" stop="20251024160500 +0700" channel="5HD">
+    <title lang="th">เบรคกิ้งนิวส์ (สด)</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024160500 +0700" stop="20251024180000 +0700" channel="5HD">
+    <title lang="th">ถ่ายทอดสดรายการมวย &quot;ศึกจิตรเมืองนนท์&quot;</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024180000 +0700" stop="20251024193000 +0700" channel="5HD">
+    <title lang="th">ข่าวเด่นทันสถานการณ์ (สด)</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024193000 +0700" stop="20251024200000 +0700" channel="5HD">
+    <title lang="th">แทนคุณแผ่นดิน</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024200000 +0700" stop="20251024203000 +0700" channel="5HD">
+    <title lang="th">ข่าวในพระราชสำนัก</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024203000 +0700" stop="20251024213000 +0700" channel="5HD">
+    <title lang="th">แฉมิจฉาชีพ (Re)</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024213000 +0700" stop="20251024223000 +0700" channel="5HD">
+    <title lang="th">แต้มต่อ</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024223000 +0700" stop="20251024230000 +0700" channel="5HD">
+    <title lang="th">หมุนตามโลก</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024230000 +0700" stop="20251024235900 +0700" channel="5HD">
+    <title lang="th">เดินหน้าปฎิรูป /ปิดทองหลังพระ</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024030000 +0700" stop="20251024040000 +0700" channel="JKN18">
+    <title lang="th">รายการ หน้าต่างโลก</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024040000 +0700" stop="20251024050000 +0700" channel="JKN18">
+    <title lang="th">รายการ อัศจรรย์บันลือโลก</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024050000 +0700" stop="20251024060000 +0700" channel="JKN18">
+    <title lang="th">รายการ อัศจรรย์บันลือโลก</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024060000 +0700" stop="20251024062500 +0700" channel="JKN18">
     <title lang="th">รายการ Anniverse Shop</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023112000 +0700" stop="20251023121500 +0700" channel="JKN18">
-    <title lang="th">ซีรีส์อินเดีย เพียงเธอเท่านั้น</title>
+  <programme start="20251024062500 +0700" stop="20251024071500 +0700" channel="JKN18">
+    <title lang="th">ซีรีส์อินเดีย กฤษณะ อภินิหารมหาเทพอวตาร</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023121500 +0700" stop="20251023122500 +0700" channel="JKN18">
+  <programme start="20251024071500 +0700" stop="20251024074000 +0700" channel="JKN18">
     <title lang="th">รายการ Anniverse Shop</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023122500 +0700" stop="20251023131000 +0700" channel="JKN18">
-    <title lang="th">ซีรีส์อินเดีย เพลิงรักสามหัวใจ</title>
+  <programme start="20251024074000 +0700" stop="20251024080000 +0700" channel="JKN18">
+    <title lang="th">ซีรีส์อินเดีย โยดาห์ อัคบาร์ ศึกจารีตพิศ</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023131000 +0700" stop="20251023132000 +0700" channel="JKN18">
-    <title lang="th">รายการ Anniverse Shop</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023132000 +0700" stop="20251023141000 +0700" channel="JKN18">
-    <title lang="th">ซีรีส์อินเดีย ลมเปลี่ยนรัก</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023141000 +0700" stop="20251023143500 +0700" channel="JKN18">
-    <title lang="th">รายการ Anniverse Shop</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023143500 +0700" stop="20251023153000 +0700" channel="JKN18">
-    <title lang="th">รายการ อาณาจักรสัตว์โลก</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023153000 +0700" stop="20251023162500 +0700" channel="JKN18">
-    <title lang="th">รายการ อาณาจักรสัตว์โลก</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023162500 +0700" stop="20251023165000 +0700" channel="JKN18">
-    <title lang="th">รายการ Anniverse Shop</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023165000 +0700" stop="20251023173500 +0700" channel="JKN18">
-    <title lang="th">ซีรีส์อินเดีย ศิวะ อภินิหารตำนานมหาเทพ</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023173500 +0700" stop="20251023180000 +0700" channel="JKN18">
-    <title lang="th">รายการ Anniverse Shop</title>
-    <desc lang="th">-</desc>
-  </programme>
-  <programme start="20251023180000 +0700" stop="20251023180200 +0700" channel="JKN18">
+  <programme start="20251024080000 +0700" stop="20251024080200 +0700" channel="JKN18">
     <title lang="th">เพลงชาติไทย</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023180200 +0700" stop="20251023185500 +0700" channel="JKN18">
-    <title lang="th">รายการ อาณาจักรสัตว์โลก</title>
+  <programme start="20251024080200 +0700" stop="20251024083000 +0700" channel="JKN18">
+    <title lang="th">ซีรีส์อินเดีย โยดาห์ อัคบาร์ ศึกจารีตพิศ</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023185500 +0700" stop="20251023190500 +0700" channel="JKN18">
+  <programme start="20251024083000 +0700" stop="20251024100000 +0700" channel="JKN18">
+    <title lang="th">รายการ Hello Anniverse บันเทิง (Rerun)</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024100000 +0700" stop="20251024105500 +0700" channel="JKN18">
+    <title lang="th">ซีรีส์อินเดีย กรงรักกับดักหัวใจ</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024105500 +0700" stop="20251024112000 +0700" channel="JKN18">
     <title lang="th">รายการ Anniverse Shop</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023190500 +0700" stop="20251023200000 +0700" channel="JKN18">
+  <programme start="20251024112000 +0700" stop="20251024121500 +0700" channel="JKN18">
+    <title lang="th">ซีรีส์อินเดีย เพียงเธอเท่านั้น</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024121500 +0700" stop="20251024122500 +0700" channel="JKN18">
+    <title lang="th">รายการ Anniverse Shop</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024122500 +0700" stop="20251024131000 +0700" channel="JKN18">
+    <title lang="th">ซีรีส์อินเดีย เพลิงรักสามหัวใจ</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024131000 +0700" stop="20251024132000 +0700" channel="JKN18">
+    <title lang="th">รายการ Anniverse Shop</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024132000 +0700" stop="20251024141000 +0700" channel="JKN18">
+    <title lang="th">ซีรีส์อินเดีย ลมเปลี่ยนรัก</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024141000 +0700" stop="20251024143500 +0700" channel="JKN18">
+    <title lang="th">รายการ Anniverse Shop</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024143500 +0700" stop="20251024153000 +0700" channel="JKN18">
     <title lang="th">รายการ อาณาจักรสัตว์โลก</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023200000 +0700" stop="20251023201500 +0700" channel="JKN18">
+  <programme start="20251024153000 +0700" stop="20251024162500 +0700" channel="JKN18">
+    <title lang="th">รายการ อาณาจักรสัตว์โลก</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024162500 +0700" stop="20251024165000 +0700" channel="JKN18">
+    <title lang="th">รายการ Anniverse Shop</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024165000 +0700" stop="20251024173500 +0700" channel="JKN18">
+    <title lang="th">ซีรีส์อินเดีย ศิวะ อภินิหารตำนานมหาเทพ</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024173500 +0700" stop="20251024180000 +0700" channel="JKN18">
+    <title lang="th">รายการ Anniverse Shop</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024180000 +0700" stop="20251024180200 +0700" channel="JKN18">
+    <title lang="th">เพลงชาติไทย</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024180200 +0700" stop="20251024185500 +0700" channel="JKN18">
+    <title lang="th">รายการ อาณาจักรสัตว์โลก</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024185500 +0700" stop="20251024190500 +0700" channel="JKN18">
+    <title lang="th">รายการ Anniverse Shop</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024190500 +0700" stop="20251024200000 +0700" channel="JKN18">
+    <title lang="th">รายการ อาณาจักรสัตว์โลก</title>
+    <desc lang="th">-</desc>
+  </programme>
+  <programme start="20251024200000 +0700" stop="20251024201500 +0700" channel="JKN18">
     <title lang="th">ข่าวในพระราชสำนัก</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023201500 +0700" stop="20251023214500 +0700" channel="JKN18">
+  <programme start="20251024201500 +0700" stop="20251024214500 +0700" channel="JKN18">
     <title lang="th">รายการ Hello Anniverse บันเทิง (Live)</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023214500 +0700" stop="20251023224000 +0700" channel="JKN18">
+  <programme start="20251024214500 +0700" stop="20251024224000 +0700" channel="JKN18">
     <title lang="th">ซีรีส์อินเดีย ดงรักภูษาแดง</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023224000 +0700" stop="20251023230500 +0700" channel="JKN18">
+  <programme start="20251024224000 +0700" stop="20251024230500 +0700" channel="JKN18">
     <title lang="th">รายการ Anniverse Shop</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023230500 +0700" stop="20251023235900 +0700" channel="JKN18">
+  <programme start="20251024230500 +0700" stop="20251024235900 +0700" channel="JKN18">
     <title lang="th">ซีรีส์อินเดีย ดงรักภูษาแดง</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023045500 +0700" stop="20251023050000 +0700" channel="NBT">
+  <programme start="20251024045500 +0700" stop="20251024050000 +0700" channel="NBT">
     <title lang="th">ลีลาชีวิต</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023050000 +0700" stop="20251023053000 +0700" channel="NBT">
-    <title lang="th">พุทธธรรมนำปัญญา</title>
+  <programme start="20251024050000 +0700" stop="20251024053000 +0700" channel="NBT">
+    <title lang="th">ธรรมรส ธรรมรัฐ</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023053000 +0700" stop="20251023060000 +0700" channel="NBT">
-    <title lang="th">Law เธอมาคุย</title>
+  <programme start="20251024053000 +0700" stop="20251024060000 +0700" channel="NBT">
+    <title lang="th">สุขใจ High Age</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023060000 +0700" stop="20251023080000 +0700" channel="NBT">
+  <programme start="20251024060000 +0700" stop="20251024080000 +0700" channel="NBT">
     <title lang="th">ข่าวเช้า NBT News</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023080000 +0700" stop="20251023080100 +0700" channel="NBT">
+  <programme start="20251024080000 +0700" stop="20251024080100 +0700" channel="NBT">
     <title lang="th">เคารพธงชาติ</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023080100 +0700" stop="20251023093000 +0700" channel="NBT">
+  <programme start="20251024080100 +0700" stop="20251024093000 +0700" channel="NBT">
     <title lang="th">เมืองไทยเช้านี้</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023093000 +0700" stop="20251023100000 +0700" channel="NBT">
-    <title lang="th">สถานีศิริราช</title>
+  <programme start="20251024093000 +0700" stop="20251024100000 +0700" channel="NBT">
+    <title lang="th">ชาญชรา</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023100000 +0700" stop="20251023100500 +0700" channel="NBT">
+  <programme start="20251024100000 +0700" stop="20251024100500 +0700" channel="NBT">
     <title lang="th">NBT News ข่าวต้นชั่วโมง</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023100500 +0700" stop="20251023110000 +0700" channel="NBT">
+  <programme start="20251024100500 +0700" stop="20251024110000 +0700" channel="NBT">
     <title lang="th">Better Future</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023110000 +0700" stop="20251023110500 +0700" channel="NBT">
+  <programme start="20251024110000 +0700" stop="20251024110500 +0700" channel="NBT">
     <title lang="th">NBT News ข่าวต้นชั่วโมง</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023110500 +0700" stop="20251023120000 +0700" channel="NBT">
+  <programme start="20251024110500 +0700" stop="20251024120000 +0700" channel="NBT">
     <title lang="th">ที่นี่ NBT</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023120000 +0700" stop="20251023140000 +0700" channel="NBT">
+  <programme start="20251024120000 +0700" stop="20251024140000 +0700" channel="NBT">
     <title lang="th">ข่าวเที่ยง NBT News</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023140000 +0700" stop="20251023143000 +0700" channel="NBT">
-    <title lang="th">Talkative ไทยแลนด์</title>
+  <programme start="20251024140000 +0700" stop="20251024143000 +0700" channel="NBT">
+    <title lang="th">Declassified เรื่อง (ไม่) ลับฉบับการเตรี</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023143000 +0700" stop="20251023150000 +0700" channel="NBT">
+  <programme start="20251024143000 +0700" stop="20251024150000 +0700" channel="NBT">
     <title lang="th">เคลียร์คัด ชัดเจน</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023150000 +0700" stop="20251023150500 +0700" channel="NBT">
+  <programme start="20251024150000 +0700" stop="20251024150500 +0700" channel="NBT">
     <title lang="th">NBT News ข่าวต้นชั่วโมง</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023150500 +0700" stop="20251023153000 +0700" channel="NBT">
+  <programme start="20251024150500 +0700" stop="20251024153000 +0700" channel="NBT">
     <title lang="th">Thailand Connext</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023153000 +0700" stop="20251023160000 +0700" channel="NBT">
+  <programme start="20251024153000 +0700" stop="20251024160000 +0700" channel="NBT">
     <title lang="th">NBT มีคำตอบ</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023160000 +0700" stop="20251023160500 +0700" channel="NBT">
+  <programme start="20251024160000 +0700" stop="20251024160500 +0700" channel="NBT">
     <title lang="th">NBT News ข่าวต้นชั่วโมง</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023160500 +0700" stop="20251023170000 +0700" channel="NBT">
+  <programme start="20251024160500 +0700" stop="20251024170000 +0700" channel="NBT">
     <title lang="th">NBT Documentary สาระดี@เอ็นบีที</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023170000 +0700" stop="20251023173000 +0700" channel="NBT">
+  <programme start="20251024170000 +0700" stop="20251024173000 +0700" channel="NBT">
     <title lang="th">NBT ทั่วไทย</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023173000 +0700" stop="20251023180000 +0700" channel="NBT">
+  <programme start="20251024173000 +0700" stop="20251024180000 +0700" channel="NBT">
     <title lang="th">ข่าวค่ำ NBT News</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023180000 +0700" stop="20251023180100 +0700" channel="NBT">
+  <programme start="20251024180000 +0700" stop="20251024180100 +0700" channel="NBT">
     <title lang="th">เคารพธงชาติ</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023180100 +0700" stop="20251023200000 +0700" channel="NBT">
+  <programme start="20251024180100 +0700" stop="20251024200000 +0700" channel="NBT">
     <title lang="th">ข่าวค่ำ NBT News</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023200000 +0700" stop="20251023202000 +0700" channel="NBT">
+  <programme start="20251024200000 +0700" stop="20251024202000 +0700" channel="NBT">
     <title lang="th">ข่าวในพระราชสำนัก</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023202000 +0700" stop="20251023203000 +0700" channel="NBT">
+  <programme start="20251024202000 +0700" stop="20251024203000 +0700" channel="NBT">
     <title lang="th">คลิป/สารคดีให้ความรู้</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023203000 +0700" stop="20251023213000 +0700" channel="NBT">
+  <programme start="20251024203000 +0700" stop="20251024213000 +0700" channel="NBT">
     <title lang="th">เรื่องดังหลังข่าว</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023213000 +0700" stop="20251023220000 +0700" channel="NBT">
+  <programme start="20251024213000 +0700" stop="20251024220000 +0700" channel="NBT">
     <title lang="th">NBT World Newsline</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023220000 +0700" stop="20251023230000 +0700" channel="NBT">
+  <programme start="20251024220000 +0700" stop="20251024230000 +0700" channel="NBT">
     <title lang="th">NBT Documentary สาระดี@เอ็นบีที</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023230000 +0700" stop="20251023235900 +0700" channel="NBT">
+  <programme start="20251024230000 +0700" stop="20251024235900 +0700" channel="NBT">
     <title lang="th">ข่าวดึก NBT News</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023060000 +0700" stop="20251023061000 +0700" channel="ALTV">
+  <programme start="20251024060000 +0700" stop="20251024061000 +0700" channel="ALTV">
     <title lang="th">นิทานแสนสนุก</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023061000 +0700" stop="20251023062000 +0700" channel="ALTV">
+  <programme start="20251024061000 +0700" stop="20251024062000 +0700" channel="ALTV">
     <title lang="th">การ์ตูน หมูน้อยเป๊ปป้า พิก</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023062000 +0700" stop="20251023062500 +0700" channel="ALTV">
-    <title lang="th">โฮรังงีผจญภัย</title>
+  <programme start="20251024062000 +0700" stop="20251024062500 +0700" channel="ALTV">
+    <title lang="th">Japanese Let's Go</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023062500 +0700" stop="20251023063000 +0700" channel="ALTV">
+  <programme start="20251024062500 +0700" stop="20251024063000 +0700" channel="ALTV">
     <title lang="th">ตาต้า ตีตี้ โตโต้ ไดโนมหัศจรรย์</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023063000 +0700" stop="20251023064000 +0700" channel="ALTV">
+  <programme start="20251024063000 +0700" stop="20251024064000 +0700" channel="ALTV">
     <title lang="th">วันนี้กินอะไรดีนะ</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023064000 +0700" stop="20251023070000 +0700" channel="ALTV">
-    <title lang="th">คิดสนุก</title>
+  <programme start="20251024064000 +0700" stop="20251024070000 +0700" channel="ALTV">
+    <title lang="th">คิดคลับส์</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023070000 +0700" stop="20251023073000 +0700" channel="ALTV">
+  <programme start="20251024070000 +0700" stop="20251024073000 +0700" channel="ALTV">
     <title lang="th">การ์ตูนหรรษานานาชาติ</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023073000 +0700" stop="20251023080000 +0700" channel="ALTV">
+  <programme start="20251024073000 +0700" stop="20251024080000 +0700" channel="ALTV">
     <title lang="th">ข.ขยับ Family</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023080000 +0700" stop="20251023083000 +0700" channel="ALTV">
-    <title lang="th">Talk about kids</title>
+  <programme start="20251024080000 +0700" stop="20251024083000 +0700" channel="ALTV">
+    <title lang="th">Hook learning รู้-เรียน-เปลี่ยน</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023083000 +0700" stop="20251023090000 +0700" channel="ALTV">
+  <programme start="20251024083000 +0700" stop="20251024090000 +0700" channel="ALTV">
     <title lang="th">Foodwork</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023090000 +0700" stop="20251023093000 +0700" channel="ALTV">
+  <programme start="20251024090000 +0700" stop="20251024093000 +0700" channel="ALTV">
     <title lang="th">ดูให้รู้</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023093000 +0700" stop="20251023100000 +0700" channel="ALTV">
+  <programme start="20251024093000 +0700" stop="20251024100000 +0700" channel="ALTV">
     <title lang="th">สูงวัยวาไรตี้</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023100000 +0700" stop="20251023103000 +0700" channel="ALTV">
-    <title lang="th">ตัวโปรดตัวป่วน</title>
+  <programme start="20251024100000 +0700" stop="20251024103000 +0700" channel="ALTV">
+    <title lang="th">อ่านป่า กับหมอหม่อง</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023103000 +0700" stop="20251023110000 +0700" channel="ALTV">
+  <programme start="20251024103000 +0700" stop="20251024110000 +0700" channel="ALTV">
     <title lang="th">ลุยไม่รู้โรย</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023110000 +0700" stop="20251023130000 +0700" channel="ALTV">
+  <programme start="20251024110000 +0700" stop="20251024130000 +0700" channel="ALTV">
     <title lang="th">วันใหม่วาไรตี้</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023130000 +0700" stop="20251023133000 +0700" channel="ALTV">
+  <programme start="20251024130000 +0700" stop="20251024133000 +0700" channel="ALTV">
     <title lang="th">ภัตตาคารบ้านทุ่ง</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023133000 +0700" stop="20251023140000 +0700" channel="ALTV">
+  <programme start="20251024133000 +0700" stop="20251024140000 +0700" channel="ALTV">
     <title lang="th">จากราก...สู่เรา</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023140000 +0700" stop="20251023143000 +0700" channel="ALTV">
+  <programme start="20251024140000 +0700" stop="20251024143000 +0700" channel="ALTV">
     <title lang="th">กินอยู่คือ</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023143000 +0700" stop="20251023150000 +0700" channel="ALTV">
+  <programme start="20251024143000 +0700" stop="20251024150000 +0700" channel="ALTV">
     <title lang="th">Come Home บ้านที่กลับมา</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023150000 +0700" stop="20251023153000 +0700" channel="ALTV">
+  <programme start="20251024150000 +0700" stop="20251024153000 +0700" channel="ALTV">
     <title lang="th">ยินดีที่ได้รู้จัก</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023153000 +0700" stop="20251023160000 +0700" channel="ALTV">
-    <title lang="th">ท่าไม้ตาย</title>
+  <programme start="20251024153000 +0700" stop="20251024160000 +0700" channel="ALTV">
+    <title lang="th">โต๊ะเจน</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023160000 +0700" stop="20251023161000 +0700" channel="ALTV">
+  <programme start="20251024160000 +0700" stop="20251024161000 +0700" channel="ALTV">
     <title lang="th">Guardian 5 ผู้พิทักษ์รักโลก</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023161000 +0700" stop="20251023162000 +0700" channel="ALTV">
+  <programme start="20251024161000 +0700" stop="20251024162000 +0700" channel="ALTV">
     <title lang="th">บ้านนักวิทยาศาสตร์น้อย</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023162000 +0700" stop="20251023163000 +0700" channel="ALTV">
-    <title lang="th">จำไมแอนด์เดอะแก๊ง</title>
+  <programme start="20251024162000 +0700" stop="20251024163000 +0700" channel="ALTV">
+    <title lang="th">Pround เว่อร์</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023163000 +0700" stop="20251023164000 +0700" channel="ALTV">
+  <programme start="20251024163000 +0700" stop="20251024164000 +0700" channel="ALTV">
     <title lang="th">สามก๊กมหาสนุก</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023164000 +0700" stop="20251023170000 +0700" channel="ALTV">
-    <title lang="th">ท้าให้อ่าน</title>
+  <programme start="20251024164000 +0700" stop="20251024170000 +0700" channel="ALTV">
+    <title lang="th">ธรรมชาติ...มาโชว์</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023170000 +0700" stop="20251023171000 +0700" channel="ALTV">
+  <programme start="20251024170000 +0700" stop="20251024171000 +0700" channel="ALTV">
     <title lang="th">Pythagora Switch</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023171000 +0700" stop="20251023173000 +0700" channel="ALTV">
+  <programme start="20251024171000 +0700" stop="20251024173000 +0700" channel="ALTV">
     <title lang="th">What and Why</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023173000 +0700" stop="20251023180000 +0700" channel="ALTV">
+  <programme start="20251024173000 +0700" stop="20251024180000 +0700" channel="ALTV">
     <title lang="th">ข.ขยับ Family</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023180000 +0700" stop="20251023190000 +0700" channel="ALTV">
-    <title lang="th">Teennovator วัยรุ่นกู้โลก</title>
+  <programme start="20251024180000 +0700" stop="20251024190000 +0700" channel="ALTV">
+    <title lang="th">ยินดีที่ได้รู้จัก</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023190000 +0700" stop="20251023193000 +0700" channel="ALTV">
-    <title lang="th">ช่างสืบสาน</title>
+  <programme start="20251024190000 +0700" stop="20251024193000 +0700" channel="ALTV">
+    <title lang="th">ไทยประดิษฐ์คิดเก่ง</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023193000 +0700" stop="20251023203000 +0700" channel="ALTV">
+  <programme start="20251024193000 +0700" stop="20251024203000 +0700" channel="ALTV">
     <title lang="th">You Easy Pass เตรียมสอบเข้า ม.1</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023203000 +0700" stop="20251023210000 +0700" channel="ALTV">
+  <programme start="20251024203000 +0700" stop="20251024210000 +0700" channel="ALTV">
     <title lang="th">ข่าวในพระราชสำนัก</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023210000 +0700" stop="20251023220000 +0700" channel="ALTV">
+  <programme start="20251024210000 +0700" stop="20251024220000 +0700" channel="ALTV">
     <title lang="th">เปิดประตูสู่มหาวิทยาลัย</title>
     <desc lang="th">-</desc>
   </programme>
-  <programme start="20251023220000 +0700" stop="20251023235900 +0700" channel="ALTV">
+  <programme start="20251024220000 +0700" stop="20251024235900 +0700" channel="ALTV">
     <title lang="th">ปิดสถานี</title>
     <desc lang="th">-</desc>
   </programme>
